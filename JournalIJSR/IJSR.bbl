@@ -1,0 +1,237 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Viera2005}
+{Understanding Interobserver Agreement: The Kappa Statistic}.
+\newblock Family Medicine \textbf{37}(5), 360--363 (2005).
+\newblock \urlprefix\url{http://view.ncbi.nlm.nih.gov/pubmed/15883903}
+
+\bibitem{BarakovaL10}
+Barakova, E.I., Lourens, T.: Expressing and interpreting emotional movements in
+  social games with robots.
+\newblock Personal and Ubiquitous Computing \textbf{14}(5), 457--467 (2010).
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/s00779-009-0263-2}
+
+\bibitem{Canamero2010}
+Beck, A., Hiolle, A., Mazel, A., Ca\~{n}amero, L.: Interpretation of emotional
+  body language displayed by robots.
+\newblock In: 3rd ACM Workshop on Affective Interaction in Natural
+  Environments, pp. 37--42 (2010)
+
+\bibitem{Beck2010}
+Beck, A., {n}amero, L.C., Bard, K.: {T}owards an affect space for robots to
+  display emotional body language.
+\newblock In: IREE RoMan Conference (2010)
+
+\bibitem{Breazeal2002}
+Breazeal, C.: Designing Sociable Robots.
+\newblock MIT Press, Cambridge, MA, USA (2002)
+
+\bibitem{Brown2014}
+Brown, L., Howard, A.M.: Gestural behavioral implementation on a humanoid
+  robotic platform for effective social interaction.
+\newblock In: Robot and Human Interactive Communication, 2014 RO-MAN: The 23rd
+  IEEE International Symposium on Robot and Human Interactive Communication,
+  pp. 471--476 (2014).
+\newblock \doi{10.1109/ROMAN.2014.6926297}
+
+\bibitem{pop00002}
+Camurri, A., Lagerl\"{o}f, I., Volpe, G.: Recognizing emotion from dance
+  movement: comparison of spectator recognition and automated techniques
+  \textbf{59}(1-2), 213--225 (2003).
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S1071581903000508}
+
+\bibitem{Kluwer2004}
+Coulson, M.: Attributing emotion to static body postures: Recognition accuracy,
+  confusions, and viewpoint dependence.
+\newblock Journal of Nonverbal Behavior \textbf{28}(2), 117--139 (2004).
+\newblock \doi{10.1023/B:JONB.0000023655.25550.be}
+
+\bibitem{Dael2012}
+Dael, N., Mortillaro, M., Scherer, K.R.: Emotion expression in body action and
+  posture.
+\newblock Emotion \textbf{12}, 1085--1101 (2012).
+\newblock \doi{10.1037/a0025737}
+
+\bibitem{Destephe2013}
+Destephe, M., Maruyama, T., Zecca, M., Hashimoto, K., Takanishi, A.: Improving
+  the human-robot interaction through emotive movements: a special case:
+  walking.
+\newblock In: HRI, pp. 115--116 (2013)
+
+\bibitem{Destephe2013b}
+Destephe, M., Zecca, M., Hashimoto, K., Takanishi, A.: Perception of emotion
+  and emotional intensity in humanoid robots gait.
+\newblock In: Robotics and Biomimetics (ROBIO), 2013 IEEE International
+  Conference on, pp. 1276--1281 (2013)
+
+\bibitem{Ekman2001}
+Ekman, P.: {Telling Lies: Clues to Deceit in the Marketplace, Politics, and
+  Marriage (Revised and Updated Edition)}, 2 rev sub edn.
+\newblock W. W. Norton \& Company (2001)
+
+\bibitem{Ekman2004}
+Ekman, P.: {Emotions Revealed : Recognizing Faces and Feelings to Improve
+  Communication and Emotional Life}.
+\newblock {Owl Books} (2004)
+
+\bibitem{Arras2012}
+{Embgen}, S., {Luber}, M., {Becker-Asano}, C., {Ragni}, M., {Evers}, V.,
+  {Arras}, K.O.: Robot-specific social cues in emotional body language.
+\newblock In: Proceedings of the IEEE International Symposium on Robot and
+  Human Interactive Communication (RO-MAN'12), pp. 1019--1025. IEEE Computer
+  Society, USA (2012)
+
+\bibitem{Gelder2008}
+de~Gelder, B.: Why bodies? twelve reasons for including bodily expressions in
+  affective neuroscience.
+\newblock Philosophical Transactions of the Royal Society of London B:
+  Biological Sciences \textbf{364}(1535), 3475--3484 (2009).
+\newblock \doi{10.1098/rstb.2009.0190}
+
+\bibitem{haering2011}
+H\"{a}ring, M., Bee, N., Andr\'{e}, E.: Creation and evaluation of emotion
+  expression with body movement, sound and eye color for humanoid robots.
+\newblock In: IEEE International Symposium on Robot and Human Interactive
+  Communication (Ro-Man) (2011)
+
+\bibitem{Barakova2013}
+Hiah, L., Beursgens, L., Haex, R., Romero, L.P., Teh, Y., ten Bh{\"{o}}mer, M.,
+  van Berkel, R., Barakova, E.I.: Abstract robots with an attitude: Applying
+  interpersonal relation models to human-robot interaction.
+\newblock In: {IEEE} International Symposium on Robot and Human Interactive
+  Communication, {IEEE} {RO-MAN} 2013, Gyeongju, Korea (South), August 26-29,
+  2013, pp. 37--44 (2013).
+\newblock \doi{10.1109/ROMAN.2013.6628528}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1109/ROMAN.2013.6628528}
+
+\bibitem{kleinsmith2012affective}
+Kleinsmith, A., Bianchi-Berthouze, N.: Affective body expression perception and
+  recognition: A survey.
+\newblock Affective Computing, IEEE Transactions on \textbf{4}(1), 15--33
+  (2013)
+
+\bibitem{Krippendorff2007}
+Krippendorff, K.: {Computing Krippendorff's Alpha Reliability}.
+\newblock Tech. rep., University of Pennsylvania, Annenberg School for
+  Communication (2007)
+
+\bibitem{Laban1968}
+Laban, R., Ullmann, L.: Modern educational dance, 2d ed., rev. by lisa ullmann.
+  edn.
+\newblock Praeger New York (1968)
+
+\bibitem{Lakatos2014}
+Lakatos, G., Gacsi, M., Konok, V., Bruder, I., Berczky, B., Korondi, P.,
+  Miklosi, A.: Emotion attribution to a non-humanoid robot in different social
+  situations.
+\newblock PLos ONE  (2014)
+
+\bibitem{Lang2008}
+Lang, P.J., Bradley, M.M., Cuthbert, B.N.: {International affective picture
+  system (IAPS): Affective ratings of pictures and instruction manual}.
+\newblock Tech. Rep. A-8, The Center for Research in Psychophysiology,
+  University of Florida, Gainesville, FL (2008).
+\newblock \urlprefix\url{http://csea.phhp.ufl.edu/Media.html}
+
+\bibitem{Leary57}
+Leary, T.: {Interpersonal Diagnosis of Personality: Functional Theory and
+  Methodology for Personality Evaluation}.
+\newblock Ronald Press Company: New York. (1957)
+
+\bibitem{Li2011}
+Li, J., Chignell, M.H.: Communication of emotion in social robots through
+  simple head and arm movements.
+\newblock I. J. Social Robotics \textbf{3}(2), 125--142 (2011)
+
+\bibitem{Meijer1989}
+de~Meijer, M.: The contribution of general features of body movement to the
+  attribution of emotions.
+\newblock Journal of Nonverbal Behavior \textbf{13}(4), 247--268 (1989).
+\newblock \doi{10.1007/BF00990296}
+
+\bibitem{Mondada09thee-puck}
+Mondada, F., Bonani, M., Raemy, X., Pugh, J., Cianci, C., Klaptocz, A.,
+  Magnenat, S., christophe Zufferey, J., Floreano, D., Martinoli, A.: The
+  e-puck, a robot designed for education in engineering.
+\newblock In: In Proceedings of the 9th Conference on Autonomous Robot Systems
+  and Competitions, pp. 59--65 (2009)
+
+\bibitem{NAM2014}
+NAM, T.J., LEE, J.H., PARK, S., SUK, H.J.: Understanding the relation between
+  emotion and physical movements.
+\newblock International Journal of Affective Engineering \textbf{13}(3),
+  217--226 (2014)
+
+\bibitem{Novika2015}
+Novikova, J., Watts, L.: Towards artificial emotions to assist social
+  coordination in hri.
+\newblock International Journal of Social Robotics \textbf{7}(1), 77--88
+  (2015).
+\newblock \doi{10.1007/s12369-014-0254-y}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/s12369-014-0254-y}
+
+\bibitem{oehlert2000first}
+Oehlert, G.: A First Course in Design and Analysis of Experiments.
+\newblock W. H. Freeman (2000).
+\newblock \urlprefix\url{https://books.google.at/books?id=2SOKQgAACAAJ}
+
+\bibitem{NAO2013}
+Robotics, A.: Nao.
+\newblock \url{http://www.aldebaran-robotics.com/en/}
+
+\bibitem{Roether2009}
+Roether, C.L., Omlor, L., Christensen, A., Giese, M.A.: Critical features for
+  the perception of emotion from gait.
+\newblock Journal of Vision \textbf{9}(6), 15 (2009).
+\newblock \doi{10.1167/9.6.15}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1167/9.6.15}
+
+\bibitem{Saerbeck2010}
+Saerbeck, M., Bartneck, C.: Perception of affect elicited by robot motion.
+\newblock In: Proceedings of the 5th ACM/IEEE International Conference on
+  Human-robot Interaction, HRI '10, pp. 53--60. IEEE Press, Piscataway, NJ, USA
+  (2010).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=1734454.1734473}
+
+\bibitem{Saerbeck2007}
+Saerbeck, M., van Breemen, A.J.N.: Design guidelines and tools for creating
+  believable motion for personal robots.
+\newblock In: RO-MAN, pp. 386--391 (2007)
+
+\bibitem{Sharma2013}
+Sharma, M., Hildebrandt, D., Newman, G., Young, J.E., Eskicioglu, R.:
+  Communicating affect via flight path: Exploring use of the laban effort
+  system for designing affective locomotion paths.
+\newblock In: Proceedings of the 8th ACM/IEEE International Conference on
+  Human-robot Interaction, HRI '13, pp. 293--300. IEEE Press, Piscataway, NJ,
+  USA (2013)
+
+\bibitem{Venture2014}
+Venture, G., Kadone, H., Zhang, T., Grèzes, J., Berthoz, A., Hicheur, H.:
+  Recognizing emotions conveyed by human gait.
+\newblock International Journal of Social Robotics \textbf{6}(4), 621--632
+  (2014).
+\newblock \doi{10.1007/s12369-014-0243-1}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/s12369-014-0243-1}
+
+\bibitem{Wallboot1998}
+Wallbott, H.G.: Bodily expression of emotion.
+\newblock European Journal of Social Psychology \textbf{28}(6), 879--896
+  (1998).
+\newblock
+  \doi{10.1002/(SICI)1099-0992(1998110)28:6<879::AID-EJSP901>3.0.CO;2-W}
+
+\bibitem{WatsonClarkTellegen88}
+Watson, D., Clark, L.A., Tellegen, A.: Development and validation of brief
+  measures of positive and negative affect: the panas scales.
+\newblock Journal of Personality and Social Psychology \textbf{54}, 1063--1070
+  (1988)
+
+\end{thebibliography}

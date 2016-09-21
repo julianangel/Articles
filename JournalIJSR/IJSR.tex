@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%% file template.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is a general template file for the LaTeX package SVJour3
+% for Springer journals.          Springer Heidelberg 2010/09/16
+%
+% Copy it to a new file with a new name and use it as the basis
+% for your article. Delete % signs as needed.
+%
+% This template includes a few options for different layouts and
+% content for various journals. Please consult a previous issue of
+% your journal as needed.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% First comes an example EPS file -- just ignore it and
+% proceed on the \documentclass line
+% your LaTeX will extract the file if required
+%\begin{filecontents*}{example.eps}
+%%!PS-Adobe-3.0 EPSF-3.0
+%%%BoundingBox: 19 19 221 221
+%%%CreationDate: Mon Sep 29 1997
+%%%Creator: programmed by hand (JK)
+%%%EndComments
+%gsave
+%newpath
+%  20 20 moveto
+%  20 220 lineto
+%  220 220 lineto
+%  220 20 lineto
+%closepath
+%2 setlinewidth
+%gsave
+%  .4 setgray fill
+%grestore
+%stroke
+%grestore
+%\end{filecontents*}
+%
+\RequirePackage{fix-cm}
+%
+%\documentclass{svjour3}                     % onecolumn (standard format)
+%\documentclass[smallcondensed]{svjour3}     % onecolumn (ditto)
+\documentclass[smallextended]{svjour3}       % onecolumn (second format)
+%\documentclass[twocolumn]{svjour3}          % twocolumn
+%
+\smartqed  % flush right qed marks, e.g. at end of proof
+%
+\usepackage{graphicx}
+\usepackage{slashbox}     
+\usepackage{subfigure}
+\usepackage{breakcites}
+%
+% \usepackage{mathptmx}      % use Times fonts if available on your TeX system
+%
+% insert here the call for the packages your document requires
+%\usepackage{latexsym}
+% etc.
+%
+% please place your own definitions here and don't use \def but
+% \newcommand{}{}
+%
+% Insert the name of "your journal" with
+% \journalname{myjournal}
+%
+\begin{document}
+
+\title{Identifying Values to Express Emotions with a Non-Anthropomorphic Platform%\thanks{Grants or other notes
+%about the article that should go on the front page should be
+%placed here. General acknowledgments should be placed at the end of the article.}
+}
+%\subtitle{Do you have a subtitle?\\ If so, write it here}
+
+%\titlerunning{Short form of title}        % if too long for running head
+
+\author{Julian M. Angel-Fernandez         \and
+        Andrea Bonarini %etc.
+}
+
+%\authorrunning{Short form of author list} % if too long for running head
+
+\institute{Julian M. Angel-Fernandez \at
+              Automation and Control Institute, Vienna University of Technology,\\ Vienna, Austria \\
+              Tel.: +123-45-678910\\
+              Fax: +123-45-678910\\
+              \email{jangelfe@tuwien.ac.at}           %  \\
+%             \emph{Present address:} of F. Author  %  if needed
+           \and
+           Andrea Bonarini \at
+              Andrea Bonarini, Dipartimento di Elettronica, Informazione e Bioingegneria,Politecnico di Milano,\\
+               Milan, Italy \\
+              \email{andrea.bonarini@polimi.it}
+}
+
+\date{Received: date / Accepted: date}
+% The correct dates will be entered by the editor
+
+
+\maketitle
+
+\begin{abstract}
+Although anthropomorphic embodiment may support robot acceptance in interactive tasks, there are robots that cannot have a humanoid shape, and still have to be accepted by humans. As a consequence other characteristics should be exploited to support robot acceptance. This paper presents an experiment made to understand the contribution of angular and linear velocity of a non-anthropomorphic robot, its body orientation, and movement direction on humans' perception of emotion. A top 10 table was created for each enlisted emotion using alpha agreement for the whole treatment and for the desired emotion. These results suggest values that could guide implementation of the studied emotions in this experiment in other social robots.
+\keywords{Robot-Human Interaction \and Emotion Projection}
+% \PACS{PACS code1 \and PACS code2 \and more}
+% \subclass{MSC code1 \and MSC code2 \and more}
+\end{abstract}
+
+\section{Introduction}
+\input{./Parts/Introduction}
+\section{Related Work}
+\input{./Parts/Emotion_Projection}
+\section{The System}
+\label{sec:system}
+\input{./Parts/Platform}
+\section{Experiment's Design}
+\label{sec:experiment}
+\input{./Parts/ExperimentDesign}
+\section{Study}
+\label{sec:study}
+\input{./Parts/Study}
+\section{Results}
+\label{sec:result}
+\input{./Parts/Results}
+\section{Conclusions and Further Work}
+\input{./Parts/Conclusion}
+\bibliographystyle{spmpsci}
+\bibliography{Bibliography,BibloNew,Biblography}
+
+\end{document}
+% end of file template.tex
+

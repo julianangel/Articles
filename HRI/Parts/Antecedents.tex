@@ -1,0 +1,51 @@
+An experiment was designed to assess precise values for linear velocity, angular velocity, oscillation angle, direction and orientation that could be used to express happiness, angry, fear and sadness, which correspond to four basic emotions suggested by Ekman~\cite{Ekman2001}. These features were selected after the study on emotion projection in robotics, humans and previous case studies. The robotic platform used in the experiment is holonomic, which are characterized by the possibility to move in any direction without the necessity to have a specific orientation, i.e., they are free to move taking any desired orientation. The experiment was performed at Politecnico di Milano, campus Leonardo during the months of June and July of 2015.  A total of 49 volunteers were involved: 12 female and 37 male. The average age of the participants was 25.28 with standard deviation of 2.8, with a minimum age of 20 and maximum of 32. 
+
+For each table were calculated the mean, standard deviation, and median. It was not possible to use  ANOVA test over the data because the assumption of normality is not achieved in the collected data. This was check using the Shapiro-Wilk Test.
+Additionally, a contingency table for each emotion was generated in each treatment as it is depicted in  Table~\ref{table:table_contingency},  where the intensity for the other emotions is calculated as the mean of them, including the option of ''other''. For all tables, including the contingency, were calculated the Krippendorff's alpha agreement~\cite{Krippendorff2007} ($\alpha$), which is a reliability coefficient to measure the agreement among different participants. Unlike other coefficients (Kappa), $\alpha$ is a generalization of several known reliability indices, and it applies to:
+
+\begin{table}
+\caption{Contingency table formula used for each emotion and treatment. Where $k$ is the kth treatment, $j$ is jth emotion for the kth treatment, $n$ is the total number of participants, and $Value$ is the intensity given by a participant.}
+\label{table:table_contingency}
+\small
+\begin{tabular}{|l|l|l|}
+\hline
+Participant & Desire Emotion & Other Emotions \\
+\hline
+$1$ & $Value_{k,j}^{1}$  & $\frac{\sum_{i=1}^{i<=7 \wedge i \neq j}(Value_{k,i}^{1})}{\sum_{i=1}^{i<=6 \wedge i \neq j}(1)}$\\
+\hline
+$2$ & $Value_{k,j}^{2}$ & $\frac{\sum_{i=1}^{i<=7 \wedge i \neq j}(Value_{k,i}^{2})}{\sum_{i=1}^{i<=6 \wedge i \neq j}(1)}$\\
+\hline
+... & ... & ...\\
+\hline
+$n$ & $Value_{k,j}^{n}$ & $\frac{\sum_{i=1}^{i<=7 \wedge i \neq j}(Value_{k,i}^{2})}{\sum_{i=1}^{i<=6 \wedge i \neq j}(1)}$\\
+\hline
+\multicolumn{3}{c}{}
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+	
+	\item Any number of observers.
+
+	\item Any number of categories.
+
+	\item Any type of data.
+
+	\item Incomplete or missing data.
+
+	\item Large and small sample sizes.
+\end{itemize}
+
+This calculation was done using the R package \textit{irr}. To improve the table interpretation, it was decided to just record the emotions' alpha values that had a mean greater than zero. Therefore, tables with a top ten ranking have been set up. The raking considered: (i) the mean of the respective emotions, (ii) the alpha agreement for the respective emotion, and (iii) the alpha agreement for the treatment. The decision to give more importance to emotion's alpha rather than intensity average was taken basing on the consideration that most participants agreed on their observation. From the results was possible to notice:
+
+\begin{itemize}
+
+	\item Fear was the only emotion that had six over ten movements obtaining both general and specific alpha agreement over 0.41, which is the lower bound for moderate agreement~\cite{Viera2005}. It seems that people perceive as fear when the robot is looking at them and moving far from them fast. 
+	
+	\item It seems that people attribute sadness to slow velocities with slow angular velocity and small oscillation angle. Regarding the other two features, there is not a concrete pattern that could lead to make a generalization. 
+
+	\item Happiness is attributed to different values of the independent variables. It seems that happiness is mainly attributed to fast angular velocities and big oscillations angles. However specific agreement among the other features is not present.
+
+	\item Anger seems to be attribute to fast velocities, both angular and linear, small angle of oscillation and the robot facing the person when it is approaching them. 
+	
+\end{itemize} 

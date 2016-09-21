@@ -1,0 +1,170 @@
+Table~\ref{table:result_fourth} summarizes the results obtained during the case study. 
+\begin{table*}
+\centering
+\small
+\caption{Summary of the answers obtained in the case study.}
+		\label{table:result_fourth}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline	
+			&\multicolumn{5}{|c|}{\textbf{Features}}&\multicolumn{7}{c|}{\textbf{Emotions}}&\\
+			\cline{2-13}
+\rotatebox{90}{\textbf{Presented/Reported } }&
+\rotatebox{90}{\textbf{Direction  ($rad$)}}&
+\rotatebox{90}{\textbf{Orientation ($rad$)} }&
+\rotatebox{90}{\textbf{Linear Velocity ($mm/s$) }}&
+\rotatebox{90}{\textbf{Angular Velocity ($rad/s$) }}&
+\rotatebox{90}{\textbf{Angle ($rad$)}}&
+\rotatebox{90}{\textbf{Happiness}}&
+\rotatebox{90}{ \textbf{Anger}} &
+\rotatebox{90}{\textbf{Fear}}&
+\rotatebox{90}{\textbf{Sadness}}&
+\rotatebox{90}{\textbf{Excitement}}&
+\rotatebox{90}{\textbf{Tenderness}}&
+\rotatebox{90}{\textbf{Other}}&
+\rotatebox{90}{\textbf{Total}}\\	
+			\hline
+			\multirow{2}{*}{Happiness}&$0$&$0$&$500$&$3$&$0.349$&8&16&7&4&16&4&7&62\\
+			\cline{2-14}
+			&$0$&$0$&$900$&$3$&$0.174$&11&11&6&2&19&3&1&53\\
+			\hline
+			\multirow{2}{*}{Anger}&$\pi$&$0$&$500$&$3$&$0.087$&7&5&6&2&21&7&1&49\\
+			\cline{2-14}
+			&$0$&$0$&$900$&$1$&$0.087$&14&29&13&2&13&3&2&76\\
+			\hline
+			\multirow{2}{*}{Fear}&$\pi$&$\pi$&$900$&$2$&$0.174$&6&2&28&1&9&6&0&52\\
+			\cline{2-14}
+			&$\pi$&$\pi$&$500$&$2$&$0.087$&7&3&37&2&20&4&1&74\\
+			\hline
+			\multirow{2}{*}{Sadness}&$\pi$&$0$&$200$&$1$&$0.349$&3&5&17&14&5&16&5&65\\
+			\cline{2-14}
+			&$0$&$\pi$&$200$&$1$&$0.349$&5&5&15&28&6&15&7&81\\
+			\hline
+			\end{tabular}
+\end{table*}
+
+It could be observed that the two implementations of \textit{Happiness} were confused with \textit{Anger} and \textit{Excitement}. In a similar way, the first implementation of \textit{Anger} was mostly confused with \textit{Excitement}, which was voted twenty one over forty nine subjects that were exposed to the first implementation of \textit{Anger}.
+The second implementation of \textit{Anger} showed an improvement of perception from 10\% to 38\%. This implementation was perceived also as \textit{Happiness}, \textit{Fear} and \textit{Excitement}.
+Both implementations of \textit{Fear} had a high level of recognition 54 \% and 50 \% and mostly confused with \textit{Excitement}, which was voted nine times for the first implementation and twenty times for the second implementation. Finally, the two implementation of \textit{Sadness} was confused with \textit{Fear} and \textit{Tenderness}.
+
+To verify these misinterpretations among the implemented emotions, a Fisher's exact test was applied for ten different combinations. Additionally, a Holm-Bonferroni correction was applied for multiple comparisons to get a better p-value estimation. The results are shown in Table~\ref{table:result_compare_fourth}. As this analysis suggest, the two implementation of \textit{Anger} were perceived as two different emotions. Also shows that the two implementation of Happiness were perceived to be similar to the second implementation of Anger.
+
+\begin{table}
+\centering
+\small
+\caption{Pair comparison among all the implemented emotions using Fisher's exact test for both questionnaires with $\alpha = 0.05$ for the  case study. The * indicates that the p-value was adjusted using the Holm-Bonferroni correction for multiple comparisons.}
+		\label{table:result_compare_fourth}
+		\begin{tabular}{|c|c|c|}
+			\hline	
+\textbf{Pair Compared} & \textbf{p-value} & \textbf{p-value*}\\	
+			\hline
+			Happiness 1 vs Happiness 2 &0.38&1.0\\
+			\hline
+			Anger 1 vs Anger 2 & 7.3e-4&4.4e-3\\
+			\hline
+			Anger 2 vs Happiness 1 & 0.137&0.69\\
+			\hline
+			Anger 2 vs Happiness 2 & 0.157&0.69\\
+			\hline
+			Fear 1 vs Fear 2 & 0.74&1.0\\
+			\hline
+			Sadness 1 vs Sadness 2 & 0.665&1.0\\
+			\hline
+			Fear 1 vs Sadness 1& 8.35e-5&5.8e-4\\
+			\hline
+			Fear 1 vs Sadness 2 & 5e-7&4e-6\\
+			\hline
+			Fear 2 vs Sadness 1 & 2e-7&1.8e-6\\
+			\hline
+			Fear 2 vs Sadness 2 & 1e-7&1e-6\\
+			\hline
+			\end{tabular}
+\end{table} 
+
+An analysis was done for each emotion, therefore it was created a contingency matrix such as was done in the previous studies. For each of these tables, the positive predictive value, accuracy and a Pearson's $\chi^2$ were computed. The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that second implementation of \textit{Anger}, both of \textit{Fear} and \textit{Sadness} have an impact in the perception of the emotion and they are considered as different implementation respect the rest of implementations. While both implementation of \textit{Happiness} and first of \textit{Anger} are considered as similar to the other implementation.
+
+\clearpage
+\begin{table*}
+\centering
+\caption{Accuracy, precision and results of Pearson's $\chi^2$ for each contingency matrix with $\alpha = 0.05$ for the case study.} 
+\label{table:Precision2}
+		\begin{tabular}{|p{3 cm}|p{2 cm}|c|c|c|}
+		\hline
+		\textbf{Presented Emotion} & \textbf{Positive Predicted Value} & \textbf{Accuracy} & \textbf{$\chi^2(1)$} & \textbf{p-value}\\
+		\hline
+		Happiness 1 & 0.13 & 0.79 & 0.11 & 0.74\\
+		\hline
+		Happiness 2 & 0.21 & 0.81& 3.7 &0.054\\
+		\hline
+		Anger 1 & 0.1 & 0.8 & 3.8e-29 & 1\\
+		\hline
+		Anger 2 & 0.38 & 0.81 & 34.4 & 4.47e-9\\
+		\hline
+		Fear 1 & 0.54 & 0.8 & 36.2 & 1.8-e9\\
+		\hline 
+		Fear 2 & 0.5 & 0.78 & 35.8 & 5.3e-10\\
+		\hline
+		Sadness 1 & 0.22 & 0.85 & 27.4 & 1.63e-7\\
+		\hline
+		Sadness 2 & 0.35 & 0.85 & 72.9 & 2.2e-16\\		 
+		\hline
+			\end{tabular}
+\end{table*}  
+
+ For each of the contingency tables the classification accuracy and the no-information rate (NIR), i.e. the accuracy that had been obtained by random selection, are reported in table~\ref{table:nir}. The results reveal that the only implementation with enough statistical evidence is the second implementation of \textit{Sadness}. 
+Nevertheless, it is important no notice that the results were obtained using the lower part of the robot without any change in shape. Another important factor to highlight is the impact words enlisted in the questionnaire have on the perception rate. As it was expected in the experiment, \textit{Excitement} and \textit{Tenderness} were confused with other emotions with similar arousal level. In this precise case the emotions Anger and Happiness were confused with Excitement, and Sadness and Fear emotions were confused with Tenderness. Despite the bias generated by the two mental states enlisted in the questionnaire, the recognition rate of five out of eight implementations was over 35\%, being the two implementation of \textit{Fear} the implementations with the higher recognition rates (54\% for the first and 50\% for the second).
+
+\begin{table*}
+\centering
+		\caption{Classification accuracy of the presented emotions by the single panels, computed as mentioned in the text, with corresponding 95\% confidence interval, no-information rate, and p-value that accuracy is greater than the NIR.}		
+		\label{table:nir_fourth}
+			\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+				\hline
+	& \multicolumn{5}{|c|}{\textbf{Features}} & & & &\\
+\cline{2-6}				
+\rotatebox{90}{\textbf{Presented Emotion}}&
+\rotatebox{90}{\textbf{Direction  ($rad$)}}&
+\rotatebox{90}{\textbf{Orientation ($rad$) }}&
+\rotatebox{90}{\textbf{Linear Velocity ($mm/s$) }}&
+\rotatebox{90}{\textbf{Angular Velocity ($rad/s$)} }&
+\rotatebox{90}{\textbf{Angle ($rad$)}}&
+\rotatebox{90}{\textbf{Classification Accuracy}}&
+\rotatebox{90}{\textbf{95\% CI}}&
+\rotatebox{90}{\textbf{No-Information Rate}}&
+\rotatebox{90}{\textbf{P-Value [Acc $>$ NIR]}}\\
+				\hline
+			\multirow{2}{*}{Happiness}&$0$&$0$&$500$&$3$&$0.349$&0.79&(0.75,0.82)&0.89&1.0\\
+			\cline{2-10}
+			&$0$&$0$&$900$&$3$&$0.174$&0.81&(0.77,0.84)&0.88&1.0\\
+			\hline
+			\multirow{2}{*}{Anger}&$\pi$&$0$&$500$&$3$&$0.087$&0.8&(0.76,0.83)&0.88&1.0\\
+			\cline{2-10}
+			&$0$&$0$&$900$&$1$&$0.087$&0.89&(0.76,0.84)&0.83&0.95\\
+			\hline
+			\multirow{2}{*}{Fear}&$\pi$&$\pi$&$900$&$2$&$0.174$&0.79&(0.75,0.83)&0.88&1\\
+			\cline{2-10}
+			&$\pi$&$\pi$&$500$&$2$&$0.087$&0.78&(0.73,0.81)&0.83&0.99\\
+			\hline
+			\multirow{2}{*}{Sadness}&$\pi$&$0$&$200$&$1$&$0.349$&0.85&(0.81,0.88)&0.84&0.47\\
+			\cline{2-10}
+			&$0$&$\pi$&$200$&$1$&$0.349$&0.85&(0.81,0.88)&0.81&0.035\\
+			\hline
+			\end{tabular}
+\end{table*}
+
+The results obtained form the small scene are presented in Table~\ref{table:preference_selection}. A chi-squared test with one degree of freedom with an alpha of $0.5$ was done to verify if there was enough statistical evidence to accept our hypotheses: (i) people prefer scenes with emotions and (ii) gender has no impact on the preference. The results of the tests show that there is enough statistical evidence to accept our first hypothesis and reject the second one, with p-values of $1.42E-6$ and $0.85$, respectively.
+
+Additionally, the Emotional Enrichment System was used in the two parts of the case used. Although, there was not done any measure of any variable of the system, two things could be said about the system. First it enables the possibility to adapt same script to different stage measures with any impact in the script.  Second, that it does not block the execution of an action when an emotion is changed.
+\begin{table}
+\centering
+		\caption{Answers obtained for the small scene.}		
+		\label{table:preference_selection}
+			\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{Gender}&\textbf{With Emotion}&\textbf{Without Emotion}&\textbf{Total}\\
+			\hline
+			Male & 84 & 43 & 127\\
+			\hline
+			Female & 81 & 45 & 126\\
+			\hline
+			\end{tabular}
+\end{table}

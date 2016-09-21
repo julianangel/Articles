@@ -1,0 +1,333 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  18 SEP 2016 20:18
+entering extended mode
+**IJSR.tex
+(IJSR.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)) (svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen102
+\headerboxheight=\dimen103
+\betweenumberspace=\dimen104
+\aftertext=\dimen105
+\headlineindent=\dimen106
+\c@inst=\count79
+\c@auth=\count80
+\instindent=\dimen107
+\authrun=\box26
+\authorrunning=\toks14
+\titrun=\box27
+\titlerunning=\toks15
+\combirun=\box28
+\c@lastpage=\count81
+\rubricwidth=\dimen108
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\spthmsep=\dimen109
+\c@theorem=\count87
+\c@case=\count88
+\c@conjecture=\count89
+\c@corollary=\count90
+\c@definition=\count91
+\c@example=\count92
+\c@exercise=\count93
+\c@lemma=\count94
+\c@note=\count95
+\c@problem=\count96
+\c@property=\count97
+\c@proposition=\count98
+\c@question=\count99
+\c@solution=\count100
+\c@remark=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen110
+\tabcapgap=\dimen111
+\figgap=\dimen112
+\bibindent=\dimen113
+\@tempcntc=\count104
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box29
+\@slashboxb=\box30
+\@slashboxc=\box31
+\@slashboxwd=\count106
+\@slashboxht=\count107
+\@slashsepl=\dimen116
+\@slashsepr=\dimen117
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen118
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen119
+\subfiglabelskip=\skip46
+\c@subfigure=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@lotdepth=\count111
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\breakcites\breakcites.sty") (IJSR.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+
+Unknown journal: specify \journalname{<name of your journal>} in preambel
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen120
+\scratchbox=\box32
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen121
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks18
+)
+SVJour3 warning: Missing \journalname
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 98.
+(Parts/Introduction.tex [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/conf
+ig/pdftex.map}]) (Parts/Emotion_Projection.tex [2]
+Overfull \hbox (2.3617pt too wide) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 Complementary stud-ies us-ing vir-tual agents have been per-f
+ormed by Kluwer
+ []
+
+[3] [4]
+
+LaTeX Warning: Citation `pratto1994social' on page 5 undefined on input line 33
+.
+
+[5] [6] [7]
+Overfull \hbox (3.41734pt too wide) in paragraph at lines 59--61
+[]\OT1/cmr/m/n/10 Suk and col-lab-o-ra-tors stud-ied the hu-man emo-tional in-t
+er-pre-ta-tion for speed,
+ []
+
+) (Parts/Platform.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+<Images/DesignThird.png, id=35, 390.86024pt x 390.86024pt>
+File: Images/DesignThird.png Graphic file (type png)
+
+<use Images/DesignThird.png>
+Package pdftex.def Info: Images/DesignThird.png used on input line 11.
+(pdftex.def)             Requested size: 270.40103pt x 270.40953pt.
+
+<./Images/ExperimentInterface.png, id=36, 342.078pt x 202.356pt>
+File: ./Images/ExperimentInterface.png Graphic file (type png)
+
+<use ./Images/ExperimentInterface.png>
+Package pdftex.def Info: ./Images/ExperimentInterface.png used on input line 24
+.
+(pdftex.def)             Requested size: 202.80206pt x 119.96948pt.
+) (Parts/ExperimentDesign.tex
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [9]
+[10 <./Images/DesignThird.png> <./Images/ExperimentInterface.png>]
+<./Images/ExampleMovement.png, id=47, 1382.16376pt x 627.34375pt>
+File: ./Images/ExampleMovement.png Graphic file (type png)
+
+<use ./Images/ExampleMovement.png>
+Package pdftex.def Info: ./Images/ExampleMovement.png used on input line 28.
+(pdftex.def)             Requested size: 270.40103pt x 122.72879pt.
+ [11 <./Images/ExampleMovement.png>]
+<./Images/possibilities_case.png, id=53, 2279.51625pt x 3179.88pt>
+File: ./Images/possibilities_case.png Graphic file (type png)
+
+<use ./Images/possibilities_case.png>
+Package pdftex.def Info: ./Images/possibilities_case.png used on input line 78.
+
+(pdftex.def)             Requested size: 338.0pt x 471.47855pt.
+ [12] [13 <./Images/possibilities_case.png>] <./Images/ExperimentGeneral.png, i
+d=65, 1155.31625pt x 859.21pt>
+File: ./Images/ExperimentGeneral.png Graphic file (type png)
+
+<use ./Images/ExperimentGeneral.png>
+Package pdftex.def Info: ./Images/ExperimentGeneral.png used on input line 99.
+(pdftex.def)             Requested size: 169.0pt x 125.67699pt.
+) (Parts/Study.tex [14 <./Images/ExperimentGeneral.png>] <./Images/example_surv
+ey.png, id=70, 494.44725pt x 328.8285pt>
+File: ./Images/example_survey.png Graphic file (type png)
+
+<use ./Images/example_survey.png>
+Package pdftex.def Info: ./Images/example_survey.png used on input line 37.
+(pdftex.def)             Requested size: 304.19794pt x 202.30609pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Parts/Results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/8 electronic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/cmr/m/n/8 en-gi-neer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/8 Science
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\OT1/cmr/m/n/8 ped-a-
+ []
+
+
+Overfull \hbox (2.3231pt too wide) in paragraph at lines 7--28
+[][] 
+ []
+
+[15 <./Images/example_survey.png>] [16]
+<./Images/Alpha.png, id=77, 763.05075pt x 313.17pt>
+File: ./Images/Alpha.png Graphic file (type png)
+ <use ./Images/Alpha.png>
+Package pdftex.def Info: ./Images/Alpha.png used on input line 51.
+(pdftex.def)             Requested size: 338.0pt x 138.72226pt.
+
+
+LaTeX Warning: Float too large for page by 8.05202pt on input line 192.
+
+) (Parts/Conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18] [19] [20] [21]) (IJSR.bbl [22 <./Images/Alpha.png>] [23]
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+) [24] [25]
+(IJSR.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2135 strings out of 493673
+ 31092 string characters out of 3143956
+ 153650 words of memory out of 3000000
+ 5462 multiletter control sequences out of 15000+200000
+ 9480 words of font info for 33 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,13n,24p,1725b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on IJSR.pdf (25 pages, 728553 bytes).
+PDF statistics:
+ 175 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
