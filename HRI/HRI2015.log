@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  18 SEP 2016 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  23 SEP 2016 19:31
 entering extended mode
 **HRI2015.tex
 (HRI2015.tex
@@ -221,6 +221,26 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen124
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen125
+\subfiglabelskip=\skip47
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip48
+\subfig@bottom=\skip49
 ) (HRI2015.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
@@ -234,19 +254,18 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen124
+\scratchcounter=\count115
+\scratchdimen=\dimen126
 \scratchbox=\box30
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen125
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen127
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks39
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 156.
@@ -277,36 +296,114 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
 
-(Parts/Introduction.tex) (Parts/RelatedWork.tex) (Parts/Antecedents.tex
+(Parts/Introduction.tex) (Parts/RelatedWork.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `Ekman2001' on page \thepage  undefined on input line 1
-.
-
-
-LaTeX Warning: Citation `Krippendorff2007' on page \thepage  undefined on input
- line 4.
+ [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-LaTeX Warning: Citation `Viera2005' on page \thepage  undefined on input line 4
-3.
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
+(Parts/Antecedents.tex [2]) (Parts/System.tex
+<./Images/DSC_0447.JPG, id=19, 1445.4pt x 963.6pt>
+File: ./Images/DSC_0447.JPG Graphic file (type jpg)
+ <use ./Images/DSC_0447.JPG>
+Package pdftex.def Info: ./Images/DSC_0447.JPG used on input line 9.
+(pdftex.def)             Requested size: 128.02927pt x 85.35826pt.
 
+<./Images/TriskarThird.png, id=20, 839.135pt x 931.48pt>
+File: ./Images/TriskarThird.png Graphic file (type png)
 
-])
-(Parts/System.tex) (Parts/CaseStudy.tex
+<use ./Images/TriskarThird.png>
+Package pdftex.def Info: ./Images/TriskarThird.png used on input line 11.
+(pdftex.def)             Requested size: 76.88893pt x 85.35826pt.
+ [3 <./Images/DSC_0447.JPG> <./Images/TriskarThird.png>] <Images/SystemArchitec
+ture.png, id=34, 912.40875pt x 213.79875pt>
+File: Images/SystemArchitecture.png Graphic file (type png)
 
-LaTeX Warning: Citation `artag2015' on page \thepage  undefined on input line 7
-.
-
-<./Images/FourthCase.png, id=24, 1265.72874pt x 1024.82875pt>
+<use Images/SystemArchitecture.png>
+Package pdftex.def Info: Images/SystemArchitecture.png used on input line 44.
+(pdftex.def)             Requested size: 504.0pt x 118.09859pt.
+) (Parts/CaseStudy.tex
+<./Images/FourthCase.png, id=35, 1265.72874pt x 1024.82875pt>
 File: ./Images/FourthCase.png Graphic file (type png)
 
 <use ./Images/FourthCase.png>
 Package pdftex.def Info: ./Images/FourthCase.png used on input line 11.
 (pdftex.def)             Requested size: 226.79846pt x 183.63242pt.
- [2 <./Images/FourthCase.png>]
-<./Images/FourthCaseScene.png, id=31, 1265.72874pt x 1024.82875pt>
+
+Overfull \hbox (0.76038pt too wide) in paragraph at lines 33--33
+[]\T1/aer/bx/n/8 Direc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 tion
+ []
+
+
+Overfull \hbox (1.7124pt too wide) in paragraph at lines 33--33
+[]\T1/aer/bx/n/8 Orien-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 tation
+ []
+
+
+Overfull \hbox (1.72034pt too wide) in paragraph at lines 33--33
+[]\T1/aer/bx/n/8 Linear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 Ve-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 loc-ity
+ []
+
+
+Overfull \hbox (5.22656pt too wide) in paragraph at lines 33--33
+\T1/aer/bx/n/8 ($\OML/cmm/m/it/8 mm=s$\T1/aer/bx/n/8 )
+ []
+
+
+Overfull \hbox (4.80421pt too wide) in paragraph at lines 33--33
+[]\T1/aer/bx/n/8 Angular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 Ve-loc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/aer/bx/n/8 ($\OML/cmm/m/it/8 rad=s$\T1/aer/bx/n/8 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/aer/bx/n/8 Angle
+ []
+
+
+Overfull \hbox (1.79195pt too wide) in paragraph at lines 25--52
+ [][] 
+ []
+
+[4] <./Images/FourthCaseScene.png, id=40, 1265.72874pt x 1024.82875pt>
 File: ./Images/FourthCaseScene.png Graphic file (type png)
 
 <use ./Images/FourthCaseScene.png>
@@ -321,17 +418,17 @@ nput line 66.
 LaTeX Warning: Reference `fig:BodyPosition' on page \thepage  undefined on inpu
 t line 66.
 
-<./Images/fourthCaseSceneD.png, id=32, 2737.22626pt x 1137.24875pt>
+<./Images/fourthCaseSceneD.png, id=41, 2737.22626pt x 1137.24875pt>
 File: ./Images/fourthCaseSceneD.png Graphic file (type png)
 
 <use ./Images/fourthCaseSceneD.png>
 Package pdftex.def Info: ./Images/fourthCaseSceneD.png used on input line 69.
-(pdftex.def)             Requested size: 478.79846pt x 198.91739pt.
+(pdftex.def)             Requested size: 428.40308pt x 177.98969pt.
 
 
 LaTeX Warning: Reference `' on page \thepage  undefined on input line 74.
 
-<./Images/InterfaceExperiment.png, id=33, 736.55174pt x 308.95425pt>
+<./Images/InterfaceExperiment.png, id=42, 736.55174pt x 308.95425pt>
 File: ./Images/InterfaceExperiment.png Graphic file (type png)
 
 <use ./Images/InterfaceExperiment.png>
@@ -339,40 +436,72 @@ Package pdftex.def Info: ./Images/InterfaceExperiment.png used on input line 78
 .
 (pdftex.def)             Requested size: 226.79846pt x 95.12897pt.
 )
-Underfull \vbox (badness 4156) has occurred while \output is active []
+Underfull \vbox (badness 3439) has occurred while \output is active []
+
+ [5 <./Images/SystemArchitecture.png> <./Images/FourthCase.png> <./Images/Fourt
+hCaseScene.png>] (Parts/Results.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-(Parts/Results.tex [3 <./Images/FourthCaseScene.png>] [4 <./Images/fourthCaseSc
-eneD.png>] [5
+Underfull \vbox (badness 5548) has occurred while \output is active []
 
- <./Images/InterfaceExperiment.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[]\T1/aer/bx/n/9 Presented Emo-
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./Images/fourthCaseSceneD.png> <./Images/InterfaceExperiment.png>] [7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\T1/aer/bx/n/8 Presented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[]\T1/aer/bx/n/9 Positive
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\T1/aer/bx/n/8 Positive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-\T1/aer/bx/n/9 Pre-dicted
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\T1/aer/bx/n/8 Pre-dicted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]\T1/aer/m/n/8 Happiness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\T1/aer/m/n/8 Happiness
  []
 
 
 LaTeX Warning: Reference `table:nir' on page \thepage  undefined on input line 
-113.
+107.
 
 
-Overfull \hbox (11.09698pt too wide) in paragraph at lines 161--170
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\T1/aer/m/n/8 Happiness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\T1/aer/m/n/8 Happiness
+ []
+
+
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
+
+Overfull \hbox (11.09698pt too wide) in paragraph at lines 149--158
  [][] 
  []
 
-) (Parts/Conclusions.tex) [6
+) (Parts/Conclusions.tex) (HRI2015.bbl [8
 
-
-] [7] [8
+]) [9
 
 ] (HRI2015.aux)
 
@@ -380,35 +509,36 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2923 strings out of 493673
- 35837 string characters out of 3143956
- 117954 words of memory out of 3000000
- 6161 multiletter control sequences out of 15000+200000
- 59255 words of font info for 84 fonts, out of 3000000 for 9000
+ 3126 strings out of 493673
+ 38803 string characters out of 3143956
+ 116599 words of memory out of 3000000
+ 6347 multiletter control sequences out of 15000+200000
+ 61768 words of font info for 87 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,10n,34p,989b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,36p,1389b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on HRI2015.pdf (8 pages, 498348 bytes).
+/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on HRI2015.pdf (9 pages, 3312247 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

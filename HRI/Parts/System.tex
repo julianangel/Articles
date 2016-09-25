@@ -1,2 +1,58 @@
+The system used is divided in the platform and emotional enrichment system. 
+
 \subsection{Robotic Platform}
+
+A non-anthropomorphic robotic platform without any bio-inspired appearance was developed and used in this case study. The holonomic platform was built using Odroid U3, Arduino Due, and 3 metal gear motors with 64 CPR encoders and omniwheels. The platform could be observed in Figure~\ref{fig:Robot}
+
+\begin{figure}[t]
+\centering%
+\subfigure {\includegraphics[height=3cm]{./Images/DSC_0447.JPG}}
+\hspace{2mm}
+\subfigure{\includegraphics[height=3cm]{./Images/TriskarThird.png}}
+\caption{Platform used in the case study (left), and holonomics's blue prints (right). The arrows represent robot's frame of reference.
+\label{fig:Robot}}
+\end{figure}
+
 \subsection{Emotion Enrichment System}
+
+The main idea of Emotional Enrichment System (EES) is to blend an emotion and a action to produce an "emotional action". However this is not far as previous works have done so far. The system has been envisioned to also allow:
+
+\begin{itemize}
+	\item Interoperability among different platform.
+	\item Introduction of new parameters and emotions.
+	\item Interface with diverse action decision system.
+\end{itemize}
+
+In other words, the system could be thought as a box that receives a desire action, action's parameters and emotions to blend them together without paying particular attention who or how the decision to execute a particular action with specific parameters were made. This is achieved through the use of text messages to describe the action that should be executed, as well its parameters, emotion and emotion's intensity.  To change the emotion without affecting the action that is being executed, these information are divided into two messages: one for the action and its parameters, and other for the emotion and its intensity.
+
+Every time the system receives a new action, it verifies if the action exists and the parameters corresponds to the action. If these two conditions are met, then the system checks if the action is compound or simple. If it is a simple, the system proceeds to add all the required actions (emotive actions) and change their parameters to convey the desired emotion. On the other hand if the action is compound, the action is first decomposed in simple actions (mandatory actions). Each one of these actions is then process to add their emotive actions. However, this addition is done taking in consideration to not add any action that was previously added. Once all the set of simple actions and their parameters are determined, the system proceeds to verify the drivers' existence to execute these actions in the desired platform. If the system finds out that one or more mandatory actions could not be executed, it triggers a message to inform that the desire action could not be executed. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Simple and Compound Actions}
+To achieve actions' enrichment with emotions, two different types of actions are used: simple and compound actions. Simple actions are actions that could be considered as ''atomic''; these actions can be enriched with emotion changing their specific parameters. For example, consider two simple actions: speak and move body. The human action of speaking is related to changes in the vocal cords to produce different sounds, while move body is directly related to the body movement. Therefore, for the speaking action the following parameters are expected: text, pitch and tone. On the other hand, the action move body would have as parameters the desired destination, velocity, and trajectory constraints. Since each action is characterized by different parameters, the parameters' modifications to obtain an emotional action will be different for each of them.
+
+\subsubsection{Emotional Execution Tree}
+The \textit{Emotional Enrichment System}  is grounded on the use of \textit{Emotional Execution Tree} ($EXT$), which is a computational representation of actions desired actions that should be executed. 
+$EXT$ is a connected acyclic graph with vertices and  edges. The root and non-leaf nodes could be \textit{parallel} or \textit{sequence} type. The parallel node could be one out of four different sub-types: action and emotion synchronous, action synchronous and emotion asynchronous, action asynchronous and emotion synchronous, or action and emotion asynchronous. Sequential nodes could just be one of two sub-types: emotion synchronous or asynchronous. Action synchronous means that each time that a parallel node receives a finish notification (success or failure), it will send a finish message to all the nodes that derived from it. On the other hand, emotion synchronous means that each time that a node (sequence or parallel) receives an emotion synchronization message, it will propagate the message to all the actions in the branches. 
+This distinction creates the possibility to synchronize emotional changes without affecting the normal execution of the desired action. Finally, the leaf nodes could only be simple action nodes. All the nodes can assume two levels: principal or secondary. If a node is principal, it will notify its predecessor about the messages that it has received, while the secondary cannot propagate any message to its predecessor.
+
+\subsubsection{Implementation}
+Figure~\ref{fig:system_architecture} presents the design used to achieve the desire goals. As it could be observed, the system is divided in two parts. The first part in charge to enrich a given action with a desired emotion, and the second in charge to hide the real execution of the action. 
+
+\begin{figure*}
+	\centering
+	\includegraphics[width=1.0\textwidth]{Images/SystemArchitecture.png} 	
+	\caption{General system design. Each simple action corresponds to one ROS node, and there is just one node for the emotion enrichment system. The ovals represent the ROS topic parameters, rectangles represent \textit{black boxes}, and texts outside containers represent input files that contain the system parametrization.}
+	\label{fig:system_architecture}
+\end{figure*}
+
+The process to enrich an action is threefold as follows:
+\begin{enumerate}
+
+	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action described on the message. This parameters' verification is done on the implemented description for each action, which describes the parameters that are mandatory and those that are optional. When the verification is done, and all the action exists and  the parameters correspond, an $ext$ is created.
+
+	\item \textit{Emotion addition:} uses the $ext$ created in the previous phase. In this phase new $sa$ are added to the $ext$ and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated based on the emotion's intensity and character traits.
+
+	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase is maintain a reference to the mandatory and emotional action, thus when a new emotion is received the system stops the previous emotional action and start executing the new ones without affecting the general execution of the actions.
+
+\end{enumerate}
