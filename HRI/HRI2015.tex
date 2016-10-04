@@ -111,7 +111,7 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{2} %  in this sample file, there are a *total*
+\numberofauthors{1} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -127,19 +127,19 @@
 % e-mail address with \email.
 %
 % 1st. author
-\alignauthor
-Julian M. Angel-Fernandez\\
-       \affaddr{Automation and Control Institute, Vienna University of Technology}\\
-       \affaddr{Karlspltz 13, 1040}\\
-       \affaddr{Vienna, Austria}\\
-       \email{jangelfe@tuwien.ac.at}
-% 2nd. author
-\alignauthor
-Andrea Bonarini\\
-       \affaddr{Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano}\\
-       \affaddr{Piazza Leonardo da Vinci 31, 20133}\\
-       \affaddr{Milan, Italy}\\
-       \email{andrea.bonarini@polimi.it}
+%\alignauthor
+%Julian M. Angel-Fernandez\\
+%       \affaddr{Automation and Control Institute, Vienna University of Technology}\\
+%       \affaddr{Karlspltz 13, 1040}\\
+%       \affaddr{Vienna, Austria}\\
+%       \email{jangelfe@tuwien.ac.at}
+%% 2nd. author
+%\alignauthor
+%Andrea Bonarini\\
+%       \affaddr{Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano}\\
+%       \affaddr{Piazza Leonardo da Vinci 31, 20133}\\
+%       \affaddr{Milan, Italy}\\
+%       \email{andrea.bonarini@polimi.it}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -155,7 +155,7 @@ Andrea Bonarini\\
 
 \maketitle
 \begin{abstract}
-
+Robots should be able to express emotional states to interact with people as social agents. Emotions are a peculiar characterization of humans and usually conveyed through face expression or body language, however there are cases where robots cannot reproduce anthropomorphic shape: they have to perform tasks which require a specific structure: this is the case of home cleaners, package carriers, and many others platforms. Therefore, emotional states need to be represented by exploiting other features, such as movements and shape changes. The work presented in this paper studies emotion expression in non-anthropomorphic platform and how it is perceived by humans. The work uses results obtained from a previous experiment, which was done to assess precise values for linear velocity, angular velocity, oscillation angle, direction and orientation that could be used to express happiness, angry, fear and sadness. Results show that people can recognize some emotional expressions better than others and that additional features should be added to differentiate some emotions. Additionally, it was done a small scene to verify if people prefer emotions with or without emotion. 
 \end{abstract}
 
 
@@ -211,18 +211,24 @@ Andrea Bonarini\\
 
 \section{Introduction}
 \input{./Parts/Introduction}
+\label{sec:related_work}
 \section{Related Work}
 \input{./Parts/RelatedWork}
 \section{The Experiment}
 \input{./Parts/Antecedents}
+\label{sec:experiment}
 \section{System}
+\label{sec:system}
 \input{./Parts/System}
 \section{Case Study}
+\label{sec:case}
 \input{./Parts/CaseStudy}
 \section{Results}
+\label{sec:results}
 \input{./Parts/Results}
 \section{Conclusions and Further work}
 \input{./Parts/Conclusions}
+\break
 \bibliographystyle{splncs}
 \bibliography{Bibliography,BibloNew,Biblography}
 \end{document}
