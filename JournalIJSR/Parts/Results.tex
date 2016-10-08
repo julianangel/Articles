@@ -1,9 +1,9 @@
 
-A total of 980 answers were collected, and a minimum of 5 trials for each motion type. A table with participants' answers was generated for each treatment. Table~\ref{table:example_table} is an example of the generated tables. 
+A table with subjects' answers was generated for each experience. Table~\ref{table:example_table} is an example of the generated tables. 
 
 \begin{table*}
 \centering
-\caption{Example of the table generated for each movement. This table corresponds to the treatment with $ID=1$.}
+\caption{Example of the table generated for each experience. This table corresponds to the experience with $ID=1$.}
 \label{table:example_table}
 \begin{tabular}{ | l | l | l | l | l | l | l | l | l | l | l | l |  }
 \hline
@@ -22,28 +22,30 @@ A total of 980 answers were collected, and a minimum of 5 trials for each motion
 	Masculine & electronic engineering & 29 & Iran &  0 & 2 & 8 & 0 & 0 & 0 & 0 & \  \\ \hline
 	Feminine & Computer science & 25 & Italy &  0 & 0 & 6 & 0 & 0 & 8 & 0 & \  \\ \hline
 	Masculine & Computer science & 24 & Italy &  0 & 0 & 0 & 8 & 0 & 7 & 0 & \  \\ \hline
-	Feminine & Science pedagogiche & 26 & Italy &  0 & 0 & 0 & 0 & 0 & 0 & 7 & Dubbioso \\ \hline
+	Feminine & Pedagogical Science & 26 & Italy &  0 & 0 & 0 & 0 & 0 & 0 & 7 & Dubbioso \\ \hline
 	Masculine & Computer science & 24 & Italy &  4 & 8 & 0 & 0 & 0 & 0 & 0 & \  \\ \hline
 \multicolumn{12}{c}{}
 \end{tabular}
 \end{table*}
 
-For each table, mean, standard deviation, and median were calculated. It was not possible to use ANOVA test over the data because the assumption of normality is not achieved in the collected data. This was checked using the Shapiro-Wilk Test.
-Additionally, a contingency table for each emotion was generated in each treatment as it is depicted in Table~\ref{table:table_contingency}, where the intensity for the rest of emotions is calculated as their mean, including the option of other. For all tables, including the contingency,  the Krippendorff's alpha agreement~\cite{Krippendorff2007} ($\alpha$) was calculated: it is a reliability coefficient to measure the agreement among different participants. Unlike other coefficients (e.g., $Kappa$), $\alpha$ is a generalization of several known reliability indices, and it applies to: any number of observers, any number of categories, any type of data, incomplete or missing data, large and small sample sizes.
+For each table, mean, standard deviation, and median were calculated. It was not possible to use ANOVA test over the data because the assumption of normality is not satisfied in the collected data. This was checked using the Shapiro-Wilk Test.
+Additionally, a contingency table for each emotion was generated in each experience as it is depicted in Table~\ref{table:table_contingency}, where the intensity for the rest of emotions is calculated as their mean, including the option ``other''. For all tables, including the contingency,  the Krippendorff's alpha agreement~\cite{Krippendorff2007} ($\alpha$) was calculated: it is a reliability coefficient to measure the agreement among different participants. Unlike other coefficients (e.g., $Kappa$), $\alpha$ is a generalization of several known reliability indices, and it applies to any number of observers, any number of categories, any type of data, incomplete or missing data, large and small sample sizes.
 
-This calculation was done using the R's package \textit{irr}. To improve the table interpretation, it was decided to just register the emotions' alpha values that had a mean greater than zero. The $\alpha$ for each treatment is shown in Figure~\ref{fig:alpha_treatment}. Additionally, for each emotion was generated a table with a top ten ranking treatments that considers the following items:(i) the mean intensity of the respective emotions, (ii) the alpha agreement for the respective emotion, and (iii) the alpha agreement for the specific treatment. To generate these tables, were first organized by the mean, then by the emotion's agreement and finally by the general agreement.
-The decision to give more importance to emotion's alpha was taken based on the situation that the participants could be agreed about the precise emotion but not for the rest of the words enlisted. 
+This calculation was done using the R's package \textit{irr}. To improve the table interpretation, it was decided to just register the emotions' alpha values that had a mean greater than zero. The $\alpha$ for each experience is shown in Figure~\ref{fig:alpha_experience}. Additionally, for each emotion was generated a table with a top ten ranking experiences that considers the following items:(i) the mean intensity of the respective emotions, (ii) the alpha agreement for the respective emotion, and (iii) the alpha agreement for the specific experience. Experiences in these tables were first organized by mean, then by the emotion's agreement and finally by general agreement. %TODO This is critical, it is not clear (make an example) and should be fully justified, since on this is based all the reasoning about results
+
+The decision to give more importance to emotion's alpha was taken based on the situation that the participants could be agreed about the precise emotion but not for the rest of the words enlisted. %TODO You just said that the first is the mean, not alpha... This sentence is not clear, anyway
 From the resulting tables~\ref{table:happy_top_ten},~\ref{table:Angry_top_ten},~\ref{table:Sad_top_ten}, and~\ref{table:Scared_top_ten}, it is possible to notice:
 
 \begin{itemize}
 
-	\item Fear was the only emotion that had six over ten movements obtaining both general and specific alpha agreement over 0.41, which is the lower bound for moderate agreement~\cite{Viera2005}. Also, it was mostly selected (eight over ten) when $direction = \pi$ and $orientation = \pi$. The angle and the angular velocity attributed six over ten times were $0.087$ and $2$, respectively. So it seems that people perceive as fear when the robot is looking at them and moving far from them fast. 
+	\item Fear was the only emotion that had six over ten movements obtaining both general and specific alpha agreement over 0.41, which is the lower bound for moderate agreement~\cite{Viera2005}. Also, it was mostly selected (eight over ten) when $direction = \pi$ and $orientation = \pi$. The angle and the angular velocity attributed six over ten times were $0.087$ and $2$, respectively. So it seems that people perceive the movement as a fear expression when the robot is looking at them and moving far from them fast. 
 	
-	\item Sadness was mostly attributed to linear velocities of $0 mm/s$ (two over ten) and $200 mm/s$ (eight over ten), and angular velocities of $0 rad/s$ and $1 rad/s$, with higher predilection of the second (eight over ten). It seems that people attribute sadness to slow velocities with slow angular velocity and small oscillation angle. Regarding the other two features, there is not a concrete pattern that could lead to make a generalization. 
+	\item Sadness was mostly attributed to linear velocities of $0 mm/s$ (two over ten) and $200 mm/s$ (eight over ten), and angular velocities of $0 rad/s$ and $1 rad/s$, with higher predilection of the second (eight over ten). It seems that people attribute sadness to slow velocities with slow angular velocity and small oscillation angle. Regarding the other two features, there is not any defined pattern that could lead to make a generalization. 
 
-	\item Happiness is attributed to different values of the independent variables. But it is the only emotion that is highly perceived when the linear velocity is $0$ with four over ten. However the oscillation angle for these four cases is equally divided between the values $0.174$ and $3.49$. So it seems that happiness is mainly attributed to fast angular velocities and big oscillations angles. However specific agreement among the other features is not present.
+	\item Happiness is attributed to different values of the independent variables. But it is the only emotion that is highly perceived when the linear velocity is $0$ with four over ten. However the oscillation angle for these four cases is equally divided between the values $0.174$ and $3.49$. %TODO BTW, is this angle in radians? It is a quite big difference...
+So it seems that happiness is mainly attributed to fast angular velocities and big oscillations angles. Specific agreement among the other features is not present.
 
-	\item Anger is highly perceived with an angle of $0.087$ (seven over ten) and with linear velocities over $200 mm/s$. It seems that people attribute anger to fast velocities, both angular and linear, small angle of oscillation and the robot facing the person when it is approaching them. 
+	\item Anger is highly perceived with an angle of $0.087$ (seven over ten) and with linear velocities over $200 mm/s$. It seems that people attribute anger to fast velocities, both angular and linear, small angle of oscillation and the robot facing the persons while approaching them. 
 \end{itemize} 
 %alpha general
 
@@ -51,7 +53,7 @@ From the resulting tables~\ref{table:happy_top_ten},~\ref{table:Angry_top_ten},~
 	\centering
 	\includegraphics[width=1.0\textwidth]{./Images/Alpha.png} 
 	\caption{Alpha values for each movement.}
-	\label{fig:alpha_treatment}
+	\label{fig:alpha_experience}
 \end{figure*}
 
 \begin{table}
@@ -103,7 +105,7 @@ From the resulting tables~\ref{table:happy_top_ten},~\ref{table:Angry_top_ten},~
 \begin{table}
 \centering
 \small
-\caption{Top 10 attributions for Anger.  This tops table was generated by ordering from highest to lowest first by Angry mean, then by Angry alpha, and finally by Movement alpha.}
+\caption{Top 10 attributions for Anger. This tops table was generated by ordering from highest to lowest first by Angry mean, then by Angry alpha, and finally by Movement alpha.}
 \label{table:Angry_top_ten}
 \rotatebox{-90}{
 \begin{tabular}{ | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l |  }
@@ -240,7 +242,7 @@ From the resulting tables~\ref{table:happy_top_ten},~\ref{table:Angry_top_ten},~
 
 
 \begin{table}
-\caption{Contingency table formula used for each emotion and treatment. Where $k$ is the kth treatment, $j$ is jth emotion for the kth treatment, $n$ is the total number of participants, and $Value$ is the intensity given by a participant.}
+\caption{Contingency table formula used for each emotion and experience. Where $k$ is the kth experience, $j$ is jth emotion for the kth experience, $n$ is the total number of participants, and $Value$ is the intensity given by a participant.}
 \label{table:table_contingency}
 \small
 \begin{tabular}{|l|l|l|}
