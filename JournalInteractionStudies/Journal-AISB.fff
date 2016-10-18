@@ -1,0 +1,9 @@
+\begin{figure*}
+\centering
+\includegraphics[width=0.8\textwidth]{Images/TheatreBotArchitecture.png}
+\caption{TheatreBot's architecture is composed of six sub-systems: \textit{Feature}, \textit{Belief}, \textit{Decision}, \textit{Motivation}, \textit{Description}, and \textit{Modulation}. The full arrows represent information that has to be used by the module. Dashed arrows mean that one model may influence the other. The influenced module can either accept or reject the suggestion given by the influencing one.
+}
+\label{fig:TheatreBotArchitecture}
+\end{figure*}
+\efloatseparator
+ 

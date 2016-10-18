@@ -1,0 +1,57 @@
+The direct consequence of the abundance of works in face elicitation in humans is the amount of works done in Human-Robot Interaction (HRI) focused on faces. One of the most well-known expressive robots is Kismet~\cite{Breazeal2002}, a robotic face able to interact with people and to show emotions. The face had enough degrees of freedom to portray the basic emotions suggested by Ekman~\cite{Ekman2004} (\textit{happiness}, \textit{surprise}, \textit{anger}, \textit{disgust}, \textit{fear}, and \textit{sadness}), plus \textit{interest}.
+
+Studies focused on robotics bodies can be partitioned in two groups: platforms that resemble humans or animals, and those that don't. Moreover, the implemented emotions vary among works, with a special tendency to include happiness. Questionnaires to assess people's perception are often adopted in works that use human or animal like platforms~\cite{Canamero2010,Beck2010,Li2011,Destephe2013b,Arras2012,Brown2014}. A relevant exception is the work done by Lakatos and collaborators~\cite{Lakatos2014} who assessed the participant's perception based on interaction through a play. In the experiment, each participant had two balls (yellow and black) and he could play with the robot using one of this balls. However, one of the balls would trigger robot's happiness and the other sadness. 
+
+Regarding the movement or poses design, three major approaches could be found. In the first approach, actors are asked to perform different walks conveying emotions~\cite{Destephe2013b}. These movements are later reproduced with the robot, as closely as possible. A second approach is to ask some subjects to design the movements~\cite{Li2011}. The last approach is the empirical approach, where researches come with poses and movements based on their own experience~\cite{Canamero2010,Beck2010,Arras2012,Brown2014}. One major finding from diverse works~\cite{Canamero2010,Beck2010,Brown2014} is that moving the head up improved the identification of pride, happiness, and excitement. While moving the head down improved the identification of anger and sadness.
+
+On the other hand, the works that use platforms with no resemblance to persons or animals could be sub-divided in three groups. A first group study the possibility to convey emotions with their platforms~\cite{Arras2012, Novika2015, BarakovaL10}. The second group focus on determining the contribution of different features in the perception of emotions~\cite{Saerbeck2010,Barakova2013, Sharma2013, NAM2014}.
+The second group use pre-defined procedures to assess the participants' perception, such as Self-Assessment Manikin (SAM)~\cite{Lang2008}, possibly combined  with other procedures such as Social Dominance Orientation (SDO)~\cite{pratto1994social} and PANAS~\cite{WatsonClarkTellegen88}. 
+
+It is important to mention the use of Laban’s Efforts~\cite{Laban1968} in the selection of the parameters in few works~\cite{BarakovaL10, Sharma2013}. Besides the fact that these works found that it was possible to convey emotions with non-human- or animal-like platforms, a relevant finding was the identification of the correlation between acceleration and speed with the arousal axis in the circumplex model of affect~\cite{Petta2010}.
+
+Table~\ref{table:comparison_work_emotion_projection} summarizes all the robotics studies already mentioned, highlighting the following characteristics:
+\begin{itemize}
+	\item \textit{Embodiment} tells if the robot is human-like, robot-like or neither of these two;
+	\item \textit{Platform used} gives the name of the platform used on the study;
+	\item The\textit{Locomotion} gives information about the capabilities of the platform., because, even having a human-like embodiment, it does not mean that the platform can move;
+	\item \textit{Emotion Evaluation Method} refers to the methodology used to collect the data in the studies.
+	\item \textit{Emotion presentation} tells if a real robot was used in the study, or any other method;
+	\item \textit{Emotions Implemented} gives the list of emotions showed to the subjects;
+	\item \textit{How is the emotion conveyed?} This tells what medium was used to convey the emotion. The mediums considered were: movement, body posture and face poses.
+\end{itemize}
+\clearpage
+\begin{table}[h]
+\caption{Comparison among works on emotion projection in robotics. NA = Not Available}
+\label{table:comparison_work_emotion_projection}
+\begin{center}
+\tiny %\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|p{2.3 cm}|p{1.5 cm}|p{1.3 cm}|p{1.4 cm}|p{1.4 cm}|p{1.0 cm}|p{2.2 cm}|p{1.4 cm}|}
+%\begin{tabular}{|p{1.5 cm}|p{1.0 cm}|p{1.5 cm}|p{1.5 cm}|p{1.5 cm}|p{2.0 cm}|p{1.5}|p{2.0 cm}|p{1.0 cm}|p{1.5 cm}|}
+\hline 
+\textbf{Work}  & \textbf{Embodiment} & \textbf{Platform Used} & \textbf{Locomotion} & \textbf{Emotion Evaluation Method} & \textbf{Emotion Presentation} & \textbf{Emotions Implemented}  & \textbf{How is the emotion conveyed?}\\ 
+\hline 
+Breazeal~\cite{Breazeal2002}  & Face & Kismet & NA & Questionnaire & Video & Happiness, surprise, anger, disgust, fear, sadness and interest &  Face poses\\ 
+\hline
+Saerbeck and Christoph~\cite{Saerbeck2010} & Animal / Non-Human like& iCat / Roomba & NA / Differential &PANAS and SAM & Real Robot & NA &  Movement\\
+\hline 
+Ca\~namero and collaborators~\cite{Canamero2010,Beck2010}&Human-Like & NAO & Bipedal & Questionnaire & Real robot & Anger, sadness, fear, pride, happiness, and excitement &  Body poses\\
+\hline
+Li and Chignell~\cite{Li2011}& Animal-Like& Teddy Bear Robot& NA & Questionnaire & Video (Real robot) & Random + Anger, disgust, fear, happiness, sadness, and surprise  & Body poses\\ 
+\hline
+Barakova and collaborators~\cite{Barakova2013} & NA & Closet robot& NA & SDO and SAM & Real robot & NA*  & Changing lights on and intensity\\ 
+\hline
+Sharma and collaborators~\cite{Sharma2013} & Non-Human / Animal & Quadrotor & Aerial & SAM + Questionnaire + Interview &  Real Robot & Laban's poles & Movement\\
+\hline
+Destephe and collaborators~\cite{Destephe2013b}&Human-like & WABIAN-2R & Bipedal & Questionnaire & Video (Virtual Robot) & Fear, anger, happiness, and sadness & Movement (Gait)+Body Poses\\
+\hline 
+Embgen and collaborators~\cite{Arras2012} & Human-like & Daryl &  Differential& Questionnaire & Real Robot & Happiness, sadness, fear, curiosity, embarrassment, and disappointment & Movement + Body poses \\ 
+\hline
+Lakatos and Collaborators~\cite{Lakatos2014}& Animal-Like & Dog & Holonomic & Indirect (Interaction with the robot) & Real Robot & Happiness and Fear &  Move + Body poses \\
+\hline
+Brown and Howard~\cite{Brown2014}& Human-Like & DARwIn-OP & Bipedal & Questionnaire & Real Robot & Happiness and sadness & Body poses\\
+\hline
+Novikova and Watss~\cite{Novika2015}&Non-Human/ Animal & Undetermine & Differential& Questionnaire& Real Robot & Scared, surprise, excited, angry, neutral, happiness and sadness &  Movement + Poses\\
+\hline 
+\end{tabular} 
+\end{center}
+\end{table}

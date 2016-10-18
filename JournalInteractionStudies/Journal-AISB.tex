@@ -1,0 +1,47 @@
+\documentclass[man,floatsintext]{apa6}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{apacite}
+\usepackage{rotating}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{graphicx}
+\usepackage{todonotes}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{slashbox}
+\newcommand{\co}{\cellcolor{gray!40}}
+
+\title{Robots Showing Emotions: Emotion Representation with no bio-inspired Body}
+\author{Julian M. Angel-Fernandez and Andrea Bonarini}
+\affiliation{Department of Electronics, Information, and Bioengineering\\ Politecnico di Milano\\ Milan, Italy\\
+email: \{julianmauricio.angel,andrea.bonarini\}@polimi.it}
+
+
+\abstract{Robots should be able to represent emotional states to interact with people as social agents. There are cases where robots cannot have bio-inspired bodies, for instance because the task to be performed requires a special shape, as in the case of home cleaners, package carriers, and many others. In these cases, emotional states have to be represented by exploiting movements of the body. In this paper, we present a set of case studies aimed to identify specific values to convey emotion though changes in linear and angular velocities, which might be applied on different non-bio-inspired bodies. The work originates from some of the most considered emotion expression theories and from emotion coding for people. We show that people can recognize some emotional expressions better than others, and we propose some directions to express emotions exploiting only bio-neutral movement.
+}
+
+\shorttitle{Robots Showing Emotions}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+\input{./Parts/introduction}
+\section{Related Work}
+\label{sec:related_work}
+\input{./Parts/Emotion_Projection}
+\section{System}
+\label{sec:robotic_platform}
+\input{./Parts/system}
+\section{Case Studies}
+\label{sec:cases}
+\input{./Parts/case_studies}
+\section{Conclusions and Further Work}
+\input{./Parts/conclusions}
+\bibliographystyle{apacite}
+\bibliography{Bibliography,Biblography,BibloNew}
+\end{document}

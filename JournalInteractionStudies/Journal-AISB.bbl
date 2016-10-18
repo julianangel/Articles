@@ -1,0 +1,854 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Barakova%
+\ \BBA {} Lourens%
+}{%
+Barakova%
+\ \BBA {} Lourens%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+BarakovaL10}
+\APACinsertmetastar {%
+BarakovaL10}%
+\begin{APACrefauthors}%
+Barakova, E\BPBI I.%
+\BCBT {}\ \BBA {} Lourens, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Expressing and interpreting emotional movements in
+  social games with robots} {Expressing and interpreting emotional movements in
+  social games with robots}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personal and Ubiquitous Computing}{14}{5}{457--467}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Beck%
+, Hiolle%
+, Mazel%
+\BCBL {}\ \BBA {} Ca\~{n}amero%
+}{%
+Beck%
+, Hiolle%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Canamero2010}
+\APACinsertmetastar {%
+Canamero2010}%
+\begin{APACrefauthors}%
+Beck, A.%
+, Hiolle, A.%
+, Mazel, A.%
+\BCBL {}\ \BBA {} Ca\~{n}amero, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Interpretation of Emotional Body Language Displayed by
+  Robots} {Interpretation of emotional body language displayed by
+  robots}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {3rd ACM Workshop on Affective Interaction in Natural
+  Environments} {3rd acm workshop on affective interaction in natural
+  environments}\ (\BPG~37-42).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Beck%
+, {n}amero%
+\BCBL {}\ \BBA {} Bard%
+}{%
+Beck%
+, {n}amero%
+\BCBL {}\ \BBA {} Bard%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Beck2010}
+\APACinsertmetastar {%
+Beck2010}%
+\begin{APACrefauthors}%
+Beck, A.%
+, {n}amero, L\BPBI C.%
+\BCBL {}\ \BBA {} Bard, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{T}owards an affect space for robots to display
+  emotional body language} {{T}owards an affect space for robots to display
+  emotional body language}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IREE RoMan Conference.} {Iree roman conference.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Breazeal%
+}{%
+Breazeal%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Breazeal2002}
+\APACinsertmetastar {%
+Breazeal2002}%
+\begin{APACrefauthors}%
+Breazeal, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2002}.
+\newblock
+\APACrefbtitle {Designing Sociable Robots} {Designing sociable robots}.
+\newblock
+\APACaddressPublisher{Cambridge, MA, USA}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Brown%
+\ \BBA {} Howard%
+}{%
+Brown%
+\ \BBA {} Howard%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Brown2014}
+\APACinsertmetastar {%
+Brown2014}%
+\begin{APACrefauthors}%
+Brown, L.%
+\BCBT {}\ \BBA {} Howard, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Gestural behavioral implementation on a humanoid robotic
+  platform for effective social interaction} {Gestural behavioral
+  implementation on a humanoid robotic platform for effective social
+  interaction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Robot and Human Interactive Communication, 2014 RO-MAN:
+  The 23rd IEEE International Symposium on Robot and Human Interactive
+  Communication} {Robot and human interactive communication, 2014 ro-man: The
+  23rd ieee international symposium on robot and human interactive
+  communication}\ (\BPG~471-476).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cacioppo%
+, Tassinary%
+\BCBL {}\ \BBA {} Berntson%
+}{%
+Cacioppo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+cacioppo2000handbook}
+\APACinsertmetastar {%
+cacioppo2000handbook}%
+\begin{APACrefauthors}%
+Cacioppo, J.%
+, Tassinary, L.%
+\BCBL {}\ \BBA {} Berntson, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Handbook of Psychophysiology} {Handbook of psychophysiology}.
+\newblock
+\APACaddressPublisher{}{University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crane%
+\ \BBA {} Gross%
+}{%
+Crane%
+\ \BBA {} Gross%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Crane2013}
+\APACinsertmetastar {%
+Crane2013}%
+\begin{APACrefauthors}%
+Crane, E.%
+\BCBT {}\ \BBA {} Gross, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effort-Shape Characteristics of Emotion-Related Body
+  Movement} {Effort-shape characteristics of emotion-related body
+  movement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Nonverbal Behavior}{37}{2}{91-105}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Destephe%
+, Zecca%
+, Hashimoto%
+\BCBL {}\ \BBA {} Takanishi%
+}{%
+Destephe%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Destephe2013b}
+\APACinsertmetastar {%
+Destephe2013b}%
+\begin{APACrefauthors}%
+Destephe, M.%
+, Zecca, M.%
+, Hashimoto, K.%
+\BCBL {}\ \BBA {} Takanishi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{Dec}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perception of emotion and emotional intensity in
+  humanoid robots gait} {Perception of emotion and emotional intensity in
+  humanoid robots gait}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Robotics and Biomimetics (ROBIO), 2013 IEEE
+  International Conference on} {Robotics and biomimetics (robio), 2013 ieee
+  international conference on}\ (\BPG~1276-1281).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ekman%
+}{%
+Ekman%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Ekman2004}
+\APACinsertmetastar {%
+Ekman2004}%
+\begin{APACrefauthors}%
+Ekman, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {{Emotions Revealed : Recognizing Faces and Feelings to Improve
+  Communication and Emotional Life}} {{Emotions Revealed : Recognizing Faces
+  and Feelings to Improve Communication and Emotional Life}}.
+\newblock
+\APACaddressPublisher{}{{Owl Books}}.
+\newblock
+\APAChowpublished {Paperback}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Embgen}%
+\ \protect \BOthers {.}}{%
+{Embgen}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Arras2012}
+\APACinsertmetastar {%
+Arras2012}%
+\begin{APACrefauthors}%
+{Embgen}, S.%
+, {Luber}, M.%
+, {Becker-Asano}, C.%
+, {Ragni}, M.%
+, {Evers}, V.%
+\BCBL {}\ \BBA {} {Arras}, K\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{September}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Robot-specific social cues in emotional body language}
+  {Robot-specific social cues in emotional body language}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Robot and Human Interactive Communication, 2012 RO-MAN:
+  The 21st IEEE International Symposium on Robot and Human Interactive
+  Communication} {Robot and human interactive communication, 2012 ro-man: The
+  21st ieee international symposium on robot and human interactive
+  communication}\ (\BPGS\ 1019--1025).
+\newblock
+\APACaddressPublisher{USA}{IEEE Computer Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+from Jed~Wing%
+, Weston%
+, Williams%
+, Keefer%
+\BCBL {}\ \BBA {} Engelhardt%
+}{%
+from Jed~Wing%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+caret}
+\APACinsertmetastar {%
+caret}%
+\begin{APACrefauthors}%
+from Jed~Wing, M\BPBI K\BPBI C.%
+, Weston, S.%
+, Williams, A.%
+, Keefer, C.%
+\BCBL {}\ \BBA {} Engelhardt, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {caret: Classification and Regression Training} {caret:
+  Classification and regression training}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=caret}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 5.15-044}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hayes%
+\ \BBA {} Krippendorff%
+}{%
+Hayes%
+\ \BBA {} Krippendorff%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Klaus2007}
+\APACinsertmetastar {%
+Klaus2007}%
+\begin{APACrefauthors}%
+Hayes, A\BPBI F.%
+\BCBT {}\ \BBA {} Krippendorff, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Answering the Call for a Standard Reliability Measure
+  for Coding Data} {Answering the call for a standard reliability measure for
+  coding data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Communication Methods and Measures}{1}{1}{77-89}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hiah%
+\ \protect \BOthers {.}}{%
+Hiah%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Barakova2013}
+\APACinsertmetastar {%
+Barakova2013}%
+\begin{APACrefauthors}%
+Hiah, L.%
+, Beursgens, L.%
+, Haex, R.%
+, Romero, L\BPBI P.%
+, Teh, Y.%
+, ten Bh{\"{o}}mer, M.%
+\BDBL {}Barakova, E\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Abstract robots with an attitude: Applying interpersonal
+  relation models to human-robot interaction} {Abstract robots with an
+  attitude: Applying interpersonal relation models to human-robot
+  interaction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Robot and Human Interactive Communication, 2013 RO-MAN:
+  The 22nd IEEE International Symposium on Robot and Human Interactive
+  Communication, Gyeongju, Korea (South), August 26-29, 2013} {Robot and human
+  interactive communication, 2013 ro-man: The 22nd ieee international symposium
+  on robot and human interactive communication, gyeongju, korea (south), august
+  26-29, 2013}\ (\BPGS\ 37--44).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kleinsmith%
+\ \BBA {} Bianchi-Berthouze%
+}{%
+Kleinsmith%
+\ \BBA {} Bianchi-Berthouze%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Nadia2013}
+\APACinsertmetastar {%
+Nadia2013}%
+\begin{APACrefauthors}%
+Kleinsmith, A.%
+\BCBT {}\ \BBA {} Bianchi-Berthouze, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Affective Body Expression Perception and Recognition: A
+  Survey} {Affective body expression perception and recognition: A
+  survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Affective Computing}{4}{1}{15-33}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Laban%
+\ \BBA {} Ullmann%
+}{%
+Laban%
+\ \BBA {} Ullmann%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+Laban1968}
+\APACinsertmetastar {%
+Laban1968}%
+\begin{APACrefauthors}%
+Laban, R.%
+\BCBT {}\ \BBA {} Ullmann, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1968}.
+\newblock
+\APACrefbtitle {Modern educational dance} {Modern educational dance}\
+  (\PrintOrdinal{2d ed., rev. by Lisa Ullmann.}\ \BEd)\ [Book].
+\newblock
+\APACaddressPublisher{}{Praeger New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lakatos%
+\ \protect \BOthers {.}}{%
+Lakatos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Lakatos2014}
+\APACinsertmetastar {%
+Lakatos2014}%
+\begin{APACrefauthors}%
+Lakatos, G.%
+, Gacsi, M.%
+, Konok, V.%
+, Bruder, I.%
+, Berczky, B.%
+, Korondi, P.%
+\BCBL {}\ \BBA {} Miklosi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{December}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Emotion Attribution to a Non-Humanoid Robot in Different
+  Social Situations} {Emotion attribution to a non-humanoid robot in different
+  social situations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLos ONE}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lang%
+, Bradley%
+\BCBL {}\ \BBA {} Cuthbert%
+}{%
+Lang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Lang2008}
+\APACinsertmetastar {%
+Lang2008}%
+\begin{APACrefauthors}%
+Lang, P\BPBI J.%
+, Bradley, M\BPBI M.%
+\BCBL {}\ \BBA {} Cuthbert, B\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {{International affective picture system (IAPS): Affective
+  ratings of pictures and instruction manual}} {{International affective
+  picture system (IAPS): Affective ratings of pictures and instruction
+  manual}}\ \APACbVolEdTR{}{\BTR{}\ \BNUM~A-8}.
+\newblock
+\APACaddressInstitution{Gainesville, FL}{The Center for Research in
+  Psychophysiology, University of Florida}.
+\newblock
+\begin{APACrefURL} \url{http://csea.phhp.ufl.edu/Media.html} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \BBA {} Chignell%
+}{%
+Li%
+\ \BBA {} Chignell%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Li2011}
+\APACinsertmetastar {%
+Li2011}%
+\begin{APACrefauthors}%
+Li, J.%
+\BCBT {}\ \BBA {} Chignell, M\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Communication of Emotion in Social Robots through Simple
+  Head and Arm Movements} {Communication of emotion in social robots through
+  simple head and arm movements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{I. J. Social Robotics}{3}{2}{125--142}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marsella%
+, Gratch%
+\BCBL {}\ \BBA {} Petta%
+}{%
+Marsella%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Petta2010}
+\APACinsertmetastar {%
+Petta2010}%
+\begin{APACrefauthors}%
+Marsella, S.%
+, Gratch, J.%
+\BCBL {}\ \BBA {} Petta, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Blueprint for Affective Computing} {A blueprint for
+  affective computing}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~21-46).
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NAM%
+, LEE%
+, PARK%
+\BCBL {}\ \BBA {} SUK%
+}{%
+NAM%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+NAM2014}
+\APACinsertmetastar {%
+NAM2014}%
+\begin{APACrefauthors}%
+NAM, T\BHBI J.%
+, LEE, J\BHBI H.%
+, PARK, S.%
+\BCBL {}\ \BBA {} SUK, H\BHBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding the Relation between Emotion and Physical
+  Movements} {Understanding the relation between emotion and physical
+  movements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Affective
+  Engineering}{13}{3}{217-226}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Novikova%
+\ \BBA {} Watts%
+}{%
+Novikova%
+\ \BBA {} Watts%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Novika2015}
+\APACinsertmetastar {%
+Novika2015}%
+\begin{APACrefauthors}%
+Novikova, J.%
+\BCBT {}\ \BBA {} Watts, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards Artificial Emotions to Assist Social
+  Coordination in HRI} {Towards artificial emotions to assist social
+  coordination in hri}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Social Robotics}{7}{1}{77-88}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Plutchik%
+}{%
+Plutchik%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Plutchik2001}
+\APACinsertmetastar {%
+Plutchik2001}%
+\begin{APACrefauthors}%
+Plutchik, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Nature of Emotions}} {{The Nature of
+  Emotions}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Scientist}{89}{4}{344+}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pratto%
+, Sidanius%
+, Stallworth%
+\BCBL {}\ \BBA {} Malle%
+}{%
+Pratto%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1994}}%
+}]{%
+pratto1994social}
+\APACinsertmetastar {%
+pratto1994social}%
+\begin{APACrefauthors}%
+Pratto, F.%
+, Sidanius, J.%
+, Stallworth, L\BPBI M.%
+\BCBL {}\ \BBA {} Malle, B\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Social dominance orientation: A personality variable
+  predicting social and political attitudes.} {Social dominance orientation: A
+  personality variable predicting social and political attitudes.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of personality and social
+  psychology}{67}{4}{741}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Promarker%
+}{%
+Promarker%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Promarker}
+\APACinsertmetastar {%
+Promarker}%
+\begin{APACrefauthors}%
+Promarker.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Basic Colour Theory.} {Basic colour theory.}
+\newblock
+\APAChowpublished {Internet}.
+\newblock
+\begin{APACrefURL}
+  \url{http://mixmastermassey.typepad.com/files/colourblendschemetheorya5leaflet.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roether%
+, Omlor%
+, Christensen%
+\BCBL {}\ \BBA {} Giese%
+}{%
+Roether%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Roether2009}
+\APACinsertmetastar {%
+Roether2009}%
+\begin{APACrefauthors}%
+Roether, C\BPBI L.%
+, Omlor, L.%
+, Christensen, A.%
+\BCBL {}\ \BBA {} Giese, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Critical features for the perception of emotion from
+  gait} {Critical features for the perception of emotion from gait}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Vision}{9}{6}{15}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saerbeck%
+\ \BBA {} Bartneck%
+}{%
+Saerbeck%
+\ \BBA {} Bartneck%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Saerbeck2010}
+\APACinsertmetastar {%
+Saerbeck2010}%
+\begin{APACrefauthors}%
+Saerbeck, M.%
+\BCBT {}\ \BBA {} Bartneck, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perception of Affect Elicited by Robot Motion}
+  {Perception of affect elicited by robot motion}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 5th ACM/IEEE International Conference
+  on Human-robot Interaction} {Proceedings of the 5th acm/ieee international
+  conference on human-robot interaction}\ (\BPGS\ 53--60).
+\newblock
+\APACaddressPublisher{Piscataway, NJ, USA}{IEEE Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sharma%
+, Hildebrandt%
+, Newman%
+, Young%
+\BCBL {}\ \BBA {} Eskicioglu%
+}{%
+Sharma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Sharma2013}
+\APACinsertmetastar {%
+Sharma2013}%
+\begin{APACrefauthors}%
+Sharma, M.%
+, Hildebrandt, D.%
+, Newman, G.%
+, Young, J\BPBI E.%
+\BCBL {}\ \BBA {} Eskicioglu, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Communicating Affect via Flight Path: Exploring Use of
+  the Laban Effort System for Designing Affective Locomotion Paths}
+  {Communicating affect via flight path: Exploring use of the laban effort
+  system for designing affective locomotion paths}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 8th ACM/IEEE International Conference
+  on Human-robot Interaction} {Proceedings of the 8th acm/ieee international
+  conference on human-robot interaction}\ (\BPGS\ 293--300).
+\newblock
+\APACaddressPublisher{Piscataway, NJ, USA}{IEEE Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Venture%
+\ \protect \BOthers {.}}{%
+Venture%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Venture2014}
+\APACinsertmetastar {%
+Venture2014}%
+\begin{APACrefauthors}%
+Venture, G.%
+, Kadone, H.%
+, Zhang, T.%
+, Grèzes, J.%
+, Berthoz, A.%
+\BCBL {}\ \BBA {} Hicheur, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Recognizing Emotions Conveyed by Human Gait}
+  {Recognizing emotions conveyed by human gait}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Social
+  Robotics}{6}{4}{621-632}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s12369-014-0243-1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Watson%
+, Clark%
+\BCBL {}\ \BBA {} Tellegen%
+}{%
+Watson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1988}}%
+}]{%
+WatsonClarkTellegen88}
+\APACinsertmetastar {%
+WatsonClarkTellegen88}%
+\begin{APACrefauthors}%
+Watson, D.%
+, Clark, L\BPBI A.%
+\BCBL {}\ \BBA {} Tellegen, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Development and validation of brief measures of positive
+  and negative affect: the PANAS scales} {Development and validation of brief
+  measures of positive and negative affect: the panas scales}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Personality and Social
+  Psychology}{54}{}{1063-1070}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

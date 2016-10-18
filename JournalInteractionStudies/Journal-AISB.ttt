@@ -1,0 +1,36 @@
+\begin{table*}
+\begin{center}
+\small
+\caption{Classification accuracy of the presented emotions in the first case study by the single panels, computed as mentioned in the text, with corresponding 95\% confidence interval, no-information rate, and p-value that accuracy is greater than the NIR.}
+\label{table:summary_1}
+\begin{tabular}{|l|p{3cm}|p{2cm}|p{2.2cm}|p{2cm}|}
+\hline
+\textbf{Presented emotion}&
+\textbf{Classification Accuracy}&
+\textbf{95\% CI}&
+\textbf{No-information Rate}&
+\textbf{P-Value [Acc $>$ NIR]}
+\\
+\hline
+\textbf{Anger} & \hspace{0.25cm} 0.74 \hspace{0.25cm} &(0.65, 0.81)& \hspace{0.2cm} 0.61 \hspace{0.2cm}& \hspace{0.15cm} 1.0e-3\\
+\hline
+\textbf{Curiosity} & 0.56& (0.45, 0.67)& 0.61& 0.84\\
+\hline
+\textbf{Disgust} & 0.52& (0.40, 0.63)& 0.54& 0.71\\
+\hline
+\textbf{Embarassment} & 0.58& (0.47, 0.67)& 0.60& 0.77\\
+\hline
+\textbf{Fear} & 0.60& (0.53, 0.66)& 0.58& 0.31\\
+\hline
+\textbf{Happiness} & 0.78& (0.71, 0.85)& 0.63& 2.8e-05\\
+\hline
+\textbf{Neutral} & 0.55& (0.32, 0.76)& 0.55& 0.59\\
+\hline
+\textbf{Sadness} & 0.66& (0.56, 0.74)& 0.62& 0.25\\
+\hline
+\end{tabular}
+\end{center}
+%\vspace{-0.5cm}
+\end{table*}
+\efloatseparator
+ 
