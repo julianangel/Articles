@@ -1,0 +1,12 @@
+General
+
+Reviewer 1
+*****************************************
+One sentece to introduce next case study was added at the end of each case study
+
+Reviewer 3
+*****************************************
+Case study titles were changed:
+First Case study: Empirical Emotion Parameters
+Second Case Study: Addition of Context
+Third Case Study: Literature Emotional Parameters

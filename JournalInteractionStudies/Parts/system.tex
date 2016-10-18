@@ -1,14 +1,16 @@
-The system used in the case studies here reported has been developed to support the identification of features that could be used to project emotions with a non-bio-inspired platform. This system is composed of two complementary parts: robotic platform and emotional enrichment system. The platform has been envisioned to be as simple as possible without any resemblance to human-like embodiment, while the emotional enrichment has been designed to be applied also to other platforms and to be extended to other emotion expressions. 
+The system used in the case studies here reported has been developed to support the identification of features that could be used to project emotions with a non-bio-inspired platform. This system is composed of two complementary parts: robotic platform and emotional enrichment system. The platform has been envisioned to be as simple as possible without any resemblance to human-like embodiment, while the emotional enrichment has been designed to be applied also to other platforms and to be extended to other emotion expressions.
+ 
 \subsection{Robotic Platform}
 The platform is a holonomic base, as shown in Figure~\ref{fig:holonomic-platform}. The first prototype included three metal gear motors with encoders, an Arduino Mega micro-controller, one servo motor and X-Bee system to enable the communication between Arduino and a remote computer. The mechanical design of the prototype is shown in Figure~\ref{fig:triskar-prototype}. A PID controller for each wheel was implemented and tuned to guarantee linear and angular velocity.
-\\
+
 This prototype was modified after the first experiments to improve the expressiveness of the upper part. Two additional servo motors and a mechanical structure to support all these motors were added. The two motors attached to beams could be controlled to obtain an asymmetric or opening-closing movement. 
 The third motor deforms the upper part of the foam. Figure~\ref{fig:triskar-first-design} shows the placement of the motors. To hide the structure, foam and a light blue cloth covering the foam were used, as it could be seen in Figure~\ref{fig:triskar-cover}. The light blue color was selected because it is not expected to generate any particular arousal in people~\cite{Promarker}. 
-\\
+
 Although this version showed the possibility to convey emotions, still it was not autonomous enough to host the emotional enrichment system. Therefore, an Odroid-U3 microcomputer was added, communicating with Arduino Mega via ROS-Serial.
-Also, it was decided to make some improvements in the upper part. Two reasons motivated this changes. First the deformation system was not changing the shape enough to be clearly perceived by subjects; second, the beams were damaging the foam. Therefore, a lever  was added to the deformation motor, and a piece of rubber was adopted to safely connect the beams with the foam. The final arrangement is shown in Figure~\ref{fig:triskar-second-design}.\\ 
+Also, it was decided to make some improvements in the upper part. Two reasons motivated this changes. First the deformation system was not changing the shape enough to be clearly perceived by subjects; second, the beams were damaging the foam. Therefore, a lever  was added to the deformation motor, and a piece of rubber was adopted to safely connect the beams with the foam. The final arrangement is shown in Figure~\ref{fig:triskar-second-design}.
+ 
 The final version, with improved computational power (Arduino Due instead of Mega) is shown in Figure~\ref{fig:triskar-third-design}.
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\begin{subfigure}[c]{0.3\textwidth}
 	\centering
