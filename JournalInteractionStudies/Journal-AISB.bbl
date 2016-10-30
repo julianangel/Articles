@@ -1,6 +1,33 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Angel-Fernandez%
+\ \BBA {} Bonarini%
+}{%
+Angel-Fernandez%
+\ \BBA {} Bonarini%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Angel2017}
+\APACinsertmetastar {%
+Angel2017}%
+\begin{APACrefauthors}%
+Angel-Fernandez, J\BPBI M.%
+\BCBT {}\ \BBA {} Bonarini, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Identifying Values to Express Emotions with a
+  Non-Anthropomorphic Platform.} {Identifying values to express emotions with a
+  non-anthropomorphic platform.}
+\newblock
+\APACrefnote{Manuscript in preparation}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barakova%
 \ \BBA {} Lourens%
 }{%
@@ -25,6 +52,36 @@ Barakova, E\BPBI I.%
   social games with robots}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Personal and Ubiquitous Computing}{14}{5}{457--467}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Beck%
+, Ca\~{n}amero%
+\BCBL {}\ \BBA {} Bard%
+}{%
+Beck%
+, Ca\~{n}amero%
+\BCBL {}\ \BBA {} Bard%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Beck2010}
+\APACinsertmetastar {%
+Beck2010}%
+\begin{APACrefauthors}%
+Beck, A.%
+, Ca\~{n}amero, L.%
+\BCBL {}\ \BBA {} Bard, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{T}owards an affect space for robots to display
+  emotional body language} {{T}owards an affect space for robots to display
+  emotional body language}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IEEE RoMan Conference.} {Ieee roman conference.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -58,36 +115,6 @@ Beck, A.%
 \BIn{} \APACrefbtitle {3rd ACM Workshop on Affective Interaction in Natural
   Environments} {3rd acm workshop on affective interaction in natural
   environments}\ (\BPG~37-42).
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Beck%
-, {n}amero%
-\BCBL {}\ \BBA {} Bard%
-}{%
-Beck%
-, {n}amero%
-\BCBL {}\ \BBA {} Bard%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-Beck2010}
-\APACinsertmetastar {%
-Beck2010}%
-\begin{APACrefauthors}%
-Beck, A.%
-, {n}amero, L\BPBI C.%
-\BCBL {}\ \BBA {} Bard, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{T}owards an affect space for robots to display
-  emotional body language} {{T}owards an affect space for robots to display
-  emotional body language}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {IREE RoMan Conference.} {Iree roman conference.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -387,6 +414,37 @@ Hiah, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kaya%
+\ \BBA {} Epps%
+}{%
+Kaya%
+\ \BBA {} Epps%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Naz2012}
+\APACinsertmetastar {%
+Naz2012}%
+\begin{APACrefauthors}%
+Kaya, N.%
+\BCBT {}\ \BBA {} Epps, H\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{09}}}{01}.
+\newblock
+{\BBOQ}\APACrefatitle {{Relationship between color and emotion: a study of
+  college students.}} {{Relationship between color and emotion: a study of
+  college students.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{38}{3}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://eab.sagepub.com/search?fulltext=environment\%20psychology\&\#38;sortspec=date\&\#38;submit=Submit\&\#38;andorexactfulltext=phrase\&\#38;src=selected\&\#38;journal\_set=speab}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kleinsmith%
 \ \BBA {} Bianchi-Berthouze%
 }{%
@@ -670,32 +728,6 @@ Pratto, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Promarker%
-}{%
-Promarker%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-Promarker}
-\APACinsertmetastar {%
-Promarker}%
-\begin{APACrefauthors}%
-Promarker.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Basic Colour Theory.} {Basic colour theory.}
-\newblock
-\APAChowpublished {Internet}.
-\newblock
-\begin{APACrefURL}
-  \url{http://mixmastermassey.typepad.com/files/colourblendschemetheorya5leaflet.pdf}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Roether%
 , Omlor%
 , Christensen%
@@ -722,6 +754,40 @@ Roether, C\BPBI L.%
   gait} {Critical features for the perception of emotion from gait}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Vision}{9}{6}{15}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Russell%
+, Bachorowski%
+\BCBL {}\ \BBA {} Dols%
+}{%
+Russell%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Russell2003}
+\APACinsertmetastar {%
+Russell2003}%
+\begin{APACrefauthors}%
+Russell, J\BPBI A.%
+, Bachorowski, J\BPBI A.%
+\BCBL {}\ \BBA {} Dols, J\BPBI M\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Facial and Vocal Expressions of Emotion}} {{Facial and
+  Vocal Expressions of Emotion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annual Review of Psychology}{54}{1}{329--349}.
+\newblock
+\begin{APACrefURL}
+  \url{http://dx.doi.org/10.1146/annurev.psych.54.101601.145102}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1146/annurev.psych.54.101601.145102}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -752,6 +818,33 @@ Saerbeck, M.%
   conference on human-robot interaction}\ (\BPGS\ 53--60).
 \newblock
 \APACaddressPublisher{Piscataway, NJ, USA}{IEEE Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saerbeck%
+\ \BBA {} van Breemen%
+}{%
+Saerbeck%
+\ \BBA {} van Breemen%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Saerbeck2007}
+\APACinsertmetastar {%
+Saerbeck2007}%
+\begin{APACrefauthors}%
+Saerbeck, M.%
+\BCBT {}\ \BBA {} van Breemen, A\BPBI J\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design guidelines and tools for creating believable
+  motion for personal robots} {Design guidelines and tools for creating
+  believable motion for personal robots}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {RO-MAN} {Ro-man}\ (\BPG~386-391).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

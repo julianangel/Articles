@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  18 OCT 2016 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  30 OCT 2016 18:21
 entering extended mode
 **Journal-AISB.tex
 (Journal-AISB.tex
@@ -887,19 +887,19 @@ slashbox style by K.Yasuoka, May 1993.
 LaTeX Warning: Label `fig:setup2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 41.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -965,7 +965,7 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 ABD: EveryShipout initializing macros
-Class apa6 Info: Keywords not defined on input line 39.
+Class apa6 Info: Keywords not defined on input line 42.
  [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] [2] (Parts/introduction.tex [3])
@@ -983,152 +983,124 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 15.
+ [5] [6]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 39.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-[6]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 37.
+(Font)              <6> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+(Font)              <5> on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.86266pt too wide) in paragraph at lines 40--40
+Overfull \hbox (3.86266pt too wide) in paragraph at lines 42--42
 []|\T1/lmr/bx/n/6 Embodiment| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\T1/lmr/bx/n/6 Platform
  []
 
 
-Overfull \hbox (2.79022pt too wide) in paragraph at lines 40--40
+Overfull \hbox (2.79022pt too wide) in paragraph at lines 42--42
 []|\T1/lmr/bx/n/6 Locomotion| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\T1/lmr/bx/n/6 Emotion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/bx/n/6 Eval-u-a-tion
- []
-
-
-Overfull \hbox (2.36314pt too wide) in paragraph at lines 40--40
-[]|\T1/lmr/bx/n/6 Emotion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/bx/n/6 Pre-sen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\T1/lmr/bx/n/6 emo-tion
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/6 Breazeal []Breazeal,
- []
-
-
-Overfull \hbox (4.76028pt too wide) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/6 Questionnaire| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/6 Happiness, sur-
+\T1/lmr/bx/n/6 Eval-u-a-tion
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 42--42
-\T1/lmr/m/n/6 prise, anger, dis-
+Overfull \hbox (2.36314pt too wide) in paragraph at lines 42--42
+[]|\T1/lmr/bx/n/6 Emotion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/6 Saerbeck and
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/bx/n/6 Pre-sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/6 Animal /
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\T1/lmr/bx/n/6 emo-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/6 Non-Human
+Underfull \hbox (badness 2460) in paragraph at lines 44--44
+[]|\T1/lmr/m/n/6 Breazeal []Breazeal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/6 iCat /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/6 Real
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-\T1/lmr/m/n/6 lab-o-ra-tors []Beck,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-\T1/lmr/m/n/6 Beck, namero, &
- []
-
-
-Overfull \hbox (4.76028pt too wide) in paragraph at lines 46--46
+Overfull \hbox (4.76028pt too wide) in paragraph at lines 44--44
 []|\T1/lmr/m/n/6 Questionnaire| 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\T1/lmr/m/n/6 Happiness, sur-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 44--44
+\T1/lmr/m/n/6 prise, anger, dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\T1/lmr/m/n/6 Saerbeck and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\T1/lmr/m/n/6 Animal /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\T1/lmr/m/n/6 Non-Human
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\T1/lmr/m/n/6 iCat /
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
 []|\T1/lmr/m/n/6 Real
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T1/lmr/m/n/6 Anger, sad-ness,
- []
-
-
-Underfull \hbox (badness 4479) in paragraph at lines 46--46
-\T1/lmr/m/n/6 ness, and ex-cite-
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\T1/lmr/m/n/6 lab-o-ra-tors []Beck,
  []
 
 
@@ -1138,122 +1110,117 @@ Overfull \hbox (4.76028pt too wide) in paragraph at lines 48--48
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]|\T1/lmr/m/n/6 Video
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\T1/lmr/m/n/6 (Real
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\T1/lmr/m/n/6 pi-ness, sad-ness,
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 50--50
-[]|\T1/lmr/m/n/6 Barakova and col-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/lmr/m/n/6 Closet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/lmr/m/n/6 SDO and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []|\T1/lmr/m/n/6 Real
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-[]|\T1/lmr/m/n/6 Changing
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\T1/lmr/m/n/6 Anger, sad-ness,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-\T1/lmr/m/n/6 lights on
+Underfull \hbox (badness 4479) in paragraph at lines 48--48
+\T1/lmr/m/n/6 ness, and ex-cite-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-\T1/lmr/m/n/6 and in-ten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/lmr/m/n/6 Non-Human
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/lmr/m/n/6 SAM +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/lmr/m/n/6 Ques-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/lmr/m/n/6 naire +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/lmr/m/n/6 Real
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/lmr/m/n/6 Destephe and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/lmr/m/n/6 col-lab-o-ra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/lmr/m/n/6 tors []Destephe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/lmr/m/n/6 WABIAN-
- []
-
-
-Overfull \hbox (4.76028pt too wide) in paragraph at lines 54--54
+Overfull \hbox (4.76028pt too wide) in paragraph at lines 50--50
 []|\T1/lmr/m/n/6 Questionnaire| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []|\T1/lmr/m/n/6 Video
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T1/lmr/m/n/6 (Real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T1/lmr/m/n/6 pi-ness, sad-ness,
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 52--52
+[]|\T1/lmr/m/n/6 Barakova and col-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/lmr/m/n/6 Closet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/lmr/m/n/6 SDO and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/lmr/m/n/6 Real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\T1/lmr/m/n/6 Changing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/lmr/m/n/6 lights on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/lmr/m/n/6 and in-ten-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/lmr/m/n/6 (Vir-tual
+[]|\T1/lmr/m/n/6 Non-Human
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-[]|\T1/lmr/m/n/6 Movement
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/lmr/m/n/6 SAM +
  []
 
 
-Overfull \hbox (2.75502pt too wide) in paragraph at lines 54--55
-\T1/lmr/m/n/6 (Gait)+Body
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/lmr/m/n/6 Ques-tion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/lmr/m/n/6 naire +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/lmr/m/n/6 Real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/lmr/m/n/6 Destephe and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/lmr/m/n/6 col-lab-o-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/lmr/m/n/6 tors []Destephe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/lmr/m/n/6 WABIAN-
  []
 
 
@@ -1263,12 +1230,12 @@ Overfull \hbox (4.76028pt too wide) in paragraph at lines 56--56
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\T1/lmr/m/n/6 Real
+[]|\T1/lmr/m/n/6 Video
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
-\T1/lmr/m/n/6 bar-rass-ment, and
+\T1/lmr/m/n/6 (Vir-tual
  []
 
 
@@ -1277,73 +1244,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\T1/lmr/m/n/6 + Body
+Overfull \hbox (2.75502pt too wide) in paragraph at lines 56--57
+\T1/lmr/m/n/6 (Gait)+Body
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/6 Indirect
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/lmr/m/n/6 (In-ter-ac-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/lmr/m/n/6 with the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/6 Real
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]|\T1/lmr/m/n/6 Move +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T1/lmr/m/n/6 Brown and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-\T1/lmr/m/n/6 Howard []Brown
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T1/lmr/m/n/6 DARwIn-
- []
-
-
-Overfull \hbox (4.76028pt too wide) in paragraph at lines 60--60
+Overfull \hbox (4.76028pt too wide) in paragraph at lines 58--58
 []|\T1/lmr/m/n/6 Questionnaire| 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/6 Real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/lmr/m/n/6 bar-rass-ment, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]|\T1/lmr/m/n/6 Movement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\T1/lmr/m/n/6 + Body
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/lmr/m/n/6 Indirect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/lmr/m/n/6 (In-ter-ac-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/lmr/m/n/6 with the
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/lmr/m/n/6 Real
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\T1/lmr/m/n/6 Novikova and
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]|\T1/lmr/m/n/6 Move +
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\T1/lmr/m/n/6 Non-Human/
+[]|\T1/lmr/m/n/6 Brown and
  []
 
 
-Overfull \hbox (4.27768pt too wide) in paragraph at lines 62--62
-[]|\T1/lmr/m/n/6 Undetermine| 
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\T1/lmr/m/n/6 Howard []Brown
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\T1/lmr/m/n/6 DARwIn-
  []
 
 
@@ -1357,32 +1324,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\T1/lmr/m/n/6 Novikova and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\T1/lmr/m/n/6 Non-Human/
+ []
+
+
+Overfull \hbox (4.27768pt too wide) in paragraph at lines 64--64
+[]|\T1/lmr/m/n/6 Undetermine| 
+ []
+
+
+Overfull \hbox (4.76028pt too wide) in paragraph at lines 64--64
+[]|\T1/lmr/m/n/6 Questionnaire| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\T1/lmr/m/n/6 Real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\T1/lmr/m/n/6 Scared, sur-prise,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/lmr/m/n/6 ex-cited, an-gry,
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 62--62
+Underfull \hbox (badness 1917) in paragraph at lines 64--64
 \T1/lmr/m/n/6 neu-tral, hap-pi-ness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 []|\T1/lmr/m/n/6 Movement
  []
 
-) (Parts/system.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) [7
 
- [7
-
-]
-[8] <./Images/TriskarThird.png, id=36, 852.18375pt x 935.495pt>
+] (Parts/system.tex [8]
+<./Images/TriskarThird.png, id=36, 852.18375pt x 935.495pt>
 File: ./Images/TriskarThird.png Graphic file (type png)
 
 <use ./Images/TriskarThird.png>
@@ -1431,18 +1420,18 @@ Package pdftex.def Info: ./Images/Triskar2.jpg used on input line 48.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(Parts/case_studies.tex
-<./Images/ExampleMovement.png, id=43, 795.57225pt x 376.40625pt>
+(Parts/case_studies.tex [9]
+<./Images/ExampleMovement.png, id=46, 795.57225pt x 376.40625pt>
 File: ./Images/ExampleMovement.png Graphic file (type png)
 
 <use ./Images/ExampleMovement.png>
-Package pdftex.def Info: ./Images/ExampleMovement.png used on input line 6.
+Package pdftex.def Info: ./Images/ExampleMovement.png used on input line 5.
 (pdftex.def)             Requested size: 352.31625pt x 166.68755pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] <./Images/FirstCase.png, id=47, 1385.175pt x 670.505pt>
+<./Images/FirstCase.png, id=47, 1385.175pt x 670.505pt>
 File: ./Images/FirstCase.png Graphic file (type png)
 
 <use ./Images/FirstCase.png>
@@ -1454,106 +1443,111 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 59.
+(Font)              <10.95> on input line 58.
 
-Overfull \hbox (4.11331pt too wide) in paragraph at lines 61--61
+Overfull \hbox (4.11331pt too wide) in paragraph at lines 60--60
 []|\T1/lmr/bx/n/10.95 Emotion| 
  []
 
 
-Overfull \hbox (6.05653pt too wide) in paragraph at lines 61--61
+Overfull \hbox (6.05653pt too wide) in paragraph at lines 60--60
 []|\T1/lmr/bx/n/10.95 Shoulder| 
  []
 
 
-Overfull \hbox (3.21107pt too wide) in paragraph at lines 61--61
+Overfull \hbox (3.21107pt too wide) in paragraph at lines 60--60
 []|\T1/lmr/bx/n/10.95 Shoulder
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/lmr/bx/n/10.95 Am-pli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/lmr/bx/n/10.95 Angular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|\T1/lmr/bx/n/10.95 Body
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \T1/lmr/bx/n/10.95 Ro-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \T1/lmr/bx/n/10.95 tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \T1/lmr/bx/n/10.95 Am-pli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 []|\T1/lmr/m/n/10.95 Very
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\T1/lmr/m/n/10.95 Very
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []|\T1/lmr/m/n/10.95 Normal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []|\T1/lmr/m/n/10.95 Close-2
  []
 
 
-Overfull \hbox (5.80492pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.80492pt too wide) in paragraph at lines 72--72
 []|\T1/lmr/m/n/10.95 Happiness| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 []|\T1/lmr/m/n/10.95 Very
  []
 
 
-Overfull \hbox (1.21211pt too wide) in paragraph at lines 77--77
+Overfull \hbox (1.21211pt too wide) in paragraph at lines 76--76
 []|\T1/lmr/m/n/10.95 Curiosity| 
  []
 
-[11]
+[11] [12]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 170.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 170.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 170.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-<./Images/SecondCase.png, id=60, 1588.93625pt x 1215.54124pt>
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [13]
+<./Images/SecondCase.png, id=68, 1588.93625pt x 1215.54124pt>
 File: ./Images/SecondCase.png Graphic file (type png)
 
 <use ./Images/SecondCase.png>
-Package pdftex.def Info: ./Images/SecondCase.png used on input line 177.
+Package pdftex.def Info: ./Images/SecondCase.png used on input line 176.
 (pdftex.def)             Requested size: 281.85587pt x 215.61633pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14] <./Images/ThirdCase.png, id=68, 1538.74875pt x 681.54625pt>
+[14] [15] <./Images/ThirdCase.png, id=75, 1538.74875pt x 681.54625pt>
 File: ./Images/ThirdCase.png Graphic file (type png)
 
 <use ./Images/ThirdCase.png>
@@ -1563,7 +1557,7 @@ Package pdftex.def Info: ./Images/ThirdCase.png used on input line 253.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] [16]
+[16] [17]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1598,109 +1592,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 409--409
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18] <./Images/FourthCase.png, id=82, 1265.72874pt x 1024.82875pt>
+[18] <./Images/FourthCase.png, id=86, 1265.72874pt x 1024.82875pt>
 File: ./Images/FourthCase.png Graphic file (type png)
 
 <use ./Images/FourthCase.png>
-Package pdftex.def Info: ./Images/FourthCase.png used on input line 442.
+Package pdftex.def Info: ./Images/FourthCase.png used on input line 443.
 (pdftex.def)             Requested size: 281.85587pt x 228.1996pt.
-
+ [19]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []|\T1/lmr/bx/n/10.95 Linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 \T1/lmr/bx/n/10.95 Ve-loc-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []|\T1/lmr/bx/n/10.95 Angular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 \T1/lmr/bx/n/10.95 Ve-loc-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 []|\T1/lmr/bx/n/10.95 Oscillation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 []|\T1/lmr/m/n/10.95 Giving the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
 []|\T1/lmr/m/n/10.95 Giving the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
 []|\T1/lmr/m/n/10.95 Giving the
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19]
+[20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21 <./Images/TriskarThird.png> <./Images/upperFirstB.png (PNG copy)> <./I
+[21] [22 <./Images/TriskarThird.png> <./Images/upperFirstB.png (PNG copy)> <./I
 mages/upperSecondC.png (PNG copy)> <./Images/upperThirdD.png> <./Images/upperFo
-urthD.png (PNG copy)> <./Images/Triskar2.jpg>] [22 <./Images/ExampleMovement.pn
-g> <./Images/FirstCase.png>] [23] [24] [25 <./Images/SecondCase.png>] [26 <./Im
-ages/ThirdCase.png> <./Images/FourthCase.png>] [27] [28] [29] [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+urthD.png (PNG copy)> <./Images/Triskar2.jpg>] [23 <./Images/ExampleMovement.pn
+g> <./Images/FirstCase.png>] [24] [25] [26 <./Images/SecondCase.png>] [27 <./Im
+ages/ThirdCase.png> <./Images/FourthCase.png>] [28] [29] [30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\T1/lmr/bx/n/10.95 Presented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\T1/lmr/bx/n/10.95 Positive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 \T1/lmr/bx/n/10.95 Pre-dicted
  []
 
-) (Parts/conclusions.tex [32
+) (Parts/conclusions.tex [33
 
-] [33]) (Journal-AISB.bbl [34]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 320.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [35
+] [34]) (Journal-AISB.bbl [35] [36
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
-AED endfloat: Processing end Figures and Tables [37] (Journal-AISB.aux)
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38])
+AED endfloat: Processing end Figures and Tables [39] (Journal-AISB.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16685 strings out of 493673
- 307443 string characters out of 3143956
- 421815 words of memory out of 3000000
- 19615 multiletter control sequences out of 15000+200000
- 69771 words of font info for 66 fonts, out of 3000000 for 9000
+ 16727 strings out of 493673
+ 307971 string characters out of 3143956
+ 423255 words of memory out of 3000000
+ 19650 multiletter control sequences out of 15000+200000
+ 90678 words of font info for 87 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,16n,65p,1682b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,65p,1407b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
@@ -1711,14 +1702,15 @@ nts/type1/public/lm/lmbx6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Journal-AISB.pdf (37 pages, 898769 bytes).
+/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+msy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Journal-AISB.pdf (39 pages, 928913 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
