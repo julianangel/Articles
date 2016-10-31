@@ -1,22 +1,25 @@
 General
-* IT was corrected Cañamero reference
-* It was added the following article as reference: Relationship between color and emotion
-* Introduction parapragh on Case study section was extended to include the conexion and create a better connection among the papers.
-* One sentece to introduce next case study was added at the end of each case study
+* CaÃ±amero reference has been fixed
+* The following article was added as reference: Relationship between color and emotion
+* Introduction paragraph on Case study section was extended to include the conection and create a better connection among the case studies.
+
+* One sentece to introduce the next case study was added at the end of each case study
 
 Reviewer 1
 *****************************************
 
 
 >>Q: First case study: There is no discussion of the results. Whilst the statistical analysis is now clearer, the authors should explain what has been learned in relation to theses results. Why were Happiness and Anger recognized? Do the authors have some hypothesis? Can any generalization be drawn?
-
+A: Some comments about this have been inserted
 >>Q: Second case study: What were the scenarios?
-A: a link to a video, which shows the emotions, was added
+A: a link to a video, which shows the scenarios for each emotion was added
 >>Q: "However, if the conveyed emotion does not match the scene, the audience does not recognize it.": How can the design allow for such claim? Is this supported by the results? Is it possible that only the context was recognized regardless of what the robot was doing?
-A: the sentence were changed, to "this opens the question about the influence that could have the human actor and the scene on the recognition rate"
+A: the sentence were changed, to "this opens the question about the influence that could have the human actor and the scene on the recognition rate". Anyway the case study allowed to evaluate if the presented emotion representation was coherent with the scene, as supported by data. This has been written in the text.
 >>Q: Third one: Why was the questionnaire changed half way?
-It is well established that velocity is related to arousal. Why additional features are needed? The literature suggests that it is enough to discriminate between low and high velocity.
-A: The re
+A: the questionnaire was canged to focus on a smalle number of emotions, according to what is done in literature.
+>>Q: It is well established that velocity is related to arousal. Why additional features are needed? The literature suggests that it is enough to discriminate between low and high velocity.
+A: The goal was to distinguish among a set of different emotions, not only on low and high arousal. The other features enable a richer characterization of emotions, as shown by data.
+
 Reviewer 3
 *****************************************
 Case study titles were changed:
