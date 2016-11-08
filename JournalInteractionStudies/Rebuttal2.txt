@@ -3,7 +3,7 @@ General
 * The following article was added as reference: Relationship between color and emotion
 * Introduction paragraph on Case study section was extended to include the conection and create a better connection among the case studies.
 
-* One sentece to introduce the next case study was added at the end of each case study
+* One sentence to introduce the next case study was added at the end of each case study
 
 Reviewer 1
 *****************************************
@@ -16,7 +16,7 @@ A: a link to a video, which shows the scenarios for each emotion was added
 >>Q: "However, if the conveyed emotion does not match the scene, the audience does not recognize it.": How can the design allow for such claim? Is this supported by the results? Is it possible that only the context was recognized regardless of what the robot was doing?
 A: the sentence were changed, to "this opens the question about the influence that could have the human actor and the scene on the recognition rate". Anyway the case study allowed to evaluate if the presented emotion representation was coherent with the scene, as supported by data. This has been written in the text.
 >>Q: Third one: Why was the questionnaire changed half way?
-A: the questionnaire was canged to focus on a smalle number of emotions, according to what is done in literature.
+A: the questionnaire was canged to focus on a smaller number of emotions, according to what is done in literature.
 >>Q: It is well established that velocity is related to arousal. Why additional features are needed? The literature suggests that it is enough to discriminate between low and high velocity.
 A: The goal was to distinguish among a set of different emotions, not only on low and high arousal. The other features enable a richer characterization of emotions, as shown by data.
 
