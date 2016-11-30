@@ -1,4 +1,4 @@
-In total, we did one pilot and four case studies using changes in linear and angular velocity, and oscillation angle to convey emotions. These features are depicted in Figure~\ref{fig:features}. The pilot was used to test the prototype and identify possible improvements. The feature values for the first case study were selected empirically and robot's movements were presented to participants. The results suggested that it was possible to convey some emotions, but it was decided to give a context to each emotion to test whether this could increase the recognition rate. A second case study was designed. Each emotion was presented to the participants in the context of a small scene, which was portrayed by the robot and a non professional human actor. The results suggested that showing the emotion in a context can improve the recognition of some emotions, so that the robotic emotional expression could be at least perceived as coherent with the context. However, the study of the impact of the actor and context were not in the aims of this research. To compare with literature on emotion projection, a third case study was implemented using parameters collected from diverse works, which encoded their emotion implementations using Laban's model. Having obtained similar results in both the first and third case studies, we decided to do an experiment to determine values that could better represent some emotions~\cite{Angel2017}. Thus, a final case study was done to cross-validate the so-far obtained findings.
+In total, we did one pilot and four case studies using changes in linear and angular velocity, and oscillation angle to convey emotions. These features are depicted in Figure~\ref{fig:features}. The pilot was used to test the prototype and identify possible improvements. The feature values for the first case study were selected empirically and robot's movements were presented to participants. The results suggested that it was possible to convey some emotions, but it was decided to give a context to each emotion to test whether this could increase the recognition rate. A second case study was designed. Each emotion was presented to the participants in a context of a small scene, which was portrayed by the robot and a non-professional human actor. The results suggested that showing the emotion in a context can improve the recognition of some emotions, so that the robotic emotional expression could be at least perceived as coherent with the context. However, the study of the impact of the actor and context were not in the aims of this research. To compare with literature on emotion projection, a third case study was implemented using parameters collected from diverse works, which encoded their emotion implementations using Laban's model. Having obtained similar results in both first and third case studies, we decided to do an experiment to determine values that could better represent some emotions~\cite{Angel2017}. Thus, a final case study was done to cross-validate the so-far obtained findings.
 
 \begin{figure}[h]
 	\centering
@@ -17,9 +17,9 @@ With our first version of the platform (Figure~\ref{fig:triskar-first-design}), 
 
 \subsection{Experimental Design}
 
-Each group of participants was exposed to three rounds, in each of which the robot was expressing a different emotion. The sequence of rounds was generated randomly without repeating any emotion in the same sequence. The subjects were asked to mark the emotion-related term that best described what they believed the robot was trying to express, selecting among a set of nine possible options: anger, curiosity, disgust, embarrassment, fear, happiness, sadness, pride, and neutral. The option to answer ``Unknown'' was also included. Although these ten options were enlisted, just the first eight emotions were implemented. To avoid that spectators could be influenced by previous trials, different emotions were shown to each group.
+Each group of participants was exposed to three rounds, in each of which the robot was expressing a different emotion. The sequence of rounds was generated randomly without repeating any emotion in the same sequence. The subjects were asked to mark the emotion-related term that best described what they believed the robot was trying to express, selecting among a set of nine possible options: \textit{anger}, \textit{curiosity}, \textit{disgust}, \textit{embarrassment}, \textit{fear}, \textit{happiness}, \textit{sadness}, \textit{pride}, and \textit{neutral}. The option to answer ``Unknown'' was also included. Although these ten options were enlisted, just the first eight emotions were implemented. To avoid that spectators could be influenced by previous trials, different emotions were shown to each group.
 
-Additionally, every time that a new emotion was showed, the robot started $1.5 mts$ away from the participants, with its front facing them, as shown in  Figure~\ref{fig:setup}. 
+Additionally, every time that a new emotion was showed, the robot started $1.5 m$ away from the participants, with its front facing them, as shown in  Figure~\ref{fig:setup}. 
 
 \begin{figure}[h]
 	\centering
@@ -33,7 +33,7 @@ Additionally, every time that a new emotion was showed, the robot started $1.5 m
 
 \subsection{Emotion Description}
 
-It was decided to follow an empirical design for this case study, by considering the features that could be changed in the robot base and by composing them to express some basic emotions. The first implementations where tested and tuned basing on the emotions perceived by the researchers from the robot's movement. The features that could be easily perceived by the observer are summarized in table~\ref{table:features}, and each selected feature is described here below:
+It was decided to follow an empirical design for this case study, by considering features that could be changed in the robot base and by composing them to express some basic emotions. The first implementations were tested and tuned basing on the emotions perceived by us from the robot's movement. The features that could be easily perceived are summarized in table~\ref{table:features}, and each selected feature is described here below:
 
 \begin{itemize}
 
@@ -65,8 +65,6 @@ Sadness & Very Slow & Yes-1 & Close-2 & None & Slow & Small \\
 \hline
 Fear & Normal Slow & Yes-2 & Close-2 + Asy. & Small & None & None \\ 
 \hline
-%Fear 2 & Slow & Yes-2 & Close-2 + Asymmetric & Small & None & Small \\
-%\hline
 Embarr. & Slow & No & Asy. & Large & Slow & Small \\
 \hline
 Happiness & Fast & No & Asy. & Medium & Fast & Small \\
@@ -86,7 +84,7 @@ Neutral & Normal & No & Asy. & Medium & None & None \\
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Experimental Setup}
 
-There was no specific group size, since this was determined by the amount of people that got close to the booth at a given moment. Therefore, there were groups with just one person and others with 24 persons. The total amount of volunteers was 154: 55 males, 26 females, and 73 that did not specify their gender. The average age was 21.95 with a standard deviation of 12.26, minimum age was 5, maximum 62.
+There was no specific group size, since this was determined by the amount of people that got close to the both at a given moment. Therefore, there were groups with just one person and others with 24 persons. The total amount of volunteers was 154: 55 males, 26 females, and 73 that did not specify their gender. The average age was 21.95 with a standard deviation of 12.26, minimum age was 5, maximum 62.
 
 \subsection{Results}
 
@@ -231,8 +229,8 @@ Sadness & 0& 4& 2& 22& 14& 0& 2& 3& 15& 1& 63&23.81\%\\
 \end{tabular}
 \end{table}
 
-In this second case study, the results were considerably better: four out of the nine showed emotion representations had a recognition percentage higher than 60\% (Anger, Happiness, Curiosity and Fear2). Another important point to highlight is that Sadness, Fear and Embarrassment were still perceived as different emotions. As it was done for the first case study, a Fisher's exact test and Holm-Bonferroni correction were applied for each possible combination of implemented emotions. The results suggest that no implementation was considered as similar to others by the participants, since for all we have $p-value<(\alpha = 0.05)$. 
-Comparing the percentage from both the first two cases, it is possible to see that giving information about the context that produces the current emotional state of the robot improves the recognition of some emotions, but for others remains still low. Our hypothesis is that there must be a match between robot's movements with the given context and actor's performance to increase the recognition rate. If one or both do not fit participants' idea of the emotion, this one is not going to be recognized. To verify this, a comparison between the results obtained for each emotion in both cases doing a Fisher's exact test was done. The results suggest that implementations of Disgust ($p=0.088$), Fear ($p=0.206$) and Sadness ($p=0.269$) are perceived as the same in both cases, which correspond to the emotions with lower recognition rate. This opens the question about the influence that could have the human actor and the scene on the recognition rate. Although the study of this could be beneficial, it was decided to leave this to future work. Instead, a third case study was devised, where values presented in the literature for emotion expression in humans were adopted in the quest for more recognizable emotion expressions.
+In this second case study, the results were considerably better: four out of the nine showed emotion representations had a recognition percentage higher than 60\% (\textit{Anger}, \textit{Happiness}, \textit{Curiosity} and \textit{Fear2}). Another important point to highlight is that \textit{Sadness}, \textit{Fear} and \textit{Embarrassment} were still perceived as different emotions. As it was done for the first case study, a Fisher's exact test and Holm-Bonferroni correction were applied for each possible combination of implemented emotions. The results suggest that no implementation was considered as similar by the participants, since for all we have $p-value<(\alpha = 0.05)$. 
+Comparing the percentage from both the first two cases, it is possible to see that giving information about the context that produces the current emotional state of the robot improves the recognition of some emotions, but for others remains still low. Our hypothesis is that there must be a match between robot's movements with the given context and actor's performance to increase the recognition rate. If one or both do not fit participants' idea of the emotion, this one is not going to be recognized. To verify this, a comparison between the results obtained for each emotion in both cases doing a Fisher's exact test was done. The results suggest that implementations of \textit{Disgust} ($p=0.088$), \textit{Fear} ($p=0.206$) and \textit{Sadness} ($p=0.269$) are perceived as the same in both cases, which correspond to the emotions with lower recognition rate. This opens the question about the influence that could have the human actor and the scene on the recognition rate. Although the study of this could be beneficial, it was decided to leave this to future work. Instead, a third case study was devised, where values presented in the literature for emotion expression in humans were adopted in the quest for more recognizable emotion expressions.
 
 %%%%%%%%%%%%%%%%%%%%%
 \section{Third Case Study: Literature Emotional Parameters}
@@ -243,7 +241,7 @@ The third case study was designed to explore the possibility to adopt for robot'
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Experimental design}
 
-In order to reduce the number of possible sequences, it was decided to implemented only four emotions. To select the emotions to be implemented, the \textit{circumplex model of affect} was adopted, as it was suggested by Sharma. The implemented emotions were: \textit{happiness} (I quadrant), \textit{anger} (II quadrant), \textit{sadness} (III quadrant), and \textit{content} (IV quadrant). To reduce the probability that the correct emotion could be selected by chance, four additional emotions were selected following the same selection procedure of the implemented ones, one from each quadrant. These emotions were: \textit{frustration}, \textit{boredom}, \textit{astonishment}, and \textit{tiredness}. The final questionnaire had nine possibilities (eight emotions and ``Unknown''), and was better founded on psychological theory than the previous ones. 
+In order to reduce the number of possible sequences, it was decided to implemented only four emotions. To select the emotions to be implemented, the \textit{circumplex model of affect} was adopted, as it was suggested by Sharma. The implemented emotions were: \textit{Happiness} (I quadrant), \textit{Anger} (II quadrant), \textit{Sadness} (III quadrant), and \textit{Content} (IV quadrant). To reduce the probability that the correct emotion could be selected by chance, four additional emotions were selected following the same selection procedure of the implemented ones, one from each quadrant. These emotions were: \textit{Frustration}, \textit{Boredom}, \textit{Astonishment}, and \textit{Tiredness}. The final questionnaire had nine possibilities (eight emotions and ``Unknown''), and was better founded on psychological theory than the previous ones. 
 
 In order to study the influence that could be generated by the given list of emotions to the participants, it was presented, to another set of subjects, an open questionnaire that did not list any emotion, but rather had a space where they could write a term to answer the question: "\textit{What emotion has the robot expressed?}".
 The setup used in this case study is depicted in Figure~\ref{fig:setup2}.
@@ -266,14 +264,14 @@ The specific values selected for each emotion are reported as follow:
 
 \begin{itemize}
 	
-	\item Anger: the strong force required by Laban was interpreted as a high speed and then a sudden drop, thus it was decided to have a velocity of $500mm/sec$ for $50mm$ and then a velocity of $300mm/sec$. An oscillation during the whole trajectory was also added; that was between [0.086, -0.086] radians with an angular velocity of $3.5 rad/sec$.
+	\item \textit{Anger}: the strong force required by Laban was interpreted as a high speed and then a sudden drop, thus it was decided to have a velocity of $500mm/sec$ for $50mm$ and then a velocity of $300mm/sec$. An oscillation during the whole trajectory was also added; that was between [0.086, -0.086] radians with an angular velocity of $3.5 rad/sec$.
 	
-	\item Happiness: as in Anger, for the first $50mm$ the velocity was $500mm/sec$, then it went down to $400mm/sec$ for another $50mm$, and then up again to $800mm/sec$ for the rest of the movement. 
+	\item \textit{Happiness}: as in \textit{Anger}, for the first $50mm$ the velocity was $500mm/sec$, then it went down to $400mm/sec$ for another $50mm$, and then up again to $800mm/sec$ for the rest of the movement. 
 	An oscillation between [0.26, -0.26] radians with an angular velocity of $3rad/sec$ was also added.
 	
-	\item Sadness: the required "low energy" was interpreted as low speed and then slowing down the pace, thus a velocity of $150mm/sec$ was used for the first $200mm$, a velocity $250mm/sec$ for the next $200mm$, and for the rest a velocity of $300mm/sec$. This emotion expression did not include any angular rotation.
+	\item \textit{Sadness}: the required "low energy" was interpreted as low speed and then slowing down the pace, thus a velocity of $150mm/sec$ was used for the first $200mm$, a velocity $250mm/sec$ for the next $200mm$, and for the rest a velocity of $300mm/sec$. This emotion expression did not include any angular rotation.
 	
-	\item Content: the velocity was $150mm/sec$ for the first $200mm$, then $300mm/sec$ for the rest. The maximum and minimum angle of oscillation were [0.175, -0.175] with angular velocity of $0.17rad/sec$
+	\item \textit{Content}: the velocity was $150mm/sec$ for the first $200mm$, then $300mm/sec$ for the rest. The maximum and minimum angle of oscillation were [0.175, -0.175] with angular velocity of $0.17rad/sec$
 \end{itemize}
 
 It is important to notice that these parameters do not include any changes in the upper part of the body, since the changes done in the platform significantly decreased the emotion expression of the upper part.
@@ -288,15 +286,15 @@ This case study was done during the Rome Maker Faire, 2014. During a period of f
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Results}
 
-From the open questionnaire, different terms to describe both emotions and mental states were obtained. The results are reported in table~\ref{table:open_questionnaire}. In order to reduce the quantity of terms, words that have a similar meaning were grouped, for example words such as Fear, Terror, Scared, and Worried were grouped under the label Fear. Also, three out of four emotions (Anger, Happiness and Sadness) were at least once listed correctly. Sadness and Content were mostly perceived as Fear, being reported 31\% and 28\% of the time, respectively.
+From the open questionnaire, different terms to describe both emotions and mental states were obtained. The results are reported in table~\ref{table:open_questionnaire}. In order to reduce the quantity of terms, words that have a similar meaning were grouped, for example words such as Fear, Terror, Scared, and Worried were grouped under the label \textit{Fear}. Also, three out of four emotions (\textit{Anger}, \textit{Happiness} and \textit{Sadness}) were at least once listed correctly. \textit{Sadness} and \textit{Content} were mostly perceived as \textit{Fear}, being reported 31\% and 28\% of the time, respectively.
 
 From these results two important facts emerge.
 
 \begin{itemize}
 	
-	\item The language richness to refer to emotions and the vague definition of emotions let people to use words that could not be directly associated to a specific emotion. 
+	\item Language richness to refer to emotions and the vague definition of emotions let people to use words that could not be directly associated to a specific emotion. 
 	
-	\item The movements that could be designed as emotional are also associated to mental states attributed to the robot. This is evident in the words obtained from the presentation of four ``emotional'' movements, such as: cold (referring that the robot was feeling cold), tenderness, shyness, power, hurry, looking for something, he wants something, enthusiasm, sympathy, vanity, and obedience. 
+	\item Movements that could be designed as emotional are also associated to mental states attributed to the robot. This is evident in the words obtained from the presentation of four ``emotional'' movements, such as: cold (referring that the robot was feeling cold), tenderness, shyness, power, hurry, looking for something, he wants something, enthusiasm, sympathy, vanity, and obedience. 
 	
 \end{itemize}
 
@@ -368,7 +366,7 @@ A summary of the obtained answers is provided in Table~\ref{table:result_list_em
 		\label{table:result_list_emotions}
 		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 			\hline	
-\rotatebox{90}{\backslashbox{Presented}{Reported}}&
+\backslashbox{Presented}{Reported}&
 \rotatebox{90}{Anger}&
 \rotatebox{90}{ Happiness} &
 \rotatebox{90}{Sadness}&
@@ -392,7 +390,7 @@ A summary of the obtained answers is provided in Table~\ref{table:result_list_em
 \end{table}
 
 An analysis was done for each emotion, therefore it was created a contingency matrix such as it was done in the first case study.
-Additional two confusion matrices were created: one merging the results from all high (\textit{anger}, \textit{happiness}, \textit{frustration} and \textit{astonishment}) and low (\textit{sadness}, \textit{content}, \textit{boredom}, and \textit{tiredness}) arousal emotions; the other matrix merges the results of positive (\textit{happiness}, \textit{content}, \textit{astonishment}, and \textit{tiredness}) and negative (\textit{anger}, \textit{frustration}, \textit{boredom}, and \itemsadness) emotions. For each of these tables, the positive predictive value, accuracy and a Pearson's $\chi^2$ were calculated. The results are shown in table~\ref{table:Precision}. They show that there is significant evidence to conclude that \textit{anger}, \textit{\textit{happiness}}, and \textit{sadness} could be perceived, while the implementation of \textit{content} was not significantly recognized. Moreover, high and low arousal are perceived as different, but this is not the case for positive and negative valence. 
+Additionally, two confusion matrices were created: one merging the results from all high (\textit{Anger}, \textit{Happiness}, \textit{Frustration} and \textit{Astonishment}) and low (\textit{Sadness}, \textit{Content}, \textit{Boredom}, and \textit{Tiredness}) arousal emotions; the other matrix merges the results of positive (\textit{Happiness}, \textit{Content}, \textit{Astonishment}, and \textit{Tiredness}) and negative (\textit{Anger}, \textit{Frustration}, \textit{Boredom}, and \textit{Sadness}) emotions. For each of these tables, the positive predictive value, accuracy and a Pearson's $\chi^2$ were calculated. The results are shown in table~\ref{table:Precision}. They show that there is significant evidence to conclude that \textit{Anger}, \textit{\textit{Happiness}}, and \textit{Sadness} could be perceived, while the implementation of \textit{Content} was not significantly recognized. Moreover, high and low arousal are perceived as different, but this is not the case for positive and negative valence. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table}[h]
@@ -421,10 +419,10 @@ Additional two confusion matrices were created: one merging the results from all
 	\end{center}
 \end{table}
 
-To analyse whether any emotion expression was misinterpreted with any other, a Fisher's exact test and Holm-Bonferroni correction were applied for each possible combination of the implemented emotions, which gives a total of seven combinations.  
-The results suggest that the implementations of \textit{anger} and \textit{happiness} ($p-value=0.9$), and, respectively, \textit{sadness} and \textit{content} ($p-value=0.9$) are interpreted as similar, while all the other emotion expressions are distinguished from each other. 
+To analyse whether any emotion expression was misinterpreted among them, a Fisher's exact test and Holm-Bonferroni correction were applied for each possible combination of the implemented emotions, which gives a total of seven combinations.  
+The results suggest that the implementations of \textit{Anger} and \textit{Happiness} ($p-value=0.9$), and, respectively, \textit{Sadness} and \textit{Content} ($p-value=0.9$) are interpreted as similar, while all the other emotion expressions are distinguished from each other. 
 
-From the results of both questionnaires, we can say that \textit{anger} and \textit{happiness} were confused, as well \textit{sadness} and \textit{content}. \textit{Fear} was selected when the two emotions with low arousal (\textit{sadness} and \textit{content}) were shown. These results show that velocity plays a role to elicit emotions, but that it is necessary to add additional features (e.g., changes on body shape) to increase the discrimination among low and high arousal emotions, respectively. Having obtained similar results in the first and third case studies, we decided to design an experiment to identify values that could lead to better expressions of some emotions~\cite{Angel2017}.
+From the results of both questionnaires, we can say that \textit{Anger} and \textit{Happiness} were confused, as well \textit{Sadness} and \textit{Content}. \textit{Fear} was selected when the two emotions with low arousal (\textit{Sadness} and \textit{Content}) were shown. These results show that velocity plays a role to elicit emotions, but that it is necessary to add additional features (e.g., changes on body shape) to increase the discrimination among low and high arousal emotions, respectively. Having obtained similar results in the first and third case studies, we decided to design an experiment to identify values that could lead to better expressions of some emotions~\cite{Angel2017}.
 
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Fourth Case Study: Experiment Cross-Validation}
@@ -435,7 +433,7 @@ After the first and third case studies, it was evident the necessity to better u
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Experimental design}
 
-From the results obtained on our experiments, we selected two emotion implementations with the higher Krippendorff's alpha coefficient~\cite{Klaus2007} and mean for each emotion studied in an experiment done after the third case study. As in the previous case studies, a questionnaire was used. This time, the emotions listed in the questionnaire were the same used during the experiment: \textit{anger}, \textit{fear}, \textit{sadness}, and \textit{happiness}. Moreover, two mental states were added: \textit{excited} and \textit{tender}, which correspond to high and low arousal, respectively. As it was done in the previous cases, the questionnaire included the option ''unknown''. Although the platform used was the last version (Figure~\ref{fig:triskar-third-design}), the upper part was cut off to allow comparisons with the platform used in the other experiments. The case study set up could be seen in Figure~\ref{fig:setup_fourth}.
+From the results obtained on our experiments, we selected two emotion implementations with the higher Krippendorff's alpha coefficient~\cite{Klaus2007} and mean for each emotion studied in an experiment done after the third case study. As in the previous case studies, a questionnaire was used. This time, the emotions listed in the questionnaire were the same used during the experiment: \textit{Anger}, \textit{Fear}, \textit{Sadness}, and \textit{Happiness}. Moreover, two mental states were added: \textit{Excited} and \textit{Tender}, which correspond to high and low arousal, respectively. As it was done in the previous cases, the questionnaire included the option ''unknown''. Although the platform used was the last version (Figure~\ref{fig:triskar-third-design}), the upper part was cut off to allow comparisons with the platform used in the other experiments. The case study set up could be seen in Figure~\ref{fig:setup_fourth}.
 
 \begin{figure}[h]
 	\centering
@@ -527,10 +525,10 @@ Table~\ref{table:result_fourth} summarizes the results obtained from this fourth
 			\end{tabular}
 \end{table} 
 
-It could be observed that both implementations of \textit{happiness} are confused with \textit{anger} and \textit{excitement}, as it could have been expected. The first implementation of \textit{anger} was recognized as \textit{anger} just 10\% of the times, but it was confused as \textit{excitement} 42\%. On the other hand, the second implementation showed an improvement from 10\% to 38\% on recognition. 
-This implementation was perceived also as \textit{happiness}, \textit{fear} and \textit{excitement} by 18\%, 17\%, and 17\%, respectively. Both implementations of \textit{fear} have a high level of recognition 54\% and 50\% and are mostly confused with \textit{excitement}, 17\% for the first implementation and 27\% for the second implementation. Lastly, the first implementation of \textit{sadness} was confused with \textit{fear} and \textit{tenderness} by 26\% and 24\%, respectively. The second implementation was confused again with \textit{fear} and \textit{tenderness} by 19\% and 19\%, respectively. 
+It could be observed that both implementations of \textit{Happiness} are confused with \textit{Anger} and \textit{Excitement}, as it could have been expected. The first implementation of \textit{Anger} was recognized as \textit{Anger} just 10\% of the times, but it was confused as \textit{Excitement} 42\%. On the other hand, the second implementation showed an improvement from 10\% to 38\% on recognition. 
+This implementation was perceived also as \textit{Happiness}, \textit{Fear} and \textit{Excitement} by 18\%, 17\%, and 17\%, respectively. Both implementations of \textit{Fear} have a high level of recognition 54\% and 50\% and are mostly confused with \textit{Excitement}, 17\% for the first implementation and 27\% for the second implementation. Lastly, the first implementation of \textit{Sadness} was confused with \textit{Fear} and \textit{Tenderness} by 26\% and 24\%, respectively. The second implementation was confused again with \textit{Fear} and \textit{Tenderness} by 19\% and 19\%, respectively. 
 
-To verify these misinterpretations among the implemented emotions, a Fisher's exact test and Holm-Bonferroni correction were applied for 10 different combinations. The results are shown in Table~\ref{table:result_compare_fourth}. As the results suggest, the two implementations of \textit{anger} are the only ones that were considered as different from all others.
+To verify these misinterpretations among the implemented emotions, a Fisher's exact test and Holm-Bonferroni correction were applied to 10 different combinations. The results are shown in Table~\ref{table:result_compare_fourth}. As results suggest, two implementations of \textit{Anger} are the only ones that were considered as different from all others.
 
 \begin{table}[h]
 \centering
@@ -565,7 +563,7 @@ To verify these misinterpretations among the implemented emotions, a Fisher's ex
 \end{table}
  
 As it was done in the previous case studies a contingency matrix was computed for each emotion. 
-For each of these tables, the positive predictive value, accuracy and a Pearson's $\chi^2$ were calculated. The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that one implementation of \textit{anger}, and both those of \textit{fear} and \textit{sadness} could be perceived correctly, while both implementations of \textit{happiness} and the other one of \textit{anger} were not.
+For each of these tables, the positive predictive value, accuracy and a Pearson's $\chi^2$ were calculated. The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that one implementation of \textit{Anger}, and both those of \textit{Fear} and \textit{Sadness} could be perceived correctly, while both implementations of \textit{Happiness} and the other one of \textit{Anger} were not.
 
 \clearpage
 \begin{table}[h]
