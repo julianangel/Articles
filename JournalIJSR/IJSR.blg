@@ -2,22 +2,22 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: IJSR.aux
 The style file: spmpsci.bst
 Database file #1: Bibliography.bib
 Database file #2: BibloNew.bib
-Repeated entry---line 179 of file BibloNew.bib
+Repeated entry---line 285 of file BibloNew.bib
  : @article{kleinsmith2012affective
  :                                 ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 308 of file BibloNew.bib
+You're missing a field name---line 414 of file BibloNew.bib
  : pages={1276-1281}, 
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 313 of file BibloNew.bib
+Repeated entry---line 419 of file BibloNew.bib
  : @inproceedings{Destephe2013
  :                            ,
 I'm skipping whatever remains of this entry
 Database file #3: Biblography.bib
 Repeated entry---line 1 of file Biblography.bib
- : @article{pratto1994social
- :                          ,
+ : @inproceedings{angel2014
+ :                         ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "Barakova2013"
 refers to entry "DBLP:conf/ro-man/2013", which doesn't exist

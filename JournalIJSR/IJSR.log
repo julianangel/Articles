@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  23 SEP 2016 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  6 DEC 2016 13:24
 entering extended mode
 **IJSR.tex
 (IJSR.tex
@@ -192,143 +192,96 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.25> on input line 98.
 
-Overfull \hbox (4.81522pt too wide) in paragraph at lines 101--102
-[]\OT1/cmr/m/n/10 Although an-thro-po-mor-phic em-bod-i-ment may
- []
-
-(Parts/Introduction.tex
-Overfull \hbox (11.31406pt too wide) in paragraph at lines 1--4
-\OT1/cmr/m/n/10 Emotions and men-tal states are not just ex-pressed through
+Overfull \hbox (7.81502pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/m/n/10 Social en-vi-ron-ments are in-tri-cate spaces where
  []
 
 
-Overfull \hbox (0.89742pt too wide) in paragraph at lines 1--4
-\OT1/cmr/m/n/10 com-mu-nity, where an-thro-po-mor-phic faces (e.g., [14], [5])
- []
+Underfull \vbox (badness 3219) has occurred while \output is active []
 
 
+(Parts/Introduction.tex [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/conf
+ig/pdftex.map}
+
+
+]
 Overfull \hbox (2.61966pt too wide) in paragraph at lines 5--6
 []\OT1/cmr/m/n/10 The amount of works study-ing non-anthropomorphic
  []
 
-[1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-])
-(Parts/Emotion_Projection.tex
-Overfull \hbox (4.56294pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10 in Human-Robot In-ter-ac-tion (HRI) fo-cused also on faces.
- []
-
-
-Overfull \hbox (13.09178pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10 One of the most well-known ex-pres-sive robots is Kismet [5],
- []
-
-[2]
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
-
-Overfull \hbox (0.7307pt too wide) in paragraph at lines 33--34
-\OT1/cmr/m/n/10 which does not show any an-thro-po-mor-phic re-sem-blance,
+)
+(Parts/Emotion_Projection.tex [2])
+Overfull \hbox (2.03632pt too wide) in paragraph at lines 28--111
+\OT1/cmr/m/n/10 could help in co-or-di-nat-ing hu-mans and robots [34]. How-
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2426) has occurred while \output is active []
 
  [3]
-Overfull \hbox (3.73068pt too wide) in paragraph at lines 42--43
-\OT1/cmr/m/n/10 were: hap-pi-ness, sad-ness, fear, cu-rios-ity, dis-ap-point-me
-nt,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (7.5641pt too wide) in paragraph at lines 48--50
-\OT1/cmr/m/n/10 human-animal in-ter-ac-tion to cre-ate be-haviours that could
- []
-
-
-Underfull \vbox (badness 2426) has occurred while \output is active []
-
- [4]
-Overfull \hbox (2.45184pt too wide) in paragraph at lines 52--53
-\OT1/cmr/m/n/10 and arm move-ments us-ing the DARwIn-OP plat-form [6].
- []
-
-) (Parts/Platform.tex [5]
-<Images/DesignThird.png, id=25, 390.86024pt x 390.86024pt>
+(Parts/Platform.tex <Images/DesignThird.png, id=19, 390.86024pt x 390.86024pt>
 File: Images/DesignThird.png Graphic file (type png)
 
 <use Images/DesignThird.png>
 Package pdftex.def Info: Images/DesignThird.png used on input line 11.
 (pdftex.def)             Requested size: 237.59789pt x 237.60732pt.
-
-<./Images/ExperimentInterface.png, id=26, 342.078pt x 202.356pt>
-File: ./Images/ExperimentInterface.png Graphic file (type png)
-
-<use ./Images/ExperimentInterface.png>
-Package pdftex.def Info: ./Images/ExperimentInterface.png used on input line 24
-.
-(pdftex.def)             Requested size: 222.74849pt x 131.77068pt.
-) (Parts/ExperimentDesign.tex [6 <./Images/DesignThird.png> <./Images/Experimen
-tInterface.png>]
-<./Images/ExampleMovement.png, id=34, 1382.16376pt x 627.34375pt>
+) (Parts/ExperimentDesign.tex [4 <./Images/DesignThird.png>] <./Images/ExampleM
+ovement.png, id=25, 1382.16376pt x 627.34375pt>
 File: ./Images/ExampleMovement.png Graphic file (type png)
 
 <use ./Images/ExampleMovement.png>
 Package pdftex.def Info: ./Images/ExampleMovement.png used on input line 28.
 (pdftex.def)             Requested size: 237.59789pt x 107.834pt.
 
-Overfull \hbox (24.93213pt too wide) in paragraph at lines 56--73
+Overfull \hbox (24.93213pt too wide) in paragraph at lines 41--58
  [][] 
  []
 
-<./Images/possibilities_case.png, id=35, 2279.51625pt x 3179.88pt>
+<./Images/possibilities_case.png, id=27, 2279.51625pt x 3179.88pt>
 File: ./Images/possibilities_case.png Graphic file (type png)
 
 <use ./Images/possibilities_case.png>
-Package pdftex.def Info: ./Images/possibilities_case.png used on input line 79.
+Package pdftex.def Info: ./Images/possibilities_case.png used on input line 64.
 
 (pdftex.def)             Requested size: 237.59789pt x 331.39842pt.
 
-<./Images/ExperimentGeneral.png, id=36, 1155.31625pt x 859.21pt>
-File: ./Images/ExperimentGeneral.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use ./Images/ExperimentGeneral.png>
-Package pdftex.def Info: ./Images/ExperimentGeneral.png used on input line 100.
+ [5 <./Images/ExampleMovement.png> <./Images/possibilities_case.png>]
 
-(pdftex.def)             Requested size: 222.74849pt x 165.65082pt.
-) (Parts/Study.tex [7 <./Images/ExampleMovement.png>] <./Images/example_survey.
-png, id=47, 494.44725pt x 328.8285pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Images/example_survey.png, id=37, 494.44725pt x 328.8285pt>
 File: ./Images/example_survey.png Graphic file (type png)
 
 <use ./Images/example_survey.png>
-Package pdftex.def Info: ./Images/example_survey.png used on input line 37.
+Package pdftex.def Info: ./Images/example_survey.png used on input line 199.
 (pdftex.def)             Requested size: 237.59789pt x 158.01149pt.
 
+<./Images/ExperimentGeneral.png, id=38, 1155.31625pt x 859.21pt>
+File: ./Images/ExperimentGeneral.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use ./Images/ExperimentGeneral.png>
+Package pdftex.def Info: ./Images/ExperimentGeneral.png used on input line 210.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (Parts/Results.tex
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
- [8 <./Images/possibilities_case.png> <./Images/ExperimentGeneral.png> <./Image
-s/example_survey.png>]
-Overfull \hbox (19.86728pt too wide) in paragraph at lines 46--47
+(pdftex.def)             Requested size: 222.74849pt x 165.65082pt.
+ [6]) (Parts/Results.tex
+Overfull \hbox (19.86728pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/10 (seven over ten) and with lin-ear ve-loc-i-ties over $200\OML/c
 mm/m/it/10 mm=s$\OT1/cmr/m/n/10 .
  []
 
-<./Images/Alpha.png, id=52, 763.05075pt x 313.17pt>
+[7 <./Images/example_survey.png> <./Images/ExperimentGeneral.png (PNG copy)>]
+<./Images/Alpha.png, id=46, 763.05075pt x 313.17pt>
 File: ./Images/Alpha.png Graphic file (type png)
  <use ./Images/Alpha.png>
-Package pdftex.def Info: ./Images/Alpha.png used on input line 52.
+Package pdftex.def Info: ./Images/Alpha.png used on input line 51.
 (pdftex.def)             Requested size: 495.0pt x 203.16145pt.
 )
 (Parts/Conclusion.tex
@@ -336,123 +289,177 @@ Overfull \hbox (18.20303pt too wide) in paragraph at lines 1--2
 \OT1/cmr/m/n/10 per-cep-tion of emo-tion ex-pres-sion by a non-anthropomorphic
  []
 
-[9]) (IJSR.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+) (IJSR.bbl
 Underfull \hbox (badness 1215) in paragraph at lines 10--13
 []\OT1/cmr/m/n/8.5 Understanding In-ter-ob-server Agree-ment: The Kappa
  []
 
-[10 <./Images/Alpha.png>] [11] [12]
-Underfull \hbox (badness 8189) in paragraph at lines 44--49
+
+Underfull \hbox (badness 1389) in paragraph at lines 15--18
+[]\OT1/cmr/m/n/8.5 Angel-Fernandez, J.M., Bonar-ini, A.: Show-ing emo-
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 52--57
 []\OT1/cmr/m/n/8.5 Camurri, A., Lagerlof, I., Volpe, G.: Rec-og-niz-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 \OT1/cmr/m/n/8.5 ing emo-tion from dance move-ment: com-par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 \OT1/cmr/m/n/8.5 i-son of spec-ta-tor recog-ni-tion and au-to-mated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 \OT1/cmr/m/n/8.5 tech-niques \OT1/cmr/bx/n/8.5 59\OT1/cmr/m/n/8.5 (1-2), 213--2
 25 (2003).  URL
  []
 
 
-Overfull \hbox (28.01782pt too wide) in paragraph at lines 44--49
+Overfull \hbox (28.01782pt too wide) in paragraph at lines 52--57
 \OT1/cmr/m/n/8.5 http://linkinghub.elsevier.com/retrieve/pii/S1071581903000508 
 
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 105--113
+Underfull \hbox (badness 1484) in paragraph at lines 59--64
+\OT1/cmr/m/n/8.5 In: The Eleventh ACM/IEEE In-ter-na-tional Con-fer-
+ []
+
+[8]
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ™ in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ™ in font cmr8!
+
+Underfull \hbox (badness 5519) in paragraph at lines 131--135
+[]\OT1/cmr/m/n/8.5 Heerink, M., Ben, K., Ev-ers, V., Wielinga, B.:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
+\OT1/cmr/m/n/8.5 The in-flu-ence of so-cial pres-ence on ac-cep-tance
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 131--135
+\OT1/cmr/m/n/8.5 of a com-pan-ion robot by older peo-ple.  Jour-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
+\OT1/cmr/m/n/8.5 nal of Phys-i-cal Agents \OT1/cmr/bx/n/8.5 2\OT1/cmr/m/n/8.5 (
+2) (2008).  URL
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 137--145
 \OT1/cmr/m/n/8.5 IEEE In-ter-na-tional Sym-po-sium on Robot and Hu-
  []
 
-
-Underfull \hbox (badness 1314) in paragraph at lines 137--142
-\OT1/cmr/m/n/8.5 A-8, The Cen-ter for Re-search in Psy-chophys-i-ol-ogy,
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 181--184
+[9 <./Images/Alpha.png>] [10] [11]
+Underfull \hbox (badness 1009) in paragraph at lines 210--213
 []\OT1/cmr/m/n/8.5 Oehlert, G.: A First Course in De-sign and Anal-y-
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 []\OT1/cmr/m/n/8.5 Robotics, A.: Nao.  http://www.aldebaran-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 226--232
+[]\OT1/cmr/m/n/8.5 Russell, J.A., Ba-chorowski, J.A., Dols, J.M.F.:
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 226--232
+\OT1/cmr/m/n/8.5 Fa-cial and Vo-cal Ex-pres-sions of Emo-tion.  An-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 226--232
+\OT1/cmr/m/n/8.5 nual Re-view of Psy-chol-ogy \OT1/cmr/bx/n/8.5 54\OT1/cmr/m/n/
+8.5 (1), 329--349 (2003).
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 226--232
+\OT1/cmr/m/n/8.5 DOI 10.1146/annurev.psych.54.101601.145102.  URL
+ []
+
+
+Overfull \hbox (10.95119pt too wide) in paragraph at lines 226--232
+\OT1/cmr/m/n/8.5 http://dx.doi.org/10.1146/annurev.psych.54.101601.145102 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--239
 []\OT1/cmr/m/n/8.5 Saerbeck, M., Bart-neck, C.: Per-cep-tion of af-
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 204--209
+Underfull \hbox (badness 4303) in paragraph at lines 234--239
 \OT1/cmr/m/n/8.5 fect elicited by robot mo-tion.  In: Pro-ceed-ings
  []
 
 
-Underfull \hbox (badness 7981) in paragraph at lines 204--209
+Underfull \hbox (badness 7981) in paragraph at lines 234--239
 \OT1/cmr/m/n/8.5 of the 5th ACM/IEEE In-ter-na-tional Con-fer-ence
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 204--209
+Underfull \hbox (badness 2865) in paragraph at lines 234--239
 \OT1/cmr/m/n/8.5 on Human-robot In-ter-ac-tion, HRI '10, pp. 53--60.
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 204--209
+Underfull \hbox (badness 2205) in paragraph at lines 234--239
 \OT1/cmr/m/n/8.5 IEEE Press, Pis-cat-away, NJ, USA (2010).  URL
  []
 
 Missing character: There is no Ã in font cmr8!
 Missing character: There is no ¨ in font cmr8!
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--237
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
 \OT1/cmr/m/n/8.5 DOI 10.1002/(SICI)1099-0992(1998110)28:6<879::AID-
  []
 
-) [14
-
-] (IJSR.aux) ) 
+) [12] (IJSR.aux) ) 
 Here is how much of TeX's memory you used:
- 2145 strings out of 493673
- 31364 string characters out of 3143956
- 168029 words of memory out of 3000000
- 5472 multiletter control sequences out of 15000+200000
+ 2142 strings out of 493673
+ 31169 string characters out of 3143956
+ 161809 words of memory out of 3000000
+ 5473 multiletter control sequences out of 15000+200000
  10347 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,13n,33p,1725b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/latxfont/line10.pfb>
-Output written on IJSR.pdf (14 pages, 699448 bytes).
+ 27i,13n,33p,1637b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/latxfont/line10.pfb>
+Output written on IJSR.pdf (12 pages, 669521 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
