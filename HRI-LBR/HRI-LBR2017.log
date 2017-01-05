@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  6 DEC 2016 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  5 JAN 2017 11:37
 entering extended mode
 **HRI-LBR2017.tex
 (HRI-LBR2017.tex
@@ -335,41 +335,45 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
-
-Overfull \hbox (4.93889pt too wide) in paragraph at lines 135--136
-\T1/aer/m/it/9 tors\T1/aer/m/n/9 , \T1/aer/m/it/9 char-ac-ter de-scrip-tion \T1
-/aer/m/n/9 and \T1/aer/m/it/9 emo-tional ex-e-cu-tion tree\T1/aer/m/n/9 . \T1/a
-er/m/it/9 Sim-
- []
-
-[1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[][]\T1/aer/m/n/9 The code is avail-able in the repos-i-tory $https :$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+$\T1/aer/m/n/9 / / github . com / julianangel / EmotionBot / tree / master / RO
+S /$
+ []
+
 (HRI-LBR2017.bbl) [2] (HRI-LBR2017.aux) ) 
 Here is how much of TeX's memory you used:
- 4131 strings out of 493673
- 56710 string characters out of 3143956
- 133399 words of memory out of 3000000
+ 4134 strings out of 493673
+ 56722 string characters out of 3143956
+ 134399 words of memory out of 3000000
  7386 multiletter control sequences out of 15000+200000
- 54972 words of font info for 77 fonts, out of 3000000 for 9000
+ 57125 words of font info for 80 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 53i,10n,92p,1705b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,10n,92p,1682b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc
 /dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
-vr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI-LBR2017.pdf (2 pages, 141648 bytes).
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helveti
+c/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on HRI-LBR2017.pdf (2 pages, 156112 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

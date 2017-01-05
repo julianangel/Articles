@@ -57,16 +57,16 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{1} %  in this sample file, there are a *total*
+\numberofauthors{2} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
 \author{
-Author name\\
-       \affaddr{Author institution}\\
-       \affaddr{Institution's address}\\
-       \affaddr{City}\\
-       \email{mail@mail.com}
+%Author name\\
+%       \affaddr{Author institution}\\
+%       \affaddr{Institution's address}\\
+%       \affaddr{City}\\
+%       \email{mail@mail.com}
 % You can go ahead and credit any number of authors here,
 % e.g. one 'row of three' or two rows (consisting of one row of three
 % and a second row of one, two or three).
@@ -78,19 +78,19 @@ Author name\\
 % e-mail address with \email.
 %
 % 1st. author
-%\alignauthor
-%Julian M. Angel-Fernandez\\
-%       \affaddr{Automation and Control Institute, Vienna University of Technology}\\
-%       \affaddr{Karlspltz 13, 1040}\\
-%       \affaddr{Vienna, Austria}\\
-%       \email{jangelfe@tuwien.ac.at}
+\alignauthor
+Julian M. Angel-Fernandez\\
+       \affaddr{Automation and Control Institute, Vienna University of Technology}\\
+       \affaddr{Karlspltz 13, 1040}\\
+       \affaddr{Vienna, Austria}\\
+       \email{julian.angel.fernandez@tuwien.ac.at}
 %% 2nd. author
-%\alignauthor
-%Andrea Bonarini\\
-%       \affaddr{Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano}\\
-%       \affaddr{Piazza Leonardo da Vinci 31, 20133}\\
-%       \affaddr{Milan, Italy}\\
-%       \email{andrea.bonarini@polimi.it}
+\alignauthor
+Andrea Bonarini\\
+       \affaddr{Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano}\\
+       \affaddr{Piazza Leonardo da Vinci 31, 20133}\\
+       \affaddr{Milan, Italy}\\
+       \email{andrea.bonarini@polimi.it}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -106,7 +106,7 @@ Author name\\
 
 \maketitle
 \begin{abstract}
-Emotions are considered by many researches as a characteristic that could be beneficial in social robotics, since they enrich human-robot interaction with non-verbal clues that people expects in interaction. Although there have been works that have studied emotion expression in robotics, the mechanisms created to project emotion are usually highly integrated in each solution. This limits the possibility to develop a general approach. 
+Emotions are considered by many researches as a characteristic that could be beneficial in social robotics, since they enrich human-robot interaction with non-verbal clues. Although there have been works that have studied emotion expression in robotics, the mechanisms created to project emotion are usually highly integrated in each solution. This limits the possibility to develop a general approach. 
 This paper presents a system that has been initially created for a theatrical robot to enrich its actions with emotions, but it has been designed to be adaptable to other fields. The emotional enrichment system has been envisioned to be used with any action decision system. 
 \end{abstract}
 
@@ -118,43 +118,41 @@ This paper presents a system that has been initially created for a theatrical ro
 \keywords{Human-Robot Interaction; Emotions Enrichment System; Emotion Projection}
 
 \section{Introduction}
-The development of fast, cheap and reliable electronics has enabled the creation of new devices and versatile robotic platforms. These new platforms' capabilities have expanded the frontiers of robots applications to new environments, where robots are expected to interact with humans, such as health care, and house cleaning, among others. However, bringing robots in these context raise the challenge to increase their acceptance. Improving robots' appearances and capabilities may be thought as a possible solution, and it is expected that people would treat robots as humans, like they do with computers.~\cite{Reeves1996}, which makes necessary the creation of robots that fulfill people's expectations.
+%The development of fast, cheap and reliable electronics has enabled the creation of new devices and versatile robotic platforms. These new platforms' capabilities have expanded the frontiers of robots applications to new environments, where robots are expected to interact with humans, such as health care, and house cleaning, among others. However, bringing robots in these context raise the challenge to increase their acceptance. Improving robots' appearances and capabilities may be thought as a possible solution, and it is expected that people would treat robots as humans, like they do with computers.~\cite{Reeves1996}, which makes necessary the creation of robots that fulfill people's expectations.
 
-Some researchers have suggested that embedding emotion expression capabilities to robots could improve their acceptance in social environments~\cite{Pavia2014}. As a consequence, some researchers (e.g.,~\cite{Breazeal2002}) have added specific emotional poses and expression to their robots. Others have studied how to convey emotions with specific platforms~\cite{Li2011,Brown2014}. Nevertheless, these research activities have developed modules to show emotions that are strongly integrated with their solutions, which eliminate the possibility to re-use or adapt their solutions for other projects. 
+Bringing robots in social context raise the challenge to increase their acceptance. Improving robots' appearances and capabilities may be thought as a possible solution, and it is expected that people would treat robots as humans, like they do with computers.~\cite{Reeves1996}, which makes necessary the creation of robots that fulfill people's expectations. Some researchers have suggested that embedding emotion expression capabilities to robots could improve their acceptance in social environments~\cite{Pavia2014}. As a consequence, specific emotional poses and expression have been added to their robots. Others have studied how to convey emotions with specific platforms~\cite{Li2011,Brown2014}. Nevertheless, these research activities have developed modules to show emotions that are strongly integrated with their solutions, which eliminate the possibility to re-use or adapt their solutions for other projects. 
  
 This paper presents an Emotional Enrichment System, which modifies actions' parameters and add additional actions to create the illusion of emotion expression in a robot. Although the system was originally conceived to be used in an autonomous performance robot~\cite{angel2013} to enrich actions with emotions, its design was devised to make it extensible to other platforms and adaptable to new tasks. To achieve this goal, the system relies on an Emotional Execution Tree, which is based on simple actions or primitive, sequential, and parallel nodes. Additionally, the concept of compound actions is adopted to group a bunch of nodes, which reduces the tree dimension and allows the reuse of recurrent actions generated by specific combinations of simple actions and other nodes.
 
 \section{Emotional Enrichment System}
 
-The main idea of Emotional Enrichment System is to blend a specific emotion with a desired action to generate "emotional action". To obtain a differentiation between previous approaches, the system has been envisioned to also allow: (i) interoperability among different platforms, (ii) introduction of new parameters and emotions, and (iii) interface with diverse action decision systems.
+The main idea of Emotional Enrichment System is to blend a specific emotion with a desired action to generate "emotional action". To obtain a differentiation between previous approaches, the system has been envisioned to allow: (i) interoperability among different platforms, (ii) introduction of new parameters and emotions, and (iii) interface with diverse action decision systems.
 
 Therefore, the system could be thought as a black-box that receives a desired action and emotion, and obtains an emotional enriched action through addition of other actions to the original one, and modification of actions' parameters. This modification is done following the description given in two configuration files. One defines how actions' parameters should be modified and what actions should be added to project the specific emotion. The second file describes "personal" traits to specific emotions. For example, one person could intensify his happiness, but conceal his sadness. 
 
 \subsection{Basic Concepts}
 
-The system is based on six main concepts: \textit{simple actions}, \textit{compound actions}, \textit{action message}, \textit{emotional descriptors}, \textit{character description} and \textit{emotional execution tree}. \textit{Simple actions} are actions that are considered as primitives: they are used as building blocks. Therefore, these actions are described in the system and are the ones in which the emotional enrichment takes place. Their description specifies mandatory and optional parameters that are required to execute the action. \textit{Compound actions} are actions that are created from simple actions. As it could be expected, these actions are not implemented in the system, but, if it is needed, they can be described in it (e.g. compound actions that are used often). \textit{Action message} establishes the structure of the message to describe any kind of action (i.e., simple and compound). This message also specifies how the actions are executed (i.e., in parallel or in sequence) and which action is the predominant (i.e., primary or secondary). \textit{Emotional parameters} describe how the emotional enrichment should be done to convey a specific emotion in a specific simple action. This description could also include addition of other simple actions. \textit{Character description} enables the possibility to establish how to modify emotional expressions to generate diverse treats. Finally, \textit{Emotional Execution Tree} is a computational representation of desired actions that should be executed. This tree is first created from the action message description and then modified using the emotional parameters and character description.   
+The system is based on six main concepts: \textit{simple actions}, \textit{compound actions}, \textit{action message}, \textit{emotional descriptors}, \textit{character description} and \textit{emotional execution tree}. \textit{Simple actions} are actions that are considered as primitives: they are used as building blocks. Therefore, these actions are described in the system and are the ones in which the emotional enrichment takes place. Their description specifies mandatory and optional parameters that are required to execute an action. \textit{Compound actions} are actions that are created from simple actions. These actions are not implemented in the system, but, if it is needed, they can be described in it (e.g. compound actions that are used often). \textit{Action message} establishes the structure of the message to describe any kind of action (i.e., simple and compound). This message also specifies how the actions are executed (i.e., in parallel or in sequence) and which action is the predominant (i.e., primary or secondary). \textit{Emotional parameters} describe how the emotional enrichment should be done to convey a specific emotion in a specific simple action. This description could also include addition of other simple actions. \textit{Character description} enables the possibility to establish how to modify emotional expressions to generate diverse treats. Finally, \textit{Emotional Execution Tree} is a computational representation of desired actions that should be executed. This tree is first created from the action message description and then modified using the emotional parameters and character description.   
 
 \subsection{Emotional Execution Tree}
 
-Emotional Execution Tree is a connected acyclic graph $G(V,E)$ with $|V|$ vertexes and $|E|$ edges. The root and non-leaf nodes could be either of \textit{parallel} or \textit{sequence} type. The parallel node could be one out of four different sub-types: (i) action and emotion synchronous, (ii) action synchronous and emotion asynchronous, (iii) action asynchronous and emotion synchronous, or (iv) action and emotion asynchronous. Sequential nodes could just be one of two sub-types: (i) emotion synchronous or (ii) asynchronous. Action synchronous means that each time that a parallel node receives a ``finish'' notification (i.e., success or failure), it will send a finish message to all the nodes that derived from it. On the other hand, emotion synchronous means that each time that a node (either sequence or parallel) receives an emotion synchronization message, it will propagate the message to all branches. %TODO the sentence before is a little bit confusing and the full set of possibility is not completely described.
+Emotional Execution Tree is a connected acyclic graph $G(V,E)$ with $|V|$ vertexes and $|E|$ edges. The root and non-leaf nodes could be either \textit{parallel} or \textit{sequential} type. The parallel node could be one out of four different sub-types: (i) action and emotion synchronous, (ii) action synchronous and emotion asynchronous, (iii) action asynchronous and emotion synchronous, or (iv) action and emotion asynchronous. Sequential nodes could just be one of two sub-types: emotion synchronous or asynchronous. Action synchronous means that each time that a parallel node receives a ``finish'' notification (i.e., success or failure), it will broadcast the message to all nodes that derived it and to its predecessor. If a sequence node receives a finish message, it will execute the next branch. In case that all branches have been executed, it communicates the end of the action. On the other hand, emotion synchronous means that each time that a node (either sequence or parallel) receives an emotion synchronization message; it will propagate the message to all branches to move to the consecutive emotional parameter. If a node is principal and it has finished of executing all actions, it will inform to its predecessor. 
  
-This distinction creates the possibility to synchronize emotional changes without affecting the normal execution of the desired action and also enables synchronization among parallel actions. Finally, leaf nodes could only be simple action nodes. Any node can belong to one of two levels: principal or  secondary. If a node is principal, it will notify its predecessor about the messages that it has received, while the secondary node cannot propagate any message to its predecessor.
+This distinction creates the possibility to synchronize emotional changes without affecting the normal execution of an action and it also enables synchronization among parallel actions. Finally, leaf nodes could only be simple action nodes that have been implemented in the system. Any node can belong to one of two levels: principal or  secondary. If a node is principal, it will notify its predecessor about the messages that it has received, while the secondary node cannot propagate any message to its predecessor. Compound actions are implemented combining all type of nodes. 
 
 \subsection{Process}
 
-Every time the system is launched, it starts reading emotion and character descriptors, and it creates an internal representation. %TODO Characters have not been introduced here
-Every time the system receives a new action message, which includes action's name with its parameters' values, the verification process starts. If the action is compound, it is first decomposed in simple actions, which will be labeled as primary actions, and checked if all actions exists in the system and the parameters correspond to the specification. If both conditions are fulfilled, the system generates an Emotion Execution Tree that represents the specified action. A similar procedure is done for simple action but instead of decomposing the action, the system directly verify the parameters and then generates the execution tree. Once the emotional execution tree has been created, the system proceeds to add actions that are required to express the desired emotion. Then, it proceeds to modify the parameters to convey the emotion, considering emotion and character descriptors. When the process is completed, the system feeds information to the correct ``drivers'', which have been implemented to execute the desired action on a specific platform. Every time that a driver detects the end of the action, it informs the Emotional enrichment system, which will take the proper actions.
+When the system is launched, it starts reading emotion descriptors, and it creates an internal representation. Every time the system receives a new action message the verification process starts. This message includes a description of actions that should be executed, with their respective values. If the action is compound, it is first decomposed in simple actions, which will be labeled as primary actions, and checked if all actions exists in the system and the parameters correspond to the specification. If both conditions are fulfilled, the system generates an Emotion Execution Tree that represents the specified action. A similar procedure is done for simple action but instead of decomposing the action, the system directly verify the parameters and then generates the execution tree. Once the emotional execution tree has been created, the system proceeds to add actions that are required to express the desired emotion. Then, it proceeds to modify the parameters to convey the emotion, considering emotion and character descriptors. When the process is completed, the system feeds information to the correct ``drivers'', which have been implemented to execute the desired action on a specific platform. Every time that a driver detects the end of the action, it informs the Emotional enrichment system, which will take the proper actions.
 
 \subsection{Implementation}
 
-The system has been implemented in C++ and interfaced with ROS %TODO Cite
+The system has been implemented in C++ and interfaced with ROS %TODO Cite, I would like to add them but the space is tight
 . To fulfill all the requirements, the system was implemented in two different nodes: one containing the enrichment system, and the second an interface to connect the system with diverse platforms. The system has been tested in two physical platforms, with different degrees of freedom: Triskarino%TODO Cite
- and Keepon%TODO Cite
- . 
+ and Keepon\footnote{ The code is available in the repository \url{https://github.com/julianangel/EmotionBot/tree/master/ROS/theatrebot_action_modulation}}. The simple actions implemented in the system were: \textit{do nothing} waits for a time $t$ before it communicates a finish message; \textit{move body} moves the platform from its current position $a$ to a desired position $b$; \textit{oscillate body} generates an oscillation in the whole platform by an angle $\theta$; \textit{move shoulder} moves the shoulders to a desired angle $\theta$; \textit{oscillate shoulder} oscillates the shoulders by a given angle $\theta$; \textit{move torso} moves the torso to a desired angle in $yaw$, $pitch$ and $roll$; and \textit{oscillate torso} oscillates the shoulders by a given angle $\theta$.
 
 \section{Conclusions and Further Work}
 
-An Emotional Enrichment System has been designed and implemented to enrich robots' movements with emotions. To achieve this, it was used an Emotional Execution Tree created from three different types of nodes: simple actions, parallel, and sequential. Simple actions are primitive actions that are used as building blocks for more complex actions. Sequential nodes execute in order the sequence of actions associated to them, while parallel nodes execute them all at the same time. To enable synchronization among simple actions, parallel nodes could be one of four different sub-types, and sequential just one of two different sub-types. This implementation allowed the use of generic approach to enrich actions with emotion without considering the physical constrains of the platform. This has been tested in two different platforms, with different degrees of freedom, in which emotional actions were conveyed using the same enrichment system but different "drivers". 
+An Emotional Enrichment System has been designed and implemented to enrich robots' movements with emotions. To achieve this, it was used an Emotional Execution Tree created from three different types of nodes: simple actions, parallel, and sequential. This has been tested in two different platforms, with different degrees of freedom, in which emotional actions were conveyed using the same enrichment system but different "drivers". 
 
 Further work is envisioned to add additional parameters and new actions into the system. These new actions will correspond to other modalities, such as facial expression and voice/sound.
 \bibliographystyle{splncs}
