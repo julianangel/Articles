@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper
+
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+                                   % Needed to meet printer requirements.
+
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{subfigure}
+\usepackage{multirow} 
+\usepackage{url}
+\usepackage{slashbox}
+\newcommand{\co}{\cellcolor{gray!40}}
+\usepackage[table]{xcolor}
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+
+\overrideIEEEmargins   
+
+\title{\LARGE \bf
+Cross Validation of Emotional Features with a non-Anthropomorphic Platform
+}
+
+
+\author{Julian M. Angel-Fernandez$^{1}$ and Andrea Bonarini$^{2}$% <-this % stops a space
+\thanks{$^{1}$Julian M. Angel-Fernandez is a Research at Automation and Control Institute, Vienna University of Technology, Vienna, Austria
+        {\tt\small julian.angel.fernandez@tuwien.ac.at}}%
+\thanks{$^{2}$Andrea Bonarini is a Professor at the Department of Electronics, Information, and Bioengineering, Politecnico di Milano, Milan, Italy,
+        {\tt\small andrea.bonarini@polimi.it}}%
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Robots should be able to express emotional states to interact with people as social agents. Emotions are a peculiar characterization of humans and usually conveyed through face expression or body language. However there are cases where robots cannot have anthropomorphic shape, for example when they have to perform tasks, which require a specific structure. This is the case of home cleaners, package carriers, and many others platforms. Therefore, emotional states need to be represented by exploiting other features, such as movements and shape changes. The work presented in this paper studies emotion expression in non-anthropomorphic platform and how it is perceived by humans. The work uses results obtained from a previous experiment, which was done to assess precise values for linear velocity, angular velocity, oscillation angle, direction and orientation that could be used to express happiness, angry, fear and sadness. Results show that people can recognize some emotional expressions better than others and that additional features should be added to differentiate some emotions. Additionally, it was done a small scene to verify if people prefer emotions with or without emotion. 
+\end{abstract}
+
+\section{Introduction}
+\input{./Parts/Introduction}
+\label{sec:related_work}
+\section{Related Work}
+\input{./Parts/RelatedWork}
+\section{System}
+\label{sec:system}
+\input{./Parts/System}
+\section{Case Study}
+\label{sec:case}
+\input{./Parts/CaseStudy}
+\section{Results}
+\label{sec:results}
+\input{./Parts/Results}
+\section{Conclusions and Further work}
+\input{./Parts/Conclusions}
+\bibliographystyle{IEEEtran}
+\bibliography{Bibliography,BibloNew,Biblography}
+
+\addtolength{\textheight}{-12cm}
+\end{document}

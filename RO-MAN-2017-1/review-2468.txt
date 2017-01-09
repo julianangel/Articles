@@ -1,0 +1,333 @@
+HRI 2017 Full Papers
+
+Reviews of submission #2468: "Cross Validation of Emotional Features with
+a non-Anthropomorphic Platform"
+
+------------------------ Submission 2468, Review 4 ------------------------
+
+Reviewer:           primary
+
+Expertise
+
+   3  (Knowledgeable)
+
+Meta Review
+
+   == Summary ==
+
+   While there are parts of this work that are interesting, the overall
+   paper needs considerable refinement. There are also questions about the
+   underlying study designs.
+
+   == Strengths ==
+
+   R1 feels expression in simple robots is an important area. I agree and
+   think this is a worthy area of research.
+
+   R1 and R3 like the idea of a re-usable software architecture for
+   composing motion
+   expressions. I agree and appreciate the attempt to create a generalizable
+   approach for adding emotion to robot action. I am a little unclear on how
+   the robot knows which emotion to express, but that is not necessarily a
+   requirement when expressing emotion.
+
+   R1 liked the concept of stage discretization for structuring robot
+   motion.
+
+   == Weaknesses ==
+
+   R1 wanted to see more context and story. R3 asks why non-anthropomorphic
+   robots should be able to express emotions. I also felt this paper needs
+   refinement and reorganization to improve the message and rationale.
+
+   This is partially related to R1’s concerns about the novelty of the
+   work, which I agree with. One telling sign is that the authors only cite
+   one paper in 2015 and none in 2016. As can be seen in R1’s review, this
+   topic has become an active area recently and I question whether the
+   authors are considering the latest discoveries. All but one of the papers
+   cited by R1 occurred well before the HRI deadline.
+
+   Another related concern is the relationship of the paper’s focus to the
+   study designs. R1 questions why case-study motion path was chosen. R2
+   also felt there was poor experimental design and that the research
+   questions were unclear. Both R2 and R3 wanted more details about the
+   study methods. I had concerns about the methodologies too. For example,
+   the authors claim explicit motion parameters are needed for use by
+   others, but they used a single robot with small mass and size. I suspect
+   the velocity values will be highly influenced by robot size and perceived
+   mass. A large robot cart spinning with an angular velocity of 1 rad/s
+   will look very different than a small, lightweight robot. This likely,
+   strong bias is not captured in the study design nor is this limitation
+   mentioned in the discussion.
+
+   R2 and R3 had concerns about writing clarity and poor English. I agree
+   with their observations. R2 notes the introduction was written well and I
+   also noticed a drop in writing quality after the introduction. This leads
+   me to wonder if the authors with better English skills had adequate time
+   to review and revise the paper prior to submission.
+
+   == Areas of improvement to focus on in rebuttal ==
+
+   Improve connections to prior work in all aspects of the paper and expand
+   the literature review.
+
+   Restructure the paper. Introduce the robot platform used in the studies
+   before the study results. Consider emphasizing the Emotion Enrichment
+   System.
+
+   Provide more details about the experiment methods and statistical
+   analyses to increase reader comfort with the results.
+
+   Spend significant effort on general writing clarity and overall
+   refinement. There are numerous problems with this paper for both basic
+   English and research writing style. As an example for the latter,
+   research using human measures generally use a threshold of p < 0.0001.
+
+Recommendation
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+------------------------ Submission 2468, Review 1 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   
+
+Review
+
+   *Summary*
+   Authors use a simple omnidirectional robot to assess how to paramaterize
+   motion in order to communicate happiness/anger/fear/sadness along various
+   features. They also ran a 'case study' (evaluation) of those features via
+   live demonstration, finding reasonable support for their
+   parameterizations, but also several cases of confusion. 
+
+   I find the interesting innovations to be in the paper's descriptions of
+   the software setup more than the experiments.
+
+   *Strengths*
+   -Expression in simple robots is an important area.
+   -Attempts to provide re-usable software architecture for composing motion
+   expressions.
+   -Stage discretization is an innovative idea for structuring robot motion.
+
+   *Weaknesses*
+   -Case study experiment lacks social context, what is the story??
+   -Novelty of work in question due to lack of contextualization to related
+   work (see below).
+   -Unclear why case-study motion path was chosen, leaves out the potential
+   importance of robot path shape (see additional suggested references).
+
+   *Comments*
+   You've found several relevant works to robot body expression and
+   summarized them, but the related work section should also motivate why
+   you are doing the current experiment, and act as the benchmark so you can
+   directly show the improvement (or not) your work provides. 
+
+   Additional relevant (and recent) papers include:
+   Jessica R Cauchard, Kevin Y Zhai, Marco Spadafora, and James A Landay.
+   2016. Emotion Encoding in Human-Drone Interaction. In 2016 11th ACM/IEEE
+   International Conference on Human-Robot Interaction (HRI). IEEE,
+   263–270.
+
+   Heather Knight, Ravenna Thielstrom, and Reid Simmons. 2016. Expressive
+   path shape: simple motion features that illustrate a robot' s attitude
+   toward its goal. In 2016 IEEE International Conference on Intelligent
+   Robots and Systems (IROS). IEEE.
+
+   Knight, Heather, and Reid Simmons. "Laban head-motions convey robot
+   state: A call for robot body language." In Robotics and Automation
+   (ICRA), 2016 IEEE International Conference on, pp. 2881-2888. IEEE, 2016.
+
+   Sirkin, David, Brian Mok, Stephen Yang, and Wendy Ju. "Mechanical
+   ottoman: how robotic furniture offers and withdraws support." In
+   Proceedings of the Tenth Annual ACM/IEEE International Conference on
+   Human-Robot Interaction, pp. 11-18. ACM, 2015.
+
+   Tan, Haodan, John Tiab, Selma Šabanović, and Kasper Hornbæk. "Happy
+   Moves, Sad Grooves: Using Theories of Biological Motion and Affect to
+   Design Shape-Changing Interfaces." In Proceedings of the 2016 ACM
+   Conference on Designing Interactive Systems, pp. 1282-1293. ACM, 2016.
+
+
+   *Suggestions*
+   1. Please re-structure related work to create a story rather than just
+   summarize, what is the conclusions we can take from these past works,
+   what is left to do, how does your investigation address that gap? 
+   2. Include more detail about who the experiment volunteers were (e.g.,
+   college students?) and how they were recruited.
+   3.Consider emphasizing the Emotion Enrichment system as a unique
+   contribution in framing and conclusion of paper, that's probably your
+   most unique feature relative to past work, not the emotion training
+   cases, which some of both your references and the papers I have included
+   also address.
+
+   *Recommendation*
+   Although the paper has some weaknesses, they may be possible to address
+   by extensively re-framing the related work section and using that work to
+   motivate and benchmark the current findings. How did your results compare
+   to previous work? What is left to do? Re-iterate your new contributions. 
+   Without that context, it is difficult to declare whether this paper
+   should be accepted or rejected. (If it is not accepted at HRI, the
+   authors may consider emphasizing the Emotion Enrichment System rather
+   than the experiments in future submissions.)
+
+Overall Rating
+
+   3  (Overall, I would not argue for or against this paper. I am truly on the fence.)
+
+
+------------------------ Submission 2468, Review 2 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   4  (Expert)
+
+Review
+
+   Summary
+   The paper attempts to study perception of emotion expression by
+   non-anthropomorphic robots. It claims to build on previous experiment
+   that is not refereed to, which should be able to assess the
+   precise values for linear velocity, angular velocity, oscillation
+   angle, direction and orientation that could be used to express
+   four basic emotions. Results are inconclusive, showing that observers
+   can recognize some emotional expressions better than others.
+
+   Strengths
+
+   Reasonably good introduction.
+
+   Some experimental work was done.
+
+
+
+   Weaknesses
+
+   The structure of the manuscript is messy,  research questions -unclear. 
+
+   Experimental design is poor
+
+   English is not clear and the logic of the writing is weak.
+
+   Detailed Comments
+
+   First, the paper refers to non-traceable results and experiments: "These
+   features were selected after study emotion projection in robotics, humans
+   (i.e. previous work and theatre) and previous case studies. "
+
+   Second,  the experimental design and the research questions  are not
+   described well. It is not clear what the participants needed to evaluate.
+   Also, what are the 'treatments'?
+
+   Third, the robotic platform is presented after the "experiment" is
+   presented. In addition to this experiment, a case study is presented. It
+   is not clear what the aim of the experiment or the case study are. During
+   the case study more ill-defined concepts as "atomic" actions are
+   introduced but not defined. Instead, parameters of the atomic actions are
+   introduced to add the mystery. Finally, one can infer from pieces of text
+   that the atomic actions seem to be an action of a single extremity:" a
+   compound action that is composed by three parallel actions: balance left
+   arm, balance right arm, and move body" which make me become even more
+   puzzled since the just introduced robot has no arms at all, it is a
+   omni-directional mobile robot.
+
+   I find at this moment too early to list all weak points of the
+   manuscript, since they are so many. It seem that the manuscript is in a
+   very early stage of writing ( I think also too initial and exploratory
+   stage of research too). Once the authors  rewrite the text in a clear and
+   structured way they can attempt to resubmit the paper
+   to some adequate conference. At this form the paper is by far not
+   acceptable.
+
+Overall Rating
+
+   1  (Definite reject: I would argue strongly for rejecting this paper.)
+
+
+------------------------ Submission 2468, Review 3 ------------------------
+
+Reviewer:           external
+
+Expertise
+
+   4  (Expert)
+
+Review
+
+   Summary – The study investigates how a non-anthropomorphic mobile
+   platform can express emotions by varying velocity, acceleration,
+   orientation and heading. To this end an emotion enrichtment module is
+   implemented that can map emotional states to robot behaviours and user
+   study is presented to evaluate the recognition rate.
+
+   Strengths and weaknesses:
+   + an emotion enrichment module that works independently of an
+   (functional) action generation system sounds very useful
+   - it is not clear why non-anthropomorphic robots should be able to
+   express emotions
+   - English language is poor
+   - “the experiment” is a pilot study, but many details are missing
+   - “the case study” is in fact the main experiment, but again some
+   crucial explanations are missing
+
+   Detailed Comments and suggestions for improvement
+   The overall quality of the paper is poor. Apart from many spelling and
+   grammar mistakes, the structure and argumentation of the paper is hard to
+   follow.
+   “The experiment” is a pilot study, where participants are exposed to
+   20 out of 195 “treatments”. Presumably the authors mean “robot
+   behaviours” with varying velocity, oscillation angle, direction and
+   orientation. However, this is not specified. Participants indicate to
+   what extent these behaviours look like an expression of one of Ekman’s
+   basic emotions. The main conclusions from the pilot are reported, but no
+   results are shown.
+   “The case study” is the main experiment many details are missing. For
+   example, the definition of the parameters in Table 2 (direction,
+   orientation and angle) are not made explicit. Nor is it clear why these
+   setting are the best choices for certain emotions). Also, there are no
+   oscillations anymore, whereas this would seem a good channel for
+   expressing them?
+   It is not explained how the emotions modify simple actions. For example,
+   when moving from a->b, does adding fear let the robot drive backwards? 
+   The hypotheses in the introduction are not hypotheses at all, but
+   statements about expected effects. The underlying assumptions about why
+   these effects should occur is missing.
+   It does not make sense to me to include excitement and tenderness. They
+   are not basic emotions according to Ekman and they are not being
+   expressed by the robot.
+
+   From the description of Figure 5 I understand that the simple action
+   sequence was always the same? The generation of simple actions is not
+   explained clearly.
+   At the bottom of page 5, second column it is stated that not every
+   emotion is shown an equal number of times. This makes the design
+   unbalanced and the results are hard to interpret.
+   The statistical analysis is awkward at places. Given the unbalanced
+   design, why is the number of times each emotion is recognized
+   approximately equal in table 3? Were people guessing? The confusion
+   matrix is analysed using a Fisher exact test on different pairs of
+   emotions, but what data is the test applied to and to answer which
+   question? The same goes for Pearson’s Chi-squared test. The authors
+   should clearly specify which question they are trying to answer and how
+   the statistical test can answer this question.
+   Table 7: to which question is this an answer?
+
+   Recommendation
+   Although the paper has some interesting ideas, but in its current state
+   it is not publishable. The authors should at least improve the English,
+   add the missing information and improve the statistical analyses.
+
+   Numeric Evaluation — 2
+
+Overall Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+
+
