@@ -1,9 +1,7 @@
-The case study was done at Researcher's Night 2015 with two main objectives:
+The case study presented in this paper was done at Researcher's Night 2015 with two main objectives:
 \begin{enumerate}
-	\item Cross-validate the findings obtained from a previous experiment~\cite{Angel2017-2}. This experiment was done to study the attribution of different linear and angular velocities, oscillation angel, direction and orientation of the platform to \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear}. A total of 196 were designed, but just 20 treatments were presented to each participant. The questionnaire provided included the four emotions and two mental states (i.e. Excitement and tenderness).
-	\item Verify if participants would prefer scenes when the robot expresses emotions or rather moves without any emotion expression. 
-\end{enumerate}
-To reduce scene variability was used two web-cams and eight Alvar tags to informed a Kalman filter to improve robots localization in the stage. AR tags were detected using the ROS package ar\_track\_alvar~\cite{artag2015}. The distribution of the web-cams and the tags are depicted in Figure~\ref{fig:setup_fourth}. 
+	\item Cross-validate the findings obtained from a previous experiment~\cite{Angel2017-2}. This experiment was done to study the attribution of different linear and angular velocities, oscillation angel, direction and orientation of the platform to \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear}. A total of 196 treatments were designed, but just 20 were presented to each participant. The questionnaire provided included the four emotions and two mental states (i.e. Excitement and tenderness).
+	\item Verify if participants would prefer scenes when the robot expresses emotions or rather moves without any emotion expression. To reduce scene variability was used two web-cams and eight Alvar tags to informed a Kalman filter to improve robots localization in the stage. AR tags were detected using the ROS package ar\_track\_alvar~\cite{artag2015}. The distribution of the web-cams and the tags are depicted in Figure~\ref{fig:setup_fourth}. 
 
 \begin{figure}
 	\centering
@@ -11,10 +9,12 @@ To reduce scene variability was used two web-cams and eight Alvar tags to inform
 	\caption{Environment setup for the case study. The crosses represent the starting points.}
 	\label{fig:setup_fourth}
 \end{figure}
+ 
+\end{enumerate}
 
 \subsection{Emotion Description}
 
-The parameters selected from the experiment to express \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear} are shown in Table~\ref{table:selected_fourth}. As it could be observed, two implementations of each emotions were selected. These implementations were selected considering: (i) the linear velocity should be greater than $0$. In other words the robot should show some linear displacement. And (ii) it should be in the top 10 list of the emotion obtained in the experiment.
+The parameters selected from the experiment to implement \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear} are shown in Table~\ref{table:selected_fourth}. As it could be observed, two treatments for each emotions were selected to be implemented. These treatments were selected considering: (i) the linear velocity should be greater than $0$. In other words the robot should show some linear displacement. And (ii) it should be in the top 10 list of the emotion obtained in the experiment.
 
 \begin{table}
 \centering
@@ -74,4 +74,4 @@ The relation between emotion and movement is as follow: movements one to five do
 
 \subsection{Study}
 
-This case study was done during Researchers' Night, 2015. During a period of two days, people were asked to participate to this study, which was divided in to parts. In the first one, each subject was exposed to two rounds of emotions. The emotion presented and the order were generated randomly before hand. In the second part, they were explained that a small scene was going to be presented twice. Thus, they should to selected the one they like it more. The order of the scenes (e.g. with or without emotion) were generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76.
+This case study was done during Researchers' Night, 2015. During a period of two days, people were asked to participate in this study, which was divided in to parts. The first one, each subject was exposed to two rounds of emotions. The two emotions and their other were generated randomly before hand. The second part, participants were explained that a small scene was going to be presented twice. Thus, they should to selected the one they like more. The order of the scenes (e.g. with or without emotion) were generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76.

@@ -44,14 +44,113 @@ It could be observed that both implementations of \textit{Happiness} were confus
 Anger-2 shows an improvement of perception from 10\% to 38\%, respect Anger-1. This implementation was perceived also as \textit{Happiness}, \textit{Fear} and \textit{Excitement}.
 Both implementations of \textit{Fear} had a high level of recognition 54 \% and 50 \% and mostly confused with \textit{Excitement}, which was voted nine times for the first implementation and twenty times for the second implementation. Finally, the two implementation of \textit{Sadness} were confused with \textit{Fear} and \textit{Tenderness}.
 
-To have a clear idea about these misinterpretations among implemented emotions, a Fisher's exact test was applied for ten different combinations. Additionally, a Holm-Bonferroni correction was applied for multiple comparisons to get a better p-value estimation. The results are reported in Table~\ref{table:result_compare_fourth}. The following are the hypothesis used for this test:
+An analysis was done per groups, for each presented emotion. For each emotion it was considered how many subjects in each group recognized it, how many identified a different emotion, how many identified the considered emotion when presented another one, and how many subjects recognized an emotion different from the considered one when presented a different emotion. This lead to a table, which is known as contingency table, for each presented emotion, like the one reported in table~\ref{table:singleEmotion} for Happiness-1. 
+\begin{table}[!htbp]
+\begin{center}
+\caption{Example of table compiled for each emotion on the subjects which have been presented each emotion (here Happiness-1).}
+\label{table:singleEmotion}
+\begin{tabular}{|c|c|c|}
+\hline 
+Presented/Reported&Happiness&Other\\
+\hline 
+Happiness-1&8&54\\
+\hline 
+Other&42&355\\
+\hline
+\end{tabular}
+\end{center}
+%\vspace{-0.5cm}
+\end{table}
+
+For each of the contingency table the classification accuracy and the no-information rate (NIR), i.e. the accuracy that had been obtained by random selection, are reported in Table~\ref{table:nir_fourth}. The results reveal that Sadness-2 is the only implementation that was correctly recognized among all implementations ($p<0.05$). 
+
+\begin{table}
+\centering
+\small
+		\caption{Classification accuracy of the presented emotions by the single panels, computed as mentioned in the text, with corresponding 95\% confidence interval, no-information rate, and p-value that accuracy is greater than the NIR.}		
+		\label{table:nir_fourth}
+			\begin{tabular}{|p{1.8 cm}|c|c|c|c|}
+				\hline		
+\rotatebox{90}{\textbf{Presented Emotion}}&
+\rotatebox{90}{\textbf{Classification Accuracy}}&
+\rotatebox{90}{\textbf{95\% CI}}&
+\rotatebox{90}{\textbf{No-Information Rate}}&
+\rotatebox{90}{\textbf{P-Value [Acc $>$ NIR]}}\\
+				\hline
+			Happiness-1&0.79&(0.75,0.82)&0.89&1.0\\
+			\hline
+			\co Happiness-2&\co 0.81&\co (0.77,0.84)&\co 0.88&\co 1.0\\
+			\hline
+			Anger-1&0.8&(0.76,0.83)&0.88&1.0\\
+			\hline
+			\co Anger-2&\co 0.89&\co (0.76,0.84)&\co 0.83&\co 0.95\\
+			\hline
+			Fear-1&0.79&(0.75,0.83)&0.88&1\\
+			\hline
+			\co Fear-2&\co 0.78&\co (0.73,0.81)&\co 0.83&\co 0.99\\
+			\hline
+			Sadness-1&0.85&(0.81,0.88)&0.84&0.47\\
+			\hline
+			\co Sadness-2&\co 0.85&\co (0.81,0.88)&\co 0.81&\co 0.035\\
+			\hline
+			\end{tabular}
+\end{table}
+
+Additionally, the positive predictive value, accuracy and a Pearson's $\chi^2$ were computed for each table. The hypothesis used in the test were:
 
 \begin{itemize}
-	\item $H_0 = $ there is a difference in the recognition of the two compared implementations.
-	\item $H_1 = $ there is not a difference in the recognition of the two compared implementations.
+	\item $H_0 = $ there is a difference in recognition between the implementation respect the others.
+	\item $H_1 = $ there is not a difference in recognition between one implementation respect the others.
+\end{itemize} 
+
+The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that Anger-2, both of \textit{Fear} and \textit{Sadness} are considered as a different implementation when they are compare with other implementations. While both implementations of \textit{Happiness} and Anger-1 are considered as similar to the other implementations. 
+
+\begin{table}
+\centering
+\small
+\caption{Accuracy, precision and results of Pearson's $\chi^2$ for each contingency matrix with $\alpha = 0.05$ for the case study.} 
+\label{table:Precision2}
+		\begin{tabular}{|p{1.6 cm}|p{1.5 cm}|c|c|c|}
+		\hline
+		\textbf{Presented Emotion} & \textbf{Positive Predicted Value} & \textbf{Accuracy} & \textbf{$\chi^2(1)$} & \textbf{p-value}\\
+		\hline
+		Happiness-1 & $0.13$ & $0.79$ & $0.11$ & $0.74$\\
+		\hline
+		\co Happiness-2 &\co $0.21$ &\co $0.81$ &\co $3.7$ &\co$0.054$\\
+		\hline
+		Anger-1 & $0.1$ & $0.8$ & $3.8e^{-29}$ & $1$\\
+		\hline
+		\co Anger-2 &\co $0.38$ &\co $0.81$ &\co $34.4$ &\co $<0.001$ 
+		%4.47e-9
+		\\
+		\hline
+		Fear-1 & $0.54$ & $0.8$ & $36.2$ & $<0.001$ 
+		%1.8-e9
+		\\
+		\hline 
+		\co Fear-2 &\co $0.5$ &\co $0.78$ &\co $35.8$ &\co $<0.001$ 
+		%5.3e-10
+		\\
+		\hline
+		Sadness-1 & $0.22$ & $0.85$ & $27.4$ & $<0.001$
+		%$1.63e-7$
+		\\
+		\hline
+		\co Sadness-2 &\co 0.35 &\co 0.85 &\co 72.9 &\co $<0.001$
+		%2.2e-16
+		\\		 
+		\hline
+			\end{tabular}
+\end{table}  
+
+To determine if which implementations were perceived as different or similar, a Fisher's exact test was applied for ten different combinations of the implementations. Additionally, a Holm-Bonferroni correction was applied for multiple comparisons to get a better p-value estimation. The following are the hypothesis used in this test:
+
+\begin{itemize}
+	\item $H_0 = $ there is a difference in the recognition of the two compared emotions.
+	\item $H_1 = $ there is not a difference in the recognition of the two compared emotions.
 \end{itemize}
 
-As this analysis suggest, both implementation of \textit{Anger} were perceived as two different emotions. Also shows that both implementation of \textit{Happiness} were perceived as similar to Anger-2.
+The results are reported in Table~\ref{table:result_compare_fourth}. As it could be observed, both implementation of \textit{Anger} were perceived as two different emotions ($p<0.001$). Also shows that both implementation of \textit{Happiness} were perceived as to Anger-2 ($p=0.69$ in both cases).
 
 \begin{table}
 \centering
@@ -103,106 +202,9 @@ As this analysis suggest, both implementation of \textit{Anger} were perceived a
 			\\
 			\hline
 			\end{tabular}
-\end{table} 
-Moreover, an analysis was done per groups, for each presented emotion. For each emotion it was considered how many subjects in each group recognized it, how many identified a different emotion, how many identified the considered emotion when presented another one, and how many subjects recognized an emotion different from the considered one when presented a different emotion. This lead to a table, for each presented emotion, like the one reported in table~\ref{table:singleEmotion} for Happiness-1. 
-\begin{table}[!htbp]
-\begin{center}
-\caption{Example of table compiled for each emotion on the subjects which have been presented each emotion (here Happiness-1).}
-\label{table:singleEmotion}
-\begin{tabular}{|c|c|c|}
-\hline 
-Presented/Reported&Happiness&Other\\
-\hline 
-Happiness-1&8&54\\
-\hline 
-Other&42&355\\
-\hline
-\end{tabular}
-\end{center}
-%\vspace{-0.5cm}
-\end{table}
-
-For each table the positive predictive value, accuracy and a Pearson's $\chi^2$ were computed. The results are shown in table~\ref{table:Precision2}. The following are the hypothesis used for this test:
-
-\begin{itemize}
-	\item $H_0 = $ there is a difference in recognition between the implementation respect the others.
-	\item $H_1 = $ there is not a difference in recognition between one implementation respect the others.
-\end{itemize} 
-
-They show that there is significant evidence to conclude that Anger-2, both of \textit{Fear} and \textit{Sadness} are considered as a different implementation when they are compare with the others. While both implementation of \textit{Happiness} and Anger-1 are considered as similar to the other implementations. %TODO make clear this part
-
-\begin{table}
-\centering
-\small
-\caption{Accuracy, precision and results of Pearson's $\chi^2$ for each contingency matrix with $\alpha = 0.05$ for the case study.} 
-\label{table:Precision2}
-		\begin{tabular}{|p{1.6 cm}|p{1.5 cm}|c|c|c|}
-		\hline
-		\textbf{Presented Emotion} & \textbf{Positive Predicted Value} & \textbf{Accuracy} & \textbf{$\chi^2(1)$} & \textbf{p-value}\\
-		\hline
-		Happiness-1 & $0.13$ & $0.79$ & $0.11$ & $0.74$\\
-		\hline
-		\co Happiness-2 &\co $0.21$ &\co $0.81$ &\co $3.7$ &\co$0.054$\\
-		\hline
-		Anger-1 & $0.1$ & $0.8$ & $3.8e^{-29}$ & $1$\\
-		\hline
-		\co Anger-2 &\co $0.38$ &\co $0.81$ &\co $34.4$ &\co $<0.001$ 
-		%4.47e-9
-		\\
-		\hline
-		Fear-1 & $0.54$ & $0.8$ & $36.2$ & $<0.001$ 
-		%1.8-e9
-		\\
-		\hline 
-		\co Fear-2 &\co $0.5$ &\co $0.78$ &\co $35.8$ &\co $<0.001$ 
-		%5.3e-10
-		\\
-		\hline
-		Sadness-1 & $0.22$ & $0.85$ & $27.4$ & $<0.001$
-		%$1.63e-7$
-		\\
-		\hline
-		\co Sadness-2 &\co 0.35 &\co 0.85 &\co 72.9 &\co $<0.001$
-		%2.2e-16
-		\\		 
-		\hline
-			\end{tabular}
 \end{table}  
-
- For each of the contingency table the classification accuracy and the no-information rate (NIR), i.e. the accuracy that had been obtained by random selection, are reported in Table~\ref{table:nir_fourth}. The results reveal that Sadness-2 is the only implementation that was correctly recognized among all implementations ($p<0.05$). 
+ 
 Nevertheless, it is important no notice that the results were obtained using the lower part of the robot without any change in shape. Another important factor to highlight is the impact words listed in the questionnaire have on the perception rate. As it was expected, mental states Excitement and Tenderness were confused with emotions with similar arousal level. In this precise case the emotions Anger, Happiness and Fear were confused with Excitement, and Sadness was confused with Tenderness. Despite the bias generated by the two mental states listed in the questionnaire, the recognition rate of five out of eight implementations was over 35\%, being the two implementation of \textit{Fear} the implementations with the higher recognition rates (54\% for the first and 50\% for the second).
-
-\begin{table}
-\centering
-\small
-		\caption{Classification accuracy of the presented emotions by the single panels, computed as mentioned in the text, with corresponding 95\% confidence interval, no-information rate, and p-value that accuracy is greater than the NIR.}		
-		\label{table:nir_fourth}
-			\begin{tabular}{|p{1.8 cm}|c|c|c|c|}
-				\hline		
-\rotatebox{90}{\textbf{Presented Emotion}}&
-\rotatebox{90}{\textbf{Classification Accuracy}}&
-\rotatebox{90}{\textbf{95\% CI}}&
-\rotatebox{90}{\textbf{No-Information Rate}}&
-\rotatebox{90}{\textbf{P-Value [Acc $>$ NIR]}}\\
-				\hline
-			Happiness-1&0.79&(0.75,0.82)&0.89&1.0\\
-			\hline
-			\co Happiness-2&\co 0.81&\co (0.77,0.84)&\co 0.88&\co 1.0\\
-			\hline
-			Anger-1&0.8&(0.76,0.83)&0.88&1.0\\
-			\hline
-			\co Anger-2&\co 0.89&\co (0.76,0.84)&\co 0.83&\co 0.95\\
-			\hline
-			Fear-1&0.79&(0.75,0.83)&0.88&1\\
-			\hline
-			\co Fear-2&\co 0.78&\co (0.73,0.81)&\co 0.83&\co 0.99\\
-			\hline
-			Sadness-1&0.85&(0.81,0.88)&0.84&0.47\\
-			\hline
-			\co Sadness-2&\co 0.85&\co (0.81,0.88)&\co 0.81&\co 0.035\\
-			\hline
-			\end{tabular}
-\end{table}
 
 \subsection{Part II: Scene Preference}
 

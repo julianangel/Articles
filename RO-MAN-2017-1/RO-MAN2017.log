@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  9 JAN 2017 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  25 JAN 2017 22:01
 entering extended mode
 **RO-MAN2017.tex
 (RO-MAN2017.tex
@@ -262,14 +262,26 @@ Underfull \hbox (badness 2158) in paragraph at lines 48--48
 nna, Aus-tria
  []
 
-(Parts/Introduction.tex) (Parts/RelatedWork.tex [1{C:/Users/julian/AppData/Loca
-l/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Parts/Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+[]\OT1/ptm/m/n/10 However,the amount of works study-ing non-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 8--11
+\OT1/ptm/m/n/10 im-ple-mented. For ex-am-ple Suk and col-lab-o-ra-tors [[]]
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 8--11
+\OT1/ptm/m/n/10 mis-in-ter-pre-ta-tion with wrong emo-tions. These val-ues
+ []
+
+) (Parts/RelatedWork.tex [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/con
+fig/pdftex.map}
 
 
 ]) (Parts/System.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 <./Images/DSC_0447.JPG, id=12, 1445.4pt x 963.6pt>
 File: ./Images/DSC_0447.JPG Graphic file (type jpg)
  <use ./Images/DSC_0447.JPG>
@@ -287,7 +299,7 @@ Package pdftex.def Info: ./Images/TriskarThird.png used on input line 7.
 File: ./Images/FourthCase.png Graphic file (type png)
 
 <use ./Images/FourthCase.png>
-Package pdftex.def Info: ./Images/FourthCase.png used on input line 10.
+Package pdftex.def Info: ./Images/FourthCase.png used on input line 8.
 (pdftex.def)             Requested size: 227.64894pt x 184.32047pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 17.
@@ -368,27 +380,28 @@ File: ./Images/fourthCaseSceneD.png Graphic file (type png)
 Package pdftex.def Info: ./Images/fourthCaseSceneD.png used on input line 68.
 (pdftex.def)             Requested size: 480.59395pt x 199.66357pt.
 ) (Parts/Results.tex [3 <./Images/FourthCase.png> <./Images/FourthCaseScene.png
->] [4 <./Images/fourthCaseSceneD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\OT1/ptm/b/n/9 Presented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\OT1/ptm/b/n/9 Positive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \OT1/ptm/b/n/9 Pre-dicted
  []
 
 
-Overfull \hbox (1.935pt too wide) in paragraph at lines 139--170
+Overfull \hbox (1.935pt too wide) in paragraph at lines 113--144
  [][] 
  []
 
-) (Parts/Conclusions.tex [5]) (RO-MAN2017.bbl
+[4 <./Images/fourthCaseSceneD.png>]) (Parts/Conclusions.tex [5])
+(RO-MAN2017.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -428,11 +441,11 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  2730 strings out of 493673
  38732 string characters out of 3143956
- 120126 words of memory out of 3000000
+ 125127 words of memory out of 3000000
  6036 multiletter control sequences out of 15000+200000
  42970 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,13n,35p,1339b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,35p,1527b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
 enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
@@ -447,7 +460,7 @@ m Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on RO-MAN2017.pdf (6 pages, 3155469 bytes).
+Output written on RO-MAN2017.pdf (6 pages, 3155964 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
