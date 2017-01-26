@@ -53,7 +53,7 @@ The parameters selected to implement \textit{Anger}, \textit{Happiness}, \textit
 
 \subsection{Scene}
 
-Stage discretization was used to give zones of movements instead of absolute positions. This idea was brought from human theatrical actors, who arrange their movements based on zones on the stage~\cite{wilson2009theatre}. This allows them to adapt their position based on other actors and stage dimensions. The stage was discretized in 9x9 matrix as shown in Figure~\ref{fig:stage_division}. Robot's movements are given in terms of matrix positions to the Emotional Enrichment System. The robot's final position is calculated by the Emotional Enrichment System during execution. For instance, the scene was designedon a 3 x 3 meters stage, but in the presentation at teh exhibition the stage was 2.5 x 2.5 meters.
+Stage discretization was used to give zones of movements instead of absolute positions. This idea was brought from human theatrical actors, who arrange their movements based on zones on the stage~\cite{wilson2009theatre}. This allows them to adapt their position based on other actors and stage dimensions. The stage was discretized in 9x9 matrix as shown in Figure~\ref{fig:stage_division}. Robot's movements are given in terms of matrix positions to the Emotional Enrichment System. The robot's final position is calculated by the Emotional Enrichment System during execution. For instance, the scene was designed on a 3 x 3 meters stage, but in the presentation at the exhibition the stage was 2.5 x 2.5 meters.
 
 \begin{figure}
 	\centering
@@ -62,16 +62,17 @@ Stage discretization was used to give zones of movements instead of absolute pos
 	\label{fig:stage_division}
 \end{figure} 
 
-The scene can be described as follows. The robot starts in the middle of the stage to move to the upstage right (See~\cite{Musical}), close to the right wing. Then, the robot moves to upstage right center and rotates to $\pi/2$ left (See~\cite{Artopia}). Next the robot moves to the right center. Then it goes to the center. When it arrives there, it turns full back and move backwards to downstage center with a full front orientation. There, it turns full back to move to center. Finally the robot turns to profile right and it does a step back; then it goes to the upstage center and then upstage right. The sequence of movements programmed to the robot are depicted in Figure~\ref{fig:movement}.
+The scene can be described as follows. The robot starts in the middle of the stage to move to the upstage right (see~\cite{Musical}), close to the right wing. Then, the robot moves to upstage right center and rotates to $\pi/2$ left (see~\cite{Artopia}). Next the robot moves to the right center. Then it goes to the center. When it arrives there, it turns full back and move backwards to downstage center with a full front orientation. There, it turns full back to move to center. Finally the robot turns to profile right and it does a step back; then it goes to the upstage center and then upstage right. The sequence of movements of the robot are depicted in Figure~\ref{fig:movement}.
 \begin{figure*}
 	\centering
 	\includegraphics[width=0.95\textwidth]{./Images/fourthCaseSceneD.png} 
-	\caption{Sequence of movements provided to the robot. The red arrows show the trajectory, while the numbers show the order among the movements. a) The first ten movements b) The last five movements }
+	\caption{Sequence of robot's movements. The red arrows show the trajectory, while the numbers show the order among the movements. a) The first ten movements b) The last five movements }
 	\label{fig:movement}
 \end{figure*}
 
-The relation between emotion and movement is as follow: movements one to five do not express any emotion. Movements six to ten show fear. Movement eleven depicts happiness, and the remaining movements depict sadness. The actions describing this scene are executed by the Emotional Enrichment System and the emotion selection is done manually via a graphical interface.
+Movements have been enriched by emotional expression as follows: movements one to five do not express any emotion, movements six to ten show fear. Movement eleven depicts happiness, and the remaining movements depict sadness. The actions describing this scene are executed by the Emotional Enrichment System and the emotion selection is designed via a graphical interface.
 
 \subsection{Study}
 
-This case study was done during Researchers' Night, 2015. During a period of two days, people were asked to participate in this study, which was divided in to parts. The first one, each subject was exposed to two rounds of emotions. The two emotions and their other were generated randomly before hand. The second part, participants were explained that a small scene was going to be presented twice. Thus, they should to selected the one they like more. The order of the scenes (e.g. with or without emotion) were generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76.
+This case study was done at an exhibition during a period of two days. People coming to the stand were asked to participate in this study, which was divided in to parts. In the first one, each subject was exposed to two emotion expressions. %TODO Was it so? I have turned the sentence... 
+The two emotions were generated to guarantee a random uniform presentation. In the second part, participants were explained that a small scene was going to be presented twice, and they had to select the one they like more. The order of the scenes (e.g., with or without emotion) was generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76. We accepted this variability as representative of a general population.
