@@ -40,11 +40,11 @@ Table~\ref{table:result_fourth}.
 			\end{tabular}
 \end{table}
 
-It could be observed that both implementations of \textit{Happiness} were confused with \textit{Anger} and \textit{Excitement}. In a similar way, Anger-1 was mostly confused with \textit{Excitement}, which was voted twenty one over forty nine subjects.
-Anger-2 shows an improvement of perception from 10\% to 38\%, respect Anger-1. This implementation was perceived also as \textit{Happiness}, \textit{Fear} and \textit{Excitement}.
-Both implementations of \textit{Fear} had a high level of recognition 54 \% and 50 \% and mostly confused with \textit{Excitement}, which was voted nine times for the first implementation and twenty times for the second implementation. Finally, the two implementation of \textit{Sadness} were confused with \textit{Fear} and \textit{Tenderness}.
+It could be observed that both implementations of \textit{Happiness} were confused with \textit{Anger} and \textit{Excitement}. In a similar way, \textit{Anger-1} was mostly confused with \textit{Excitement}, which was voted twenty one over forty nine subjects.
+\textit{Anger-2} shows an improvement of perception from 10\% to 38\% with respect to Anger-1. This implementation was perceived also as \textit{Happiness}, \textit{Fear} and \textit{Excitement}.
+Both implementations of \textit{Fear} had a high level of recognition, respectively 54\% and 50\%, although they have been mostly confused with \textit{Excitement}, which was voted nine times for the first implementation and twenty times for the second implementation. Finally, the two implementation of \textit{Sadness} were confused with \textit{Fear} and \textit{Tenderness}.
 
-An analysis was done per groups, for each presented emotion. For each emotion it was considered how many subjects in each group recognized it, how many identified a different emotion, how many identified the considered emotion when presented another one, and how many subjects recognized an emotion different from the considered one when presented a different emotion. This lead to a table, which is known as contingency table, for each presented emotion, like the one reported in table~\ref{table:singleEmotion} for Happiness-1. 
+An analysis was done per groups, for each presented emotion. For each emotion, it was considered how many subjects presented with that emotion expression recognized it, how many of those identified a different emotion, how many identified the considered emotion when presented another one, and how many subjects recognized an emotion different from the considered one when presented a different emotion. This lead to a contingency table, for each presented emotion, like the one reported in table~\ref{table:singleEmotion} for Happiness-1. 
 \begin{table}[!htbp]
 \begin{center}
 \caption{Example of table compiled for each emotion on the subjects which have been presented each emotion (here Happiness-1).}
@@ -62,7 +62,7 @@ Other&42&355\\
 %\vspace{-0.5cm}
 \end{table}
 
-For each of the contingency table the classification accuracy and the no-information rate (NIR), i.e. the accuracy that had been obtained by random selection, are reported in Table~\ref{table:nir_fourth}. The results reveal that Sadness-2 is the only implementation that was correctly recognized among all implementations ($p<0.05$). 
+For each of the contingency tables the classification accuracy and the no-information rate (NIR), i.e. the accuracy that had been obtained by random selection, are reported in Table~\ref{table:nir_fourth}. The results reveal that Sadness-2 is the only implementation that was correctly recognized among all implementations with some statistical significance ($p<0.05$). 
 
 \begin{table}
 \centering
@@ -99,11 +99,11 @@ For each of the contingency table the classification accuracy and the no-informa
 Additionally, the positive predictive value, accuracy and a Pearson's $\chi^2$ were computed for each table. The hypothesis used in the test were:
 
 \begin{itemize}
-	\item $H_0 = $ there is a difference in recognition between the implementation respect the others.
-	\item $H_1 = $ there is not a difference in recognition between one implementation respect the others.
+	\item $H_0 = $ there is a difference in recognition between the implementation with respect to the others.
+	\item $H_1 = $ there is not a difference in recognition between one implementation with respect to the others.
 \end{itemize} 
 
-The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that Anger-2, both of \textit{Fear} and \textit{Sadness} are considered as a different implementation when they are compare with other implementations. While both implementations of \textit{Happiness} and Anger-1 are considered as similar to the other implementations. 
+The results are shown in table~\ref{table:Precision2}. They show that there is significant evidence to conclude that Anger-2, both of \textit{Fear} and \textit{Sadness} are considered as a different implementation when they are compared with other implementations. While both implementations of \textit{Happiness} and Anger-1 are considered as similar to the other implementations. 
 
 \begin{table}
 \centering
@@ -143,19 +143,19 @@ The results are shown in table~\ref{table:Precision2}. They show that there is s
 			\end{tabular}
 \end{table}  
 
-To determine if which implementations were perceived as different or similar, a Fisher's exact test was applied for ten different combinations of the implementations. Additionally, a Holm-Bonferroni correction was applied for multiple comparisons to get a better p-value estimation. The following are the hypothesis used in this test:
+To determine which implementations were perceived as different or similar, a Fisher's exact test was applied for ten different combinations of the implementations. Additionally, a Holm-Bonferroni correction was applied for multiple comparisons to get a better p-value estimation. The following are the hypothesis used in this test:
 
 \begin{itemize}
 	\item $H_0 = $ there is a difference in the recognition of the two compared emotions.
 	\item $H_1 = $ there is not a difference in the recognition of the two compared emotions.
 \end{itemize}
 
-The results are reported in Table~\ref{table:result_compare_fourth}. As it could be observed, both implementation of \textit{Anger} were perceived as two different emotions ($p<0.001$). Also shows that both implementation of \textit{Happiness} were perceived as to Anger-2 ($p=0.69$ in both cases).
+The results are reported in Table~\ref{table:result_compare_fourth}. As it could be observed, both implementations of \textit{Anger} were perceived as two different emotions ($p<0.001$) and both implementations of \textit{Happiness} were perceived as Anger-2 ($p=0.69$ in both cases).
 
 \begin{table}
 \centering
 \small
-\caption{Pair comparison among all the implemented emotions using Fisher's exact test for both questionnaires with $\alpha = 0.05$ for the  case study. The * indicates that the p-value was adjusted using the Holm-Bonferroni correction for multiple comparisons.}
+\caption{Pairwise comparison among all the implemented emotions using Fisher's exact test for both questionnaires with $\alpha = 0.05$ for the  case study. The * indicates that the p-value was adjusted using the Holm-Bonferroni correction for multiple comparisons.}
 		\label{table:result_compare_fourth}
 		\begin{tabular}{|c|c|c|}
 			\hline	
@@ -204,25 +204,25 @@ The results are reported in Table~\ref{table:result_compare_fourth}. As it could
 			\end{tabular}
 \end{table}  
  
-Nevertheless, it is important no notice that the results were obtained using the lower part of the robot without any change in shape. Another important factor to highlight is the impact words listed in the questionnaire have on the perception rate. As it was expected, mental states Excitement and Tenderness were confused with emotions with similar arousal level. In this precise case the emotions Anger, Happiness and Fear were confused with Excitement, and Sadness was confused with Tenderness. Despite the bias generated by the two mental states listed in the questionnaire, the recognition rate of five out of eight implementations was over 35\%, being the two implementation of \textit{Fear} the implementations with the higher recognition rates (54\% for the first and 50\% for the second).
+Nevertheless, it is important to notice that the results were obtained using the lower part of the robot without any change in its shape. Another important factor to highlight is the impact that the words listed in the questionnaire have on the perception rate. As it was expected, mental states \textit{Excitement} and \textit{Tenderness} were confused with emotions with similar arousal level. In this precise case the emotions \textit{Anger}, \textit{Happiness}, and \textit{Fear} were confused with\textit{Excitement}, and \textit{Sadness} was confused with \textit{Tenderness}. Despite the bias generated by the two mental states listed in the questionnaire, the recognition rate of five out of eight implementations was over 35\%, being the two implementations of \textit{Fear} the implementations with the higher recognition rates (54\% for the first and 50\% for the second).
 
 \subsection{Part II: Scene Preference}
 
-The results obtained form the small scene are presented in Table~\ref{table:preference_selection}. From this data, two questions wanted to be answer:
+The results obtained from the scene trials are presented in Table~\ref{table:preference_selection}. From this data, two questions had to be answered:
 \begin{enumerate}
 	\item Do people prefer scenes with or without emotions?
 	\item Has gender an impact in the preference?
 \end{enumerate}
-To answer these questions the following hypothesis were created:
+To answer these questions the following hypotheses were created:
 \begin{enumerate}
 	\item $H_0 =$ there is a preference towards scenes with emotions. $H_1$ there is a preference towards scenes without emotions. 
 	\item $H_0 =$ there is an association between gender and the preference. $H_1 =$ there is not an association between gender and the preference. 
 \end{enumerate}
-A $\chi^2$ test with one degree of freedom and $\alpha = 0.05$ was done to verify them. The results of the tests show that there is enough statistical evidence to accept that people prefer scenes with emotions ($p<0.001$). On the other hand, the test shows that there is not association between gender and preference $(p=0.85)$.
+A $\chi^2$ test with one degree of freedom and $\alpha = 0.05$ was done to verify them. The results of the tests show that there is enough statistical evidence to accept that people prefer scenes with emotions ($p<0.001$). On the other hand, the test shows that there is no association between gender and preference $(p=0.85)$.
 
 \begin{table}
 \centering
-		\caption{Answers obtained for the small scene.}		
+		\caption{Answers obtained for the scene trials.}		
 		\label{table:preference_selection}
 			\begin{tabular}{|c|c|c|c|}
 			\hline
