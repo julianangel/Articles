@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper
+
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+                                   % Needed to meet printer requirements.
+
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{multirow} 
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{bnf}
+\usepackage{slashbox}
+\newcommand{\co}{\cellcolor{gray!40}}
+\usepackage[table]{xcolor}
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+
+\overrideIEEEmargins   
+
+\title{\LARGE \bf
+Enriching Robot's Actions with Affective Movements
+}
+
+
+\author{Julian M. Angel-Fernandez$^{1}$ and Andrea Bonarini$^{2}$% <-this % stops a space
+\thanks{$^{1}$Julian M. Angel-Fernandez is a Research at Automation and Control Institute, Vienna University of Technology, Vienna, Austria
+        {\tt\small julian.angel.fernandez@tuwien.ac.at}}%
+\thanks{$^{2}$Andrea Bonarini is a Professor at the Department of Electronics, Information, and Bioengineering, Politecnico di Milano, Milan, Italy,
+        {\tt\small andrea.bonarini@polimi.it}}%
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Emotions are considered by many researches as a characteristic that could be beneficial in social robotics, since they enrich human-robot interaction with non-verbal clues. Although there have been works that have studied emotion expression in robots, mechanism to generate emotion are highly integrated with the rest of the system. This unable the possibility to use their approaches in different applications. This paper present a system that has been initially created for a theatrical robot to enrich with emotions its actions, but it has been designed to enable the possibility to be adapted to be used in other fields. The emotional enrichment system has been envisioned to be used with a action decision system. A formal description of the system is provided to be used as a formal reference for further extensions and possible modifications. The system has been adapted to two different platforms with different grades of freedom: Keepon and Triskarino. 
+\end{abstract}
+
+\section{Introduction}
+\input{./Parts/Introduction}
+\section{Related Work}
+\input{./Parts/RelatedWork}
+\section{Basic Concepts}
+\label{sec:concepts}
+The system is based on six main concepts: \textit{simple actions}, \textit{compound actions}, \textit{action message}, \textit{emotional descriptors}, \textit{character description} and \textit{emotional execution tree}. \textit{Action message} establishes the structure of the message to describe any kind of action (i.e., simple and compound). This message also specifies how the actions are executed (i.e., in parallel or in sequence) and which action is predominant (i.e., primary or secondary). \textit{Emotional parameters} describe how the emotional enrichment should be done to convey a specific emotion in a specific simple action. This description could also include addition of other simple actions. \textit{Character description} enables the possibility to establish how to modify emotional expressions to generate diverse treats. Finally, \textit{Emotional Execution Tree} is a computational representation of desired actions that should be executed. This tree is first created from the action message description and then modified using the emotional parameters and character description.  
+\subsection{Simple and Compound Actions}
+\input{./Parts/SimpleActions} 
+\section{Describing Components}
+\input{./Parts/description}
+\section{Emotional Tree}
+\input{./Parts/EmotionalTree}
+\section{Implementation}
+\input{./Parts/Implementation}
+\section{Conclusions and Further work}
+An Emotional Enrichment System has been designed and implemented to enrich robots' movements with emotions. To achieve this, it was used an Emotional Execution Tree created from three different types of nodes: simple actions, parallel, and sequential. Simple actions are functions that map a set of parameters to specific movements. Sequential executes in order the sequence of actions associated to this type of node, while parallel executes them all at the same time. To enable synchronization among simple actions, parallel nodes could be one of four different subtypes, and sequential just one of two different subtypes. A formalization of the Emotional Execution Tree and the principal consideration during the implementation of the system have also been provided. To show the system's versatility, it was used with quite different platforms such as a Keepon Pro and Triskarino. Keepon was used to perform simple actions, while Triskarino was used to test complex actions with different parametrizations of emotions.\\
+The results obtained show that the system could enrich the robotic actions with emotions, which could be parametrized from configuration files. Additionally, the design of the system makes it possible to  adopt it for different platforms using the same action description.
+%\input{./Parts/Conclusions}
+\bibliographystyle{IEEEtran}
+\bibliography{Bibliography,BibloNew,Biblography}
+
+\addtolength{\textheight}{-12cm}
+\end{document}

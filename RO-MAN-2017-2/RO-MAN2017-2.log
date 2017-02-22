@@ -1,0 +1,601 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  20 FEB 2017 19:28
+entering extended mode
+**RO-MAN2017-2.tex
+(RO-MAN2017-2.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(ieeeconf.cls
+
+LaTeX Warning: You have requested document class `ieeeconf',
+               but the document class provides `cssconf'.
+
+Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\@IEEEnormalsizefontbaselineskip=\skip41
+
+-- This is a 10 point document.
+\normalsizebaselineskip=\skip42
+\normaljot=\skip43
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\skip44
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen112
+\c@biography=\count90
+\@IEEEtranrubishbin=\box26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen117
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {c
+enter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent
+ \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize
+ \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempbo
+xa \hfil }\fi \fi \fi .
+\c@ContinuedFloat=\count92
+)
+\c@subfigure=\count93
+\c@subtable=\count94
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (bnf.sty
+Style-Option: `bnf' v1.1a <92/01/30> (Hugh Osborne/br)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box27
+\@slashboxb=\box28
+\@slashboxc=\box29
+\@slashboxwd=\count95
+\@slashboxht=\count96
+\@slashsepl=\dimen125
+\@slashsepr=\dimen126
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks16
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\everycr=\toks17
+\minrowclearance=\skip49
+)
+\rownum=\count97
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+** ATTENTION: Overriding command lockouts (line 28).
+** ATTENTION: Overriding IEEE standard margins (line 31).
+(RO-MAN2017-2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen129
+\scratchbox=\box30
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen130
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks19
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 50.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 4108) in paragraph at lines 50--50
+[][][]$[]$\OT1/ptm/m/n/8 Julian M. Angel-Fernandez is a Re-search at Au-toma-ti
+on and
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 50--50
+\OT1/ptm/m/n/8 Con-trol In-sti-tute, Vi-enna Uni-ver-sity of Tech-nol-ogy, Vi-e
+nna, Aus-tria
+ []
+
+(Parts/Introduction.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+
+LaTeX Warning: Reference `sec:related_work' on page 1 undefined on input line 9
+.
+
+
+LaTeX Warning: Reference `ref:theatre' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Reference `ref:general_system' on page 1 undefined on input line
+ 9.
+
+
+LaTeX Warning: Reference `sec:emotional_execution_tree' on page 1 undefined on 
+input line 9.
+
+
+LaTeX Warning: Reference `sec:implementation' on page 1 undefined on input line
+ 9.
+
+) (Parts/RelatedWork.tex) [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/co
+nfig/pdftex.map}
+
+
+] (Parts/SimpleActions.tex
+Overfull \hbox (4.94995pt too wide) in paragraph at lines 11--12
+[]|\OT1/ptm/b/n/8 Parameter(s)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]|$\OML/cmm/m/it/8 yaw$\OT1/ptm/m/n/8 ,
+ []
+
+
+Overfull \hbox (1.47238pt too wide) in paragraph at lines 9--28
+ [][] 
+ []
+
+) (Parts/description.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+
+LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
+(Font)              using `OMS/ptm/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 13.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+[]$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 emotion description$\OMS/cmsy/m/n/10 i$$j
+[][]$ \OT1/ptm/b/n/10 '\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 ''emotion:'$\OMS/cmsy/
+m/n/10 h$\OT1/ptm/m/n/10 string$\OMS/cmsy/m/n/10 i$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+\OT1/ptm/b/n/10 ',''observation:'$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 string$\OM
+S/cmsy/m/n/10 i$ \OT1/ptm/b/n/10 ','$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 action$
+\OMS/cmsy/m/n/10 i$\OT1/ptm/b/n/10 '(,'$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 acti
+on$\OMS/cmsy/m/n/10 i$\OT1/ptm/m/n/10 )*
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 action$\OMS/cmsy/m/n/10 i$$j[][]$$h$\OT1/pt
+m/m/n/10 string$\OMS/cmsy/m/n/10 i$\OT1/ptm/b/n/10 ':\OMS/cmsy/m/n/10 f\OT1/ptm
+/b/n/10 '$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 description$\OMS/cmsy/m/n/10 i$ \O
+T1/ptm/b/n/10 ','$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 actions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 description$\OMS/cmsy/m/n/10 i$$j[][]$\OT1/
+ptm/b/n/10 'description:\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 '$\OMS/cmsy/m/n/10 h$
+\OT1/ptm/m/n/10 action
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 parameters$\OMS/cmsy/m/n/10 i$$j[][]$ \OT1/
+ptm/b/n/10 'pa-ram-e-ters:[' $\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 parameter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 movement pa-ram-e-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
+[]$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 character emo-tion profile$\OMS/cmsy/m/n/
+10 i$$j[][]$\OT1/ptm/b/n/10 '\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 '
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 actions$\OMS/cmsy/m/n/10 i$$j[][]$ \OT1/ptm
+/b/n/10 'ac-tions:[' $\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 action$\OMS/cmsy/m/n/1
+0 i$\OT1/ptm/m/n/10 (\OT1/ptm/b/n/10 ','$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 act
+ions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+[]$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 action$\OMS/cmsy/m/n/10 i$$j[][]$ $h$\OT1
+/ptm/m/n/10 simple action$\OMS/cmsy/m/n/10 i$$j$$h$\OT1/ptm/m/n/10 compound
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 simple action$\OMS/cmsy/m/n/10 i$$j[][]$ \O
+T1/ptm/b/n/10 '\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 ' $\OMS/cmsy/m/n/10 h$\OT1/ptm
+/m/n/10 action header$\OMS/cmsy/m/n/10 i$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+\OT1/ptm/b/n/10 ',''pa-ram-e-ters:[' $\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 simple
+ ac-tion parameters$\OMS/cmsy/m/n/10 i$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 compound action$\OMS/cmsy/m/n/10 i$$j[][]$ 
+\OT1/ptm/b/n/10 '\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 ' $\OMS/cmsy/m/n/10 h$\OT1/p
+tm/m/n/10 action header$\OMS/cmsy/m/n/10 i$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 simple ac-tion parameters$\OMS/cmsy/m/n/10 
+i$$j[][]$ \OT1/ptm/b/n/10 '\OMS/cmsy/m/n/10 f\OT1/ptm/b/n/10 '$\OMS/cmsy/m/n/10
+ h$\OT1/ptm/m/n/10 parameter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 parameter description$\OMS/cmsy/m/n/10 i$$j
+[][]$ $h$\OT1/ptm/m/n/10 parameter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+\OT1/ptm/m/n/10 amplitude$\OMS/cmsy/m/n/10 i$$j$$h$\OT1/ptm/m/n/10 parameter ci
+rcle$\OMS/cmsy/m/n/10 i$$j$$h$\OT1/ptm/m/n/10 parameter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 parameter type$\OMS/cmsy/m/n/10 i$$j[][]$ \
+OT1/ptm/b/n/10 'manda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+$\OMS/cmsy/m/n/10 h$\OT1/ptm/m/n/10 action type$\OMS/cmsy/m/n/10 i$$j[][]$ \OT1
+/ptm/b/n/10 'par-al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--64
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(Parts/EmotionalTree.tex) (Parts/Implementation.tex
+<Images/SystemArchitecture.png, id=19, 912.40875pt x 213.79875pt>
+File: Images/SystemArchitecture.png Graphic file (type png)
+
+<use Images/SystemArchitecture.png>
+Package pdftex.def Info: Images/SystemArchitecture.png used on input line 4.
+(pdftex.def)             Requested size: 505.89pt x 118.539pt.
+
+<./Images/Representation.png, id=20, 572.73975pt x 303.534pt>
+File: ./Images/Representation.png Graphic file (type png)
+
+<use ./Images/Representation.png>
+Package pdftex.def Info: ./Images/Representation.png used on input line 15.
+(pdftex.def)             Requested size: 227.64894pt x 120.64723pt.
+
+
+LaTeX Warning: Reference `fig:compound_example' on page 3 undefined on input li
+ne 16.
+
+
+LaTeX Warning: Reference `fig:compound_example' on page 3 undefined on input li
+ne 16.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[][][]\OT1/ptm/m/n/8 YouTube video name Emo-tional En-rich-ment Sys-tem, url:
+ []
+
+<./Images/Keepon.jpg, id=25, 2457.18pt x 3276.24pt>
+File: ./Images/Keepon.jpg Graphic file (type jpg)
+ <use ./Images/Keepon.jpg>
+Package pdftex.def Info: ./Images/Keepon.jpg used on input line 33.
+(pdftex.def)             Requested size: 101.17645pt x 134.87662pt.
+
+<./Images/upperFourthD.png, id=26, 951.555pt x 1464.47125pt>
+File: ./Images/upperFourthD.png Graphic file (type png)
+
+<use ./Images/upperFourthD.png>
+Package pdftex.def Info: ./Images/upperFourthD.png used on input line 45.
+(pdftex.def)             Requested size: 101.17645pt x 155.70694pt.
+
+<./Images/platform_fome.jpg, id=27, 2457.18pt x 3276.24pt>
+File: ./Images/platform_fome.jpg Graphic file (type jpg)
+
+<use ./Images/platform_fome.jpg>
+Package pdftex.def Info: ./Images/platform_fome.jpg used on input line 50.
+(pdftex.def)             Requested size: 101.17645pt x 134.87662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]\OT1/ptm/m/n/9 (b) |Triskarino with its
+ []
+
+<./Images/FourthCaseSceneB.png, id=28, 1076.02pt x 859.21pt>
+File: ./Images/FourthCaseSceneB.png Graphic file (type png)
+
+<use ./Images/FourthCaseSceneB.png>
+Package pdftex.def Info: ./Images/FourthCaseSceneB.png used on input line 66.
+(pdftex.def)             Requested size: 202.3529pt x 161.57346pt.
+) [4 <./Images/SystemArchitecture.png> <./Images/Representation.png> <./Images/
+Keepon.jpg>] (RO-MAN2017-2.bbl
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 31--35
+[]\OT1/ptm/m/n/8 A. Paiva, I. Leite, and T. Ribeiro",
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 31--35
+\OT1/ptm/m/n/8 ``"emo-tion mod-el-ing for so-cial robots".'' [On-
+ []
+
+[5 <./Images/upperFourthD.png (PNG copy)> <./Images/platform_fome.jpg> <./Image
+s/FourthCaseSceneB.png (PNG copy)>]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the US letter (8.5in X 11in) paper size.
+
+[6
+
+] (RO-MAN2017-2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3724 strings out of 493673
+ 57289 string characters out of 3143956
+ 129835 words of memory out of 3000000
+ 7022 multiletter control sequences out of 15000+200000
+ 43597 words of font info for 81 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 42i,12n,40p,1294b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on RO-MAN2017-2.pdf (6 pages, 3200715 bytes).
+PDF statistics:
+ 76 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

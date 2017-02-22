@@ -1,0 +1,65 @@
+The description files allow the parametrization of the system and its adaptation to different circumstances.  The system has the following parametric data:
+
+\begin{itemize}
+
+	\item \textit{Emotion description} gives information of the parameters that should be changed in all the simple actions to express the desired emotion. Therefore, for each combination emotion-action should be given a description of how the parameters are defined. If there is any action that does not have any specification, the system will not change its parameters. The following is the EBFN generated to modify movement parameters: 
+\begin{grammar}
+[(colon){$\models$}]
+[(semicolon)$|$]
+[(comma){}]
+[(period){\\}]
+[(quote){\begin{bf}}{\end{bf}}]
+[(nonterminal){$\langle$}{$\rangle$}]
+<emotion description>: "'\{'","'emotion:'",<string> "','","'observation:'",<string> "','",<action>"'(,'",<action>)* "'\}'".
+<action>:<string>"':\{'",<description> "','",<actions affected> "'\}'".
+<description>:"'description:\{'",<action name>"','",<emotion>"','"\\
+<parameter's type>"'\}'".
+<action name>:"'emotionProfileAction:'",<string>.
+<emotion>:"'emotionProfileEmotion:'",<string>.
+<parameter's type>: "'movement\_parameter'".
+<actions affected>:"'actions:\{'",<action parameter>,\\("','"<action parameter>)*"'\}'".
+<action parameter>: <string>"':\{'",<reference>"','"\\<repetition>"','",<parameters>"'\}'".
+<reference>: "'reference:'",<number>.
+<repetition>: "'repetition:'","'yes'";"'no'".
+<parameters>: "'parameters:['" <parameter description>\\("','",<parameter description>)* "']'".
+<parameter description>: <movement parameter description>;<new parameters>.
+<movement parameter description>:"'\{time:'",<number>"',space:'"\\<number>"'\}'".
+\end{grammar}
+
+	\item \textit{Character's emotions} parameters give the system information about character's ''rhythm'' for each pair action-emotion. In other words, it is going to say how the emotional parameters for the desired action should be modulated. If there is not any information, the system will use the default emotional values for the action. The following is the corresponding EBFN:
+\begin{grammar}
+[(colon){$\models$}]
+[(semicolon)$|$]
+[(comma){}]
+[(period){\\}]
+[(quote){\begin{bf}}{\end{bf}}]
+[(nonterminal){$\langle$}{$\rangle$}]
+<character emotion profile>:"'\{'" <emotion>"','",<actions>"'\}'".
+<emotion>: "'emotion:'",<string>.
+<actions>: "'actions:['", <action>("','",<actions descriptor>)* "']'".
+<action>: "'\{ action: '", <string> "','","'bias:'", <number> "','"\\" 'amplitude:'", <number> ", 'long:'",<number> "\}". 
+\end{grammar}
+
+	\item \textit{Action message} contains all the necessary information for to execute an action. The following is a script's EBNF:
+\begin{grammar}
+[(colon){$\models$}]
+[(semicolon)$|$]
+[(comma){}]
+[(period){\\}]
+[(quote){\begin{bf}}{\end{bf}}]
+[(nonterminal){$\langle$}{$\rangle$}]
+<action>: <simple action>;<compound action>;<context>.
+<simple action>: "'\{'" <action header> "','","'parameters:['" <simple action parameters> "']\}'".
+<compound action>: "'\{'" <action header> "','","'parameters:['" <compound action parameters> "']\}'".
+<action header>: "'type:'", <action type> "','","'name: '" <string>  "','", <is primary>.
+<simple action parameters>: "'\{'"<parameter header> "','" ,<parameter description> "'\}'". 
+<compound action parameters>:  <simple action parameters> ("','", <simple action parameters>)* .
+<context>:"'\{'" <action type> "','", <emotion sync> "','", <action sync> "','", <is primary> "','"\\" 'information:'", <string> "','"," 'actions: '", <action> "'\}'".
+<parameter header>: "'type:'", <parameter type> "','"," 'name:'",<string>.
+<parameter description>: <parameter amplitude>;<parameter circle>;<parameter landmark>;\\<parameter point>;<parameter speech>;\\<parameter square>;<parameter time>.
+<parameter type>: "'mandatory\_parameter'";"'optional\_parameter'". 
+<is primary>: "'yes'";"'no'".
+<emotion sync>: "'yes'";"'no'".
+<action type>: "'parallel\_context'";"'serial\_context'";"'simple\_action'";\\"'composite\_action'".
+\end{grammar}
+\end{itemize} 
