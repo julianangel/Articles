@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  5 JAN 2017 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  10 JAN 2017 15:01
 entering extended mode
 **HRI-LBR2017.tex
 (HRI-LBR2017.tex
@@ -308,43 +308,43 @@ LaTeX Font Info:    ... okay on input line 9.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 107.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 107.
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 107.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 109.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 107.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 109.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 107.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 109.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
  [1{C:/Users/julian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 [][]\T1/aer/m/n/9 The code is avail-able in the repos-i-tory $https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 $\T1/aer/m/n/9 / / github . com / julianangel / EmotionBot / tree / master / RO
 S /$
  []
@@ -371,7 +371,7 @@ c/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on HRI-LBR2017.pdf (2 pages, 156057 bytes).
+Output written on HRI-LBR2017.pdf (2 pages, 160445 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
