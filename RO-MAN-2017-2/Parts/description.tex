@@ -1,10 +1,12 @@
-The description files allow the parametrization of the system and its adaptation to different circumstances.  The system has the following parametric data:
+The description files allow the parametrization of the system and its adaptation to different circumstances. The system has the following parametric data:
 
 \begin{itemize}
-
-	\item \textit{Emotion description} gives information of the parameters that should be changed in all the simple actions to express the desired emotion. Therefore, for each combination emotion-action should be given a description of how the parameters are defined and how they change in time. 
+%TODO In the following the term "parameter" is misleading. A parameter should be a number, which doees not seem to be for all teh features you are describing. all teh descriptions are really unclear.
+	\item \textit{Emotion description} gives the values of the parameters that should be changed in all the simple actions to express the desired emotion. Therefore, for each emotion-action combination, a description of how the parameters are defined and how they change in time should be provided. 
 %If there is any action that does not have any specification, the system will not change its parameters. 
-The first version of this parameters is done for movement. Therefore, it was considered four descriptors for this type of parameter. The first is the reference, which inform the system the velocity used to calculate the parameter. This reference is used to let the modulation of the parameters depending on the character. The second descriptor is the tuple space and time. with this tuple is possible to calculate the velocity in which the movement must be done in order to convey the desire emotion. in order to enable the possibility to have different velocities during the execution, it could be described a sequence of this tuple. in this case, the space descriptor plays an important role, which is to inform the length in which the desired velocity must be used. This bring the last description which is the repetition that is used if there is more than one tuple and it should be repeat during the duration of the movement. The EBFN to described these descriptors in the system is the following: 
+Four descriptors to describe any emotional movement are provided. %TODO I cannot understand this first descriptor
+The first is the reference, which informs the system about the velocity used to calculate the parameter. This reference is used to let the modulation of the parameters depending on the character. The second descriptor is the tuple space and time. used to compute the velocity of the movement required to convey the desired emotion. %TODO I canot understand the following sentences. All this paragraph is confused and grammatically incorrect
+in order to enable the possibility to have different velocities during the execution, it could be described a sequence of this tuple. In this case, the space descriptor plays the important role of stating the amount of space for which the desired velocity must be used. This brings the last description which is the repetition that is used if there is more than one tuple and it should be repeat during the duration of the movement. The EBFN to describethese descriptors in the system is the following: 
 \begin{grammar}
 [(colon){$\models$}]
 [(semicolon)$|$]
@@ -28,8 +30,8 @@ The first version of this parameters is done for movement. Therefore, it was con
 <movement parameter description>:"'\{time:'",<number>"',space:'"\\<number>"'\}'".
 \end{grammar}
 
-	\item \textit{Character's emotions} parameters give the system information about character's ''rhythm'' for each pair action-emotion. To describe this changes, it was decided to used bias, amplitude and long as descriptors. Bias refers to a constant value that is added to all the sequence of emotional parameters. Amplitude amplify the velocity respect the bias if the number is bigger than one, or attenuate if it is between zero and one. 
-%TODO if there is enough space add an imagine explaining these concepts
+	\item \textit{Character's emotions} parameters give the system information about character's ''rhythm'' for each pair action-emotion. To describe these changes, it was decided to use bias, amplitude and length as descriptors. Bias refers to a constant value that is added to the sequence of emotional parameters. Amplitude amplifies the velocity with respect to the bias if the number is bigger than one, or attenuate if it is between zero and one. 
+%TODO if there is enough space add an image explaining these concepts
 
 
 	\item \textit{Action message} contains all the necessary information for to execute an action. The following is the EBNF of an action:
