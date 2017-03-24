@@ -20,7 +20,11 @@
 \usepackage{bnf}
 \usepackage{slashbox}
 \newcommand{\co}{\cellcolor{gray!40}}
+\input bnf.tex
 \usepackage[table]{xcolor}
+
+ \usepackage{amsmath}
+ \usepackage{amssymb}
 %\usepackage{mathptmx} % assumes new font selection scheme installed
 %\usepackage{times} % assumes new font selection scheme installed
 %\usepackage{amsmath} % assumes amsmath package installed
@@ -60,20 +64,28 @@ Emotions are considered by many researchers as beneficial elements in social rob
 \section{Introduction}
 \input{./Parts/Introduction}
 \section{Related Work}
+\label{sec:related_work}
 \input{./Parts/RelatedWork}
 \section{Basic Concepts}
 \label{sec:concepts}
-The system is based on six main concepts: \textit{simple actions}, \textit{compound actions}, \textit{action message}, \textit{emotional descriptors}, \textit{character description} and \textit{emotional execution tree}. \textit{Action message} establishes the structure of the message to describe any kind of action (i.e., simple and compound). This message also specifies how the actions are executed (i.e., in parallel or in sequence) and which action is predominant (i.e., primary or secondary). \textit{Emotional parameters} describe how the emotional enrichment should be done to convey a specific emotion in a specific simple action. This description could also include addition of other simple actions and vary over time. \textit{Character description} enables the possibility to establish how to modify emotional expressions to generate diverse treats. Finally, \textit{Emotional Execution Tree} is a computational representation of desired actions that should be executed. This tree is created from the action message description and then modified using the emotional parameters and character description.  
+The system is based on six main concepts that structures and enables the enrichment of actions with emotions. (i) \textit{Action message} establishes the structure of the message to describe any kind of action (i.e., simple and compound). This message also specifies how the actions are executed (i.e., in parallel or in sequence) and which action is predominant (i.e., primary or secondary). (ii) \textit{Emotional parameters} describe how the emotional enrichment should be done to convey a specific emotion in a specific simple action. This description could also include addition of other simple actions and vary over time. (iii) \textit{Character description} enables the possibility to establish how to modify emotional expressions to generate diverse "rhythms". (iv) \textit{Emotional Execution Tree} (EXT) is a computational representation of desired actions that should be executed. This tree is created from the action message description and then modified using the emotional parameters and character description. The remaining two concepts are explained below.
+
+\subsection{Emotion Parameters}
+The emotion parameters specify how actions parameters should be modified in order to express an emotion. However, there is going to be a diverse set of parameters depending on the nature of the action. For example, consider the action move body and speak. The human action of speaking is related to changes in the vocal cords to produce different sounds, while move body is directly related to the body movement. The speaking action would have the following parameters: text, pitch and tone. On the other hand, the action move body would have as parameters the desired destination, velocity, and trajectory constraints. Since each action is characterized by different parameters, their modification must be done accordingly to the parameters. Therefore, a variety of emotional parameters would be necessary to describe the modification of all type of actions.So, it was decided to focus on the parameters that could be used to express emotions with the Triskarino and Keepon. It was determined that these parameters could just use movement actions, which are described by position, velocity and acceleration.    
 \subsection{Simple and Compound Actions}
 \input{./Parts/SimpleActions} 
-\section{Describing Components}
-\input{./Parts/description}
 \section{Emotional Tree}
+\label{sec:emotional_execution_tree}
 \input{./Parts/EmotionalTree}
+\section{Describing Components}
+\label{sec:description}
+\input{./Parts/description}
 \section{Implementation}
+\label{sec:implementation}
 \input{./Parts/Implementation}
 \section{Conclusions and Further work}
-An Emotional Enrichment System has been designed and implemented to enrich robots' movements with emotions. To achieve this, it was used an Emotional Execution Tree created from three different types of nodes: simple actions, parallel, and sequential. Simple actions are functions that map a set of parameters to specific movements. Sequential nodes execute the sequence of actions associated to this type of node in a sequential order, while parallel executes them all at the same time. To enable synchronization among simple actions, parallel nodes could be one of four different subtypes, and sequential just one of two different subtypes. A formalization of the Emotional Execution Tree and the principal considerations during the implementation of the system have also been provided. To show the system's versatility, it was used with quite different platforms such as a Keepon Pro and Triskarino. Keepon was used to perform simple actions, while Triskarino was used to test complex actions with different parametrizations of emotions.\\
+An Emotional Enrichment System has been designed and implemented to enrich robots' movements with emotions. To achieve this, it was used an Emotional Execution Tree created from three different types of nodes: simple actions, parallel, and sequential. Simple actions are functions that map a set of parameters to specific movements. Sequential nodes execute the sequence of actions associated to this type of node in a sequential order, while parallel executes them all at the same time. To enable synchronization among simple actions, parallel nodes could be one of four different subtypes, and sequential just one of two different subtypes. A formalization of the Emotional Execution Tree and the principal considerations during the implementation of the system have also been provided. To show the system's versatility, it was used with quite different platforms such as a Keepon Pro and Triskarino. Keepon was used to perform simple actions, while Triskarino was used to test complex actions with different parametrizations of emotions.
+
 The obtained results show that the system could enrich the robotic actions with emotions, which could be parametrized from configuration files. Additionally, the design of the system makes it possible to  adopt it for different platforms using the same action description.
 %\input{./Parts/Conclusions}
 \bibliographystyle{IEEEtran}

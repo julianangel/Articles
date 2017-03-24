@@ -1,59 +1,72 @@
-The description files allow the parametrization of the system and its adaptation to different circumstances. The system has the following parametric data:
+The description files allow the parametrization and extent the system to fit other applications is required. To standarized the mechanisms to describe these files, it was decided to create a language to describe them. This allows other researchers to create their own files and extended the language to fit their needs. It was decided to use EBNF to describe language.
+\subsection{Emotion Description} 
+The language created to describe emotion descriptors is the following:
+\begin{small}
 
-\begin{itemize}
-%TODO In the following the term "parameter" is misleading. A parameter should be a number, which doees not seem to be for all teh features you are describing. all teh descriptions are really unclear.
-	\item \textit{Emotion description} gives the values of the parameters that should be changed in all the simple actions to express the desired emotion. Therefore, for each emotion-action combination, a description of how the parameters are defined and how they change in time should be provided. 
-%If there is any action that does not have any specification, the system will not change its parameters. 
-Four descriptors to describe any emotional movement are provided. %TODO I cannot understand this first descriptor
-The first is the reference, which informs the system about the velocity used to calculate the parameter. This reference is used to let the modulation of the parameters depending on the character. The second descriptor is the tuple space and time. used to compute the velocity of the movement required to convey the desired emotion. %TODO I canot understand the following sentences. All this paragraph is confused and grammatically incorrect
-in order to enable the possibility to have different velocities during the execution, it could be described a sequence of this tuple. In this case, the space descriptor plays the important role of stating the amount of space for which the desired velocity must be used. This brings the last description which is the repetition that is used if there is more than one tuple and it should be repeat during the duration of the movement. The EBFN to describethese descriptors in the system is the following: 
-\begin{grammar}
-[(colon){$\models$}]
-[(semicolon)$|$]
-[(comma){}]
-[(period){\\}]
-[(quote){\begin{bf}}{\end{bf}}]
-[(nonterminal){$\langle$}{$\rangle$}]
-<emotion description>: "'\{'","'emotion:'",<string> "','","'observation:'",<string> "','",<action>"'(,'",<action>)* "'\}'".
-<action>:<string>"':\{'",<description> "','",<actions affected> "'\}'".
-<description>:"'description:\{'",<action name>"','",<emotion>"','"\\
-<parameter's type>"'\}'".
-<action name>:"'emotionProfileAction:'",<string>.
-<emotion>:"'emotionProfileEmotion:'",<string>.
+\begingrammar
+%		
+<emotion description>: "'\{'" "'emotion:'" <string>"','" "'observation:'" <string>"','" <action> ("','"<action>)* "'\}'".
+
+<action>:<string>"': \{'" <description>"','" <actions affected> "'\}'".
+
+<description>: "'description: \{'" <action name>"','";<emotion>"','" <parameter's type> "'\}'".
+
+<action name>: "'emotionProfileAction:'" <string>.
+
+<emotion>: "'emotionProfileEmotion:'" <string>.
+
 <parameter's type>: "'movement\_parameter'".
-<actions affected>:"'actions:\{'",<action parameter>,\\("','"<action parameter>)*"'\}'".
-<action parameter>: <string>"':\{'",<reference>"','"\\<repetition>"','",<parameters>"'\}'".
-<reference>: "'reference:'",<number>.
-<repetition>: "'repetition:'","'yes'";"'no'".
-<parameters>: "'parameters:['" <parameter description>\\("','",<parameter description>)* "']'".
-<parameter description>: <movement parameter description>;<new parameters>.
-<movement parameter description>:"'\{time:'",<number>"',space:'"\\<number>"'\}'".
-\end{grammar}
 
-	\item \textit{Character's emotions} parameters give the system information about character's ''rhythm'' for each pair action-emotion. To describe these changes, it was decided to use bias, amplitude and length as descriptors. Bias refers to a constant value that is added to the sequence of emotional parameters. Amplitude amplifies the velocity with respect to the bias if the number is bigger than one, or attenuate if it is between zero and one. 
-%TODO if there is enough space add an image explaining these concepts
+<actions affected>: "'actions: \{'" <action parameter> ; ("','" <action parameter>)* "'\}'".
 
+<action parameter>: <string>"':\{'" <reference>"','" <repetition>"','" <parameters> "'\}'".
 
-	\item \textit{Action message} contains all the necessary information for to execute an action. The following is the EBNF of an action:
-\begin{grammar}
-[(colon){$\models$}]
-[(semicolon)$|$]
-[(comma){}]
-[(period){\\}]
-[(quote){\begin{bf}}{\end{bf}}]
-[(nonterminal){$\langle$}{$\rangle$}]
-<action>: <simple action>;<compound action>;<context>.
-<simple action>: "'\{'" <action header> "','","'parameters:['" <simple action parameters> "']\}'".
-<compound action>: "'\{'" <action header> "','","'parameters:['" <compound action parameters> "']\}'".
-<action header>: "'type:'", <action type> "','","'name: '" <string>  "','", <is primary>.
-<simple action parameters>: "'\{'"<parameter header> "','" ,<parameter description> "'\}'". 
-<compound action parameters>:  <simple action parameters> ("','", <simple action parameters>)* .
-<context>:"'\{'" <action type> "','", <emotion sync> "','", <action sync> "','", <is primary> "','"\\" 'information:'", <string> "','"," 'actions: '", <action> "'\}'".
-<parameter header>: "'type:'", <parameter type> "','"," 'name:'",<string>.
-<parameter description>: <parameter amplitude>;<parameter circle>;<parameter landmark>;\\<parameter point>;<parameter speech>;\\<parameter square>;<parameter time>.
-<parameter type>: "'mandatory\_parameter'";"'optional\_parameter'". 
-<is primary>: "'yes'";"'no'".
-<emotion sync>: "'yes'";"'no'".
-<action type>: "'parallel\_context'";"'serial\_context'";"'simple\_action'";\\"'composite\_action'".
-\end{grammar}
-\end{itemize} 
+<reference>: "'reference:'" <number>.
+
+<repetition>: "'repetition:'" "'yes'" | "'no'".
+
+<parameters>: "'parameters: ['" <parameter description> ("','" <parameter description>)* "']'".
+
+<parameter description>: <movement parameter description>.
+
+<movement parameter description>: "'\{time:'" <number> "', space:'" <number> "'\}'".
+
+\endgrammar
+\end{small}
+%TODO give information regardin 1) why repetition 2) why a set of parameters 3) why use of time and space
+
+\subsection{Action Message}
+The language created to describe action Messages is the following:
+\begin{small}
+\begingrammar
+%		
+<action>: <simple action> <compound action> <context>.
+
+<simple action>: "'\{'" <action header>"','" "'parameters: ['" <simple action parameters> "'] \}'".
+
+<compound action>: "'\{'" <action header>"','" "'parameters:['" <compound action parameters> "']\}'".
+
+<action header>: "'type:'" <action type>"','" "'name: '" <string>"','" <is primary>.
+
+<simple action parameters>: "'\{'" <parameter header>"','" <parameter description> "'\}'". 
+
+<compound action parameters>:  <simple action parameters> ("','" <simple action parameters>)* .
+
+<context>: "'\{'" <action type>"','" <emotion sync>"','" <action sync>"','" <is primary>"','" " 'information:'" <string>"','" " 'actions: '" <action> "'\}'".
+
+<parameter header>: "'type:'" <parameter type>"','" " 'name:'" <string>.
+
+<parameter description>: <parameter amplitude> |; <parameter circle> | <parameter landmark> | <parameter point> | <parameter speech> | <parameter square> | <parameter time>.
+
+<parameter type>: "'mandatory\_parameter'" | ;"'optional\_parameter'". 
+
+<is primary>: "'yes'" | "'no'".
+
+<emotion sync>: "'yes'" | "'no'".
+
+<action type>: "'parallel\_node'" | "'sequential\_node'" | ;"'simple\_action'" | "'composite\_action'".
+
+\endgrammar
+\end{small}
+
+%TODO give information regarding: primary and emotion synch

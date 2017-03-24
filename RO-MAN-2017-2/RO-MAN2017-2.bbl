@@ -65,10 +65,6 @@ A.~Beck, A.~Hiolle, A.~Mazel, and L.~Ca\~{n}amero, ``Interpretation of
   emotional body language displayed by robots,'' in \emph{3rd ACM Workshop on
   Affective Interaction in Natural Environments}, 2010, pp. 37--42.
 
-\bibitem{angel2013}
-J.~M. Angel~F. and A.~Bonarini, ``Towards an autonomous theatrical robot,'' in
-  \emph{ACII'13}, 2013, pp. 689--694.
-
 \bibitem{Ekman2004}
 P.~Ekman, \emph{{Emotions Revealed : Recognizing Faces and Feelings to Improve
   Communication and Emotional Life}}.\hskip 1em plus 0.5em minus 0.4em\relax
@@ -84,13 +80,6 @@ C.~Breazeal, A.~Brooks, J.~Gray, M.~Hancher, C.~Kidd, J.~McBean, D.~Stiehl, and
 H.~Knight, S.~Satkin, V.~Ramakrishna, and S.~Divvala, ``A savvy robot standup
   comic: Online learning through audience tracking,'' TEI 2011, January 2011.
 
-\bibitem{Knight2010}
-\BIBentryALTinterwordspacing
-H.~Knight, ``Heather knight: la comedia de silicio,'' TED Ideas Worth
-  Spreading, December 2010. [Online]. Available:
-  \url{http://www.ted.com/talks/heather_knight_silicon_based_comedy.html}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Breazeal2008}
 G.~Hoffman, R.~Kubat, and C.~Breazeal, ``A hybrid control system for
   puppeteering a live robotic stage actor,'' in \emph{RO-MAN 2008}, M.~Buss and
@@ -101,24 +90,11 @@ G.~Hoffman, R.~Kubat, and C.~Breazeal, ``A hybrid control system for
 LAAS-CNRS, ``Roboscopie, the robot takes the stage!''
   \url{http://www.openrobots.org/wiki/roboscopie}.
 
-\bibitem{Lemaignan2012}
-S.~Lemaignan, M.~Gharbi, J.~Mainprice, M.~Herrb, and R.~Alami, ``Roboscopie: a
-  theatre performance for a human and a robot,'' in \emph{Proceedings of the
-  seventh annual ACM/IEEE international conference on Human-Robot Interaction},
-  ser. HRI '12.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM,
-  2012, pp. 427--428.
-
 \bibitem{Fan2009}
 C.-Y. Lin, C.-K. Tseng, W.-C. Teng, W.~chen Lee, C.-H. Kuo, H.-Y. Gu, K.-L.
   Chung, and C.-S. Fahn, ``The realization of robot theater: Humanoid robots
   and theatric performance,'' in \emph{International Conference on Advanced
   Robotics, 2009. ICAR 2009.}, 2009.
-
-\bibitem{Fan2013}
-C.-Y. Lin, L.-C. Cheng, C.-C. Huang, L.-W. Chuang, W.-C. Teng, C.-H. Kuo, H.-Y.
-  Gu, K.-L. Chung, and C.-S. Fahn, ``Versatile humanoid robots for theatrical
-  performances,'' \emph{International Journal of Advanced Robotic Systems},
-  2013.
 
 \bibitem{murphy2011}
 \BIBentryALTinterwordspacing
@@ -128,6 +104,13 @@ R.~Murphy, D.~Shell, A.~Guerin, B.~Duncan, B.~Fine, K.~Pratt, and T.~Zourntos,
   no.~2, pp. 143--156, 2011. [Online]. Available:
   \url{http://dx.doi.org/10.1007/s10514-010-9210-3}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Kopp2006}
+S.~Kopp, B.~Krenn, S.~Marsella, A.~N. Marshall, C.~Pelachaud, H.~Pirker, K.~R.
+  Th{\'o}risson, and H.~Vilhj{\'a}lmsson, \emph{Towards a Common Framework for
+  Multimodal Generation: The Behavior Markup Language}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2006, pp.
+  205--217.
 
 \bibitem{RAndJ}
 R.~S. Company, ``Royal shakespeare company - romeo \& juliet, on stage footage

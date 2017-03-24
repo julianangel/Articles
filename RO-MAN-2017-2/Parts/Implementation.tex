@@ -1,3 +1,5 @@
+%TODO in this section is missing a review on the terms and explain some concepts that are depicted in the figures.
+
 The system was implemented in \textit{C++} and interfaced with ROS. The design (Fig.~\ref{fig:system_architecture}) was created following the description presented in previous sections. 
 \begin{figure*}
 	\centering
@@ -9,25 +11,24 @@ The emotion enrichment core is divided in three different modules.
 Each module is responsible for one of the following phases:
 \begin{enumerate}
 	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action included in the message. This parameters' verification is done on the implemented description for each action, which describes the parameters that are mandatory and those that are optional. %TODO????
-When the verification is done, and all the actions exist and the parameters correspond, an $ext$ %TODO WHat is this?
-is created such as the one presented in Figure~\ref{fig:reference}, which corresponds to the example of walk and speak.
+When the verification is done, and all the actions exist and the parameters correspond, an Emotional Execution Tree (EXT)
+is created such as the one presented in Figure~\ref{fig:emotional_enrichment}
+	\item \textit{Emotion addition:} uses the EXT created in the previous phase. In this phase new simple actions ($sa$)
+are added to the EXT, and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated basing on the emotion's intensity and character traits. The final EXT is presented in Figure~\ref{fig:reference}.
 	\begin{figure}
 		\centering
 		%Representation
-	\includegraphics[width=0.45\textwidth]{./Images/Representation.png}
-	\caption{Emotional Execution Tree for the example shown in the Figure~\ref{fig:compound_example}. The context node colored in purple represents a sequential context, while the other one represents a parallel.} %TODO Up to now no context node was mentioned. What is it?
+	\includegraphics[width=0.45\textwidth]{./Images/exampleTreeE.png}
+	\caption{Enrich Emotional Execution Tree.} 
 	\label{fig:reference}
 	\end{figure}
-	\item \textit{Emotion addition:} uses the $ext$ created in the previous phase. In this phase new $sa$ %TODO What is an sa??
-are added to the $ext$, and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated basing on the emotion's intensity and character traits.
-	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase a reference to the mandatory %TODO What is a mandatory action?
-and emotional action is maintained, thus, when a new emotion is to be expressed, the system stops the previous emotional action and starts executing the new ones without affecting the general execution of the actions.
+	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase a reference to the principal and emotional action is maintained, thus, when a new emotion is to be expressed, the system stops the previous emotional action and starts executing the new ones without affecting the general execution of the actions.
 \end{enumerate}
-%The first one is in charge to receive any action and built a $EXT$. Once this tree is created, the second part is in charge to decorate this tree with the additional actions and modify the parameters of all the actions. The last part is the one that executes the final tree and communicate to all the simple actions ROS nodes the parameters that should be executed by them. It is important to notice that the action's parameters and the emotional parameters are communicated via two different channels. This is done to not affect actions' execution when the emotion or its intensity is changed.
+
 All the text message broadcast among the nodes are written using JSON format, which is human understandable, light, and there are many available parsers.\\ 
 To test the system two different platforms were used: Keepon Pro %TODO da citare la prima volta il paper descrittivo
 and an own made platform called Triskarino.
-Keepon has been used to test the interoperability of the system to different platforms, while Triskarino has been used as a part of the robot actor project~\cite{angel2013}. %TODO ???? The whole TheatreBot architecture has not finished just, thus the change of emotion and selection of action to execute were done manually.
+Keepon has been used to test the interoperability of the system to different platforms, while Triskarino has been used in diverse case studies to explore emotion projection with a non anthropomorphic platform.
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Keepon Test}
@@ -61,25 +62,4 @@ The system has been widely used with Triskarino (Fig.~\ref{fig:robot}) during ou
 \end{figure}  
  During these studies the system was used in different experiments to move the robot on a straight line showing different emotions, each one selected from our command console. Moreover, to show the whole capabilities of the emotional enrichment system, a little scene was set up. The scene is a modification of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The simplified sketch of our version could be seen in the Fig.~\ref{fig:triskar_test}. As it can be seen the stage was divided in 81 squares and the positions were given to the system in terms of the desire square to be reached, which allows the robot to adjust to the stage's dimension. %TODO I cannot understand what follows. What is a context?
 The whole sequence of actions were specified as unique action, having several sequential context and just move body action. The other actions, such as oscillate body or blend upper body were added online accordingly the desired emotion.  
-\begin{figure}
-	\centering
-	%\begin{subfigure}[c]{0.2\textwidth}
-	%\includegraphics[width=\textwidth]{./Images/FourthCaseScene.png}
-	%\caption{Division of the stage.}  
-	%\label{fig:design}
-	%\end{subfigure}
-	%\begin{subfigure}[c]{0.2\textwidth}
-	\includegraphics[width=0.4\textwidth]{./Images/FourthCaseSceneB.png}
-	%\caption{Movements.}
-	%\label{fig:triskar}
-	%\end{subfigure}
-	\caption{Sketch of Romeo's movements for the balcony scene in Romeo and Juliet play. The arrows show the direction of the movements, and the numbers their sequence.}
-	\label{fig:triskar_test}
-\end{figure} 
-%The sequence of movements done by the robot could be seen in Fig.~\ref{fig:triskar_movements} and in the video. As it could be seen the robot  and they were selected and executed autonomously by the system.
-%\begin{figure*}
-%	\centering
-%	\includegraphics[width=1.0\textwidth]{Images/Sequence_Triskar.png} 
-%	\caption{The actual movements of Triskarino in the Balcony scene.}
-%	\label{fig:triskar_movements}
-%\end{figure*}
+
