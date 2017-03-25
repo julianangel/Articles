@@ -1,10 +1,10 @@
-In order to generate a system that could be used in diverse platforms, an abstraction level in which all of them could fall is required. Therefore simple and compound actions are used to achieve this goal. Simple actions are actions that are considered as primitives: they are used as building blocks. As a consequence, these actions are described in the system and are the ones in which the parameters are changed to embed the emotions. Their description specifies mandatory and optional parameters that are required to execute an action. These parameters are modified accordingly to the information provided in the emotional parameters. Compound actions are actions that are created from simple actions and other compound actions. These actions are not implemented in the system, but, if it is needed, they can be described in it (e.g., compound actions that are used often).
+In order to generate a system that could be used in diverse platforms, an abstraction level in which all of them could fall is required. Therefore simple and compound actions are used to achieve this goal. Simple actions are actions that are considered as primitives: they are used as building blocks. As a consequence, these actions are described in the system and are the ones whose parameters are changed to embed the emotions. Their description specifies mandatory and optional parameters that are required to execute an action. These parameters are modified accordingly to the information provided by the emotional parameters. Compound actions are actions that are created from simple actions and other compound actions. These actions are not implemented in the system, but, if it is needed, they can be described in it (e.g., compound actions that are used often). %TODO it is not clear what does it mean that they are not implemented.
 
-A set of simple actions to be implemented were selected to test the system. These actions were selected considering the capabilities of Keepon and Triskarino. The eight actions selected were: move body, oscillate body, move shoulder, oscillate shoulder, move torso, oscillate torso, and do nothing. Description for each action, its mandatory parameters and optional parameters are presented in Table~\ref{table:actions_implemented}.
+A set of simple actions to be implemented were selected to test the system, considering the capabilities of Keepon and Triskarino. The eight actions selected were: \textit{move body}, \textit{oscillate body}, \textit{move shoulder}, \textit{oscillate shoulder}, \textit{move torso}, \textit{oscillate torso}, and \textit{do nothing}. Description for each action, its mandatory parameters and optional parameters are presented in Table~\ref{table:actions_implemented}.
 
 \begin{table}
 \centering
-\caption{Description of the seven simple actions implemented, and their respective parameters. Where  P is 2D position, V is 2D velocity vector and angular velocity, and T is time}
+\caption{Description of the seven simple actions implemented, and their respective parameters, where P is 2D position, V is 2D velocity vector and angular velocity, and T is time}
 \label{table:actions_implemented}
 \begin{tabular}{|c|p{3.9cm}|p{1.4cm}|}
 \hline
@@ -27,14 +27,14 @@ Oscillate torso & It oscillates the shoulders by a given angle $\theta$ & $\thet
 \end{tabular}
 \end{table}
 
-To exemplify the use of these actions, lets consider a sequence of movements illustrated in Figure~\ref{fig:triskar_test}. This sequence of movements correspond to an adaptation of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The fist part of this scene is characterized by strong changes in Romeo's emotional state, which is the perfect test for the system.  
+To exemplify the use of these actions, let us consider a sequence of movements illustrated in Figure~\ref{fig:triskar_test}. This sequence of movements corresponds to an adaptation of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The fist part of this scene is characterized by strong changes in Romeo's emotional state, thus it was selected as significant test for the system.  
 \begin{figure}
 	\centering
 	\includegraphics[width=0.45\textwidth]{./Images/FourthCaseSceneB.png}
 	\caption{Sketch of Romeo's movements for the balcony scene in Romeo and Juliet play. The arrows show the direction of the movements, and the numbers their sequence.}
 	\label{fig:triskar_test}
 \end{figure} 
-However, just body movements would not exploit the other movements of the platform neither test the whole system. Thus, additional movements are added to illustrate and test the system. A partial view of the whole sequence of actions is illustrated in Figure~\ref{fig:sequence_actions}. The first node correspond to the first action in Figure~\ref{fig:triskar_test}. The second actions corresponds to a compound action created by the parallel execution of the simple action move body and other compound action.
+However, just body movements would not exploit the other movements of the platform neither test the whole system. Thus, additional movements are added to illustrate and test the system. A partial view of the whole sequence of actions is illustrated in Figure~\ref{fig:sequence_actions}. The first node corresponds to the first action in Figure~\ref{fig:triskar_test}. The second actions corresponds to a compound action created by the parallel execution of the simple action \textit{move body} and other compound actions.
 
 \begin{figure}
 	\centering
