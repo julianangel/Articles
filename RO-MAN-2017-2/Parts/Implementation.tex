@@ -1,6 +1,6 @@
 %TODO in this section is missing a review on the terms and explain some concepts that are depicted in the figures.
 
-The system was implemented in \textit{C++} and interfaced with ROS. The design (Fig.~\ref{fig:system_architecture}) was created following the description presented in previous sections. 
+The system was implemented in \textit{C++} and interfaced with ROS. The design (Fig.~\ref{fig:system_architecture}) was created following the description presented in the previous sections. 
 \begin{figure*}
 	\centering
 	\includegraphics[width=1.0\textwidth]{Images/SystemArchitecture.png} 	
@@ -10,11 +10,10 @@ The system was implemented in \textit{C++} and interfaced with ROS. The design (
 The emotion enrichment core is divided in three different modules. 
 Each module is responsible for one of the following phases:
 \begin{enumerate}
-	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action included in the message. This parameters' verification is done on the implemented description for each action, which describes the parameters that are mandatory and those that are optional. %TODO????
-When the verification is done, and all the actions exist and the parameters correspond, an Emotional Execution Tree (EXT)
-is created such as the one presented in Figure~\ref{fig:emotional_enrichment}
+	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action included in the message. This parameters' verification is done on the implemented description for each action, which describes the parameters that are mandatory and those that are optional. %TODO Why some are mandatory and some not? What does this mean?
+When the verification is done, and all the actions exist and the parameters correspond, an Emotional Execution Tree (EXT) such as the one presented in Figure~\ref{fig:emotional_enrichment} is created
 	\item \textit{Emotion addition:} uses the EXT created in the previous phase. In this phase new simple actions ($sa$)
-are added to the EXT, and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated basing on the emotion's intensity and character traits. The final EXT is presented in Figure~\ref{fig:reference}.
+can be added to the EXT, and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated basing on the emotion's intensity and character traits. The final EXT is presented in Figure~\ref{fig:reference}.
 	\begin{figure}
 		\centering
 		%Representation
@@ -22,11 +21,11 @@ are added to the EXT, and the $sa$'s parameters are modified following the emoti
 	\caption{Enrich Emotional Execution Tree.} 
 	\label{fig:reference}
 	\end{figure}
-	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase a reference to the principal and emotional action is maintained, thus, when a new emotion is to be expressed, the system stops the previous emotional action and starts executing the new ones without affecting the general execution of the actions.
+	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase a reference to the principal and emotional action is maintained, thus, when a new emotion is to be expressed, the system terminates the previous emotional action and starts executing the new ones without affecting the general execution of the actions. %TODO NOt clear. t seems that actually some action execution changes. What would you like to say?
 \end{enumerate}
 
-All the text message broadcast among the nodes are written using JSON format, which is human understandable, light, and there are many available parsers.\\ 
-To test the system two different platforms were used: Keepon Pro %TODO da citare la prima volta il paper descrittivo
+All the text message broadcast among the nodes are written using JSON format, which is human understandable, light, and can be parsed by many systems.\\ 
+To test the system, two different platforms were used: Keepon Pro %TODO da citare la prima volta il paper descrittivo
 and an own made platform called Triskarino.
 Keepon has been used to test the interoperability of the system to different platforms, while Triskarino has been used in diverse case studies to explore emotion projection with a non anthropomorphic platform.
 %%%%%%%%%%%%%%%%%%%%%%%%%
