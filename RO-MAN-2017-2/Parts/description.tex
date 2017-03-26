@@ -1,4 +1,4 @@
-The description files allow the parametrization and extent the system to fit other applications is required. To standarize the mechanisms to describe these files, it was decided to create a language to describe them. This allows other researchers to create their own files and to extend the language to fit their needs. It was decided to use the Extended Backus-NAur Form (EBN)F to describe this language.
+The description files allow the parametrization and extent the system to fit other applications is required. To standarize the mechanisms to describe these files, it was decided to create a language to describe them. This allows other researchers to create their own files and to extend the language to fit their needs. It was decided to use the Extended Backus-Naur Form (EBNF) to describe this language.
 \subsection{Emotion Description} 
 The language created to describe emotion descriptors is the following:
 \begin{small}
@@ -33,7 +33,7 @@ The language created to describe emotion descriptors is the following:
 
 \endgrammar
 \end{small}
-%TODO give information regardin 1) why repetition 2) why a set of parameters 3) why use of time and space
+The attribute repetition is used to specify if the descriptors of an emotion parameters must be executed in an infinite loop. As it was already mentioned, the emotional parameters implemented for this version correspond to the move actions.
 
 \subsection{Action Message}
 The language created to describe action Messages is the following:
@@ -68,5 +68,3 @@ The language created to describe action Messages is the following:
 
 \endgrammar
 \end{small}
-
-%TODO give information regarding: primary and emotion synch

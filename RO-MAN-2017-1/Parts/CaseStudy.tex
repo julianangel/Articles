@@ -1,7 +1,5 @@
  The case study presented in this paper was held at an exhibition with two main objectives:
-\begin{enumerate}
-	\item Cross-validate the findings obtained from a previous experiment~\cite{Angel2017-2}, which was done to study the attribution of different linear and angular velocities, oscillation angle, direction, and orientation of the platform to express: \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear}. A total of 196 value combinations were designed, 20 of which, randomly selected, were presented to each participant. Subjects had to select for each presentation the most representative term describing it among the four emotions and two mental states (i.e., \textit{Excitement} and \textit{Tenderness}), added as confounding terms.
-	\item Verify whether participants would prefer scenes where the robot moves expressing emotions, or rather moves on the same trajectory without any emotion expression. To control scene variability two cameras and eight AR tags were used together with a Kalman filter to improve robot localization on the stage. AR tags were detected using the ROS package ar\_track\_alvar~\cite{artag2015}. The distribution of the cameras and the tags is reported in Figure~\ref{fig:setup_fourth}. 
+ (i) Cross-validate the findings obtained from a previous experiment~\cite{Angel2017-2}, which was done to study the attribution of different linear and angular velocities, oscillation angle, direction, and orientation of the platform to express: \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear}. A total of 196 value combinations were designed, 20 of which, randomly selected, were presented to each participant. Subjects had to select for each presentation the most representative term describing it among the four emotions and two mental states (i.e., \textit{Excitement} and \textit{Tenderness}), added as confounding terms. (ii) Verify whether participants would prefer scenes where the robot moves expressing emotions, or rather moves on the same trajectory without any emotion expression. To control scene variability two cameras and eight AR tags were used together with a Kalman filter to improve robot localization on the stage. AR tags were detected using the ROS package ar\_track\_alvar~\cite{artag2015}. The distribution of the cameras and the tags is reported in Figure~\ref{fig:setup_fourth}. 
 
 \begin{figure}
 	\centering
@@ -9,8 +7,6 @@
 	\caption{Environment setup for the case study. The crosses represent the starting points.}
 	\label{fig:setup_fourth}
 \end{figure}
- 
-\end{enumerate}
 
 \subsection{Emotion Description}
 
@@ -74,5 +70,5 @@ Movements have been enriched by emotional expression as follows: movements one t
 
 \subsection{Study}
 
-This case study was done at an exhibition during a period of two days. People coming to the stand were asked to volunteerto participate in this study, which was divided in to parts. In the first one, each subject was exposed to two emotion expressions. %TODO Was it so? I have turned the sentence... 
+This case study was done at an exhibition during a period of two days. People coming to the stand were asked to volunteer to participate in this study, which was divided in to parts. In the first one, each subject was exposed to two emotion expressions. %TODO Was it so? I have turned the sentence... 
 The two emotions were generated to guarantee a random uniform presentation. In the second part, participants were explained that a small scene was going to be presented twice, and they had to select the one they like more. The order of the scenes (e.g., with or without emotion) was generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76. We accepted this variability as representative of a general population.

@@ -1,5 +1,3 @@
-%TODO in this section is missing a review on the terms and explain some concepts that are depicted in the figures.
-
 The system was implemented in \textit{C++} and interfaced with ROS. The design (Fig.~\ref{fig:system_architecture}) was created following the description presented in the previous sections. 
 \begin{figure*}
 	\centering
@@ -10,18 +8,18 @@ The system was implemented in \textit{C++} and interfaced with ROS. The design (
 The emotion enrichment core is divided in three different modules. 
 Each module is responsible for one of the following phases:
 \begin{enumerate}
-	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action included in the message. This parameters' verification is done on the implemented description for each action, which describes the parameters that are mandatory and those that are optional. %TODO Why some are mandatory and some not? What does this mean?
-When the verification is done, and all the actions exist and the parameters correspond, an Emotional Execution Tree (EXT) such as the one presented in Figure~\ref{fig:emotional_enrichment} is created
+	\item \textit{Generation of emotional execution tree:} this phase starts every time that a new action message is received. The process begins by parsing the format, verifying that the actions described on it exist in the system, and that the parameters correspond to the ones expected by each action included in the message. 
+When the verification is done, and all the actions exist and the parameters correspond, an EXT such as the one presented in Figure~\ref{fig:emotional_enrichment} is created.
 	\item \textit{Emotion addition:} uses the EXT created in the previous phase. In this phase new simple actions ($sa$)
 can be added to the EXT, and the $sa$'s parameters are modified following the emotion description, which is loaded from files. This process is broken down in two steps. First, all the actions that are required to convey the desired emotion, and that are not yet present are added. Second, the emotional parameters are modulated basing on the emotion's intensity and character traits. The final EXT is presented in Figure~\ref{fig:reference}.
 	\begin{figure}
 		\centering
 		%Representation
 	\includegraphics[width=0.45\textwidth]{./Images/exampleTreeE.png}
-	\caption{Enrich Emotional Execution Tree.} 
+	\caption{EXT enriched with emotion for the EXT presented in Figure~\ref{fig:emotional_enrichment}.} 
 	\label{fig:reference}
 	\end{figure}
-	\item \textit{Execution:} this is the last phase and it is done after the $ext$ is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. In this phase a reference to the principal and emotional action is maintained, thus, when a new emotion is to be expressed, the system terminates the previous emotional action and starts executing the new ones without affecting the general execution of the actions. %TODO NOt clear. t seems that actually some action execution changes. What would you like to say?
+	\item \textit{Execution:} this is the last phase and it is done after the EXT is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. 
 \end{enumerate}
 
 All the text message broadcast among the nodes are written using JSON format, which is human understandable, light, and can be parsed by many systems.\\ 
@@ -59,6 +57,6 @@ The system has been widely used with Triskarino (Fig.~\ref{fig:robot}) during ou
 	\caption{Triskarino platform.}
 	\label{fig:robot}
 \end{figure}  
- During these studies the system was used in different experiments to move the robot on a straight line showing different emotions, each one selected from our command console. Moreover, to show the whole capabilities of the emotional enrichment system, a little scene was set up. The scene is a modification of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The simplified sketch of our version could be seen in the Fig.~\ref{fig:triskar_test}. As it can be seen the stage was divided in 81 squares and the positions were given to the system in terms of the desire square to be reached, which allows the robot to adjust to the stage's dimension. %TODO I cannot understand what follows. What is a context?
-The whole sequence of actions were specified as unique action, having several sequential context and just move body action. The other actions, such as oscillate body or blend upper body were added online accordingly the desired emotion.  
+ During these studies the system was used in different experiments to move the robot on a straight line showing different emotions, each one selected from our command console. Moreover, to show the whole capabilities of the emotional enrichment system, a little scene was set up. The scene is a modification of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The simplified sketch of our version could be seen in the Fig.~\ref{fig:triskar_test}. As it can be seen the stage was divided in 81 squares and the positions were given to the system in terms of the desire square to be reached, which allows the robot to adjust to the stage's dimension.
+The whole sequence of actions were specified as unique action, having several sequential nodes and just move body action. The other actions, such as oscillate body or blend upper body were added online accordingly the desired emotion.  
 

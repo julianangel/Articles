@@ -27,22 +27,10 @@ B.~de~Gelder, ``Why bodies? twelve reasons for including bodily expressions in
   Society of London B: Biological Sciences}, vol. 364, no. 1535, pp.
   3475--3484, 2009.
 
-\bibitem{Ekman2004}
-P.~Ekman, \emph{{Emotions Revealed : Recognizing Faces and Feelings to Improve
-  Communication and Emotional Life}}.\hskip 1em plus 0.5em minus 0.4em\relax
-  {Owl Books}, Mar. 2004.
-
 \bibitem{kleinsmith2012affective}
 A.~Kleinsmith and N.~Bianchi-Berthouze, ``Affective body expression perception
   and recognition: A survey,'' \emph{Affective Computing, IEEE Transactions
   on}, vol.~4, no.~1, pp. 15--33, 2013.
-
-\bibitem{Arras2012}
-S.~{Embgen}, M.~{Luber}, C.~{Becker-Asano}, M.~{Ragni}, V.~{Evers}, and K.~O.
-  {Arras}, ``Robot-specific social cues in emotional body language,'' in
-  \emph{Proceedings of the IEEE International Symposium on Robot and Human
-  Interactive Communication (RO-MAN'12)}.\hskip 1em plus 0.5em minus
-  0.4em\relax USA: IEEE Computer Society, September 2012, pp. 1019--1025.
 
 \bibitem{Breazeal2002}
 C.~Breazeal, \emph{Designing Sociable Robots}.\hskip 1em plus 0.5em minus
@@ -53,29 +41,31 @@ A.~Beck, A.~Hiolle, A.~Mazel, and L.~Ca\~{n}amero, ``Interpretation of
   emotional body language displayed by robots,'' in \emph{3rd ACM Workshop on
   Affective Interaction in Natural Environments}, 2010, pp. 37--42.
 
-\bibitem{Destephe2013}
-M.~Destephe, T.~Maruyama, M.~Zecca, K.~Hashimoto, and A.~Takanishi, ``Improving
-  the human-robot interaction through emotive movements: a special case:
-  walking,'' in \emph{HRI}, 2013, pp. 115--116.
-
 \bibitem{Li2011}
 J.~Li and M.~H. Chignell, ``Communication of emotion in social robots through
   simple head and arm movements,'' \emph{I. J. Social Robotics}, vol.~3, no.~2,
   pp. 125--142, 2011.
 
 \bibitem{Saerbeck2010}
-\BIBentryALTinterwordspacing
 M.~Saerbeck and C.~Bartneck, ``Perception of affect elicited by robot motion,''
   in \emph{Proceedings of the 5th ACM/IEEE International Conference on
   Human-robot Interaction}, ser. HRI '10.\hskip 1em plus 0.5em minus
-  0.4em\relax Piscataway, NJ, USA: IEEE Press, 2010, pp. 53--60. [Online].
-  Available: \url{http://dl.acm.org/citation.cfm?id=1734454.1734473}
-\BIBentrySTDinterwordspacing
+  0.4em\relax Piscataway, NJ, USA: IEEE Press, 2010, pp. 53--60.
 
 \bibitem{NAM2014}
 T.-J. NAM, J.-H. LEE, S.~PARK, and H.-J. SUK, ``Understanding the relation
   between emotion and physical movements,'' \emph{International Journal of
   Affective Engineering}, vol.~13, no.~3, pp. 217--226, 2014.
+
+\bibitem{Ekman2004}
+P.~Ekman, \emph{{Emotions Revealed : Recognizing Faces and Feelings to Improve
+  Communication and Emotional Life}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  {Owl Books}, Mar. 2004.
+
+\bibitem{Destephe2013}
+M.~Destephe, T.~Maruyama, M.~Zecca, K.~Hashimoto, and A.~Takanishi, ``Improving
+  the human-robot interaction through emotive movements: a special case:
+  walking,'' in \emph{HRI}, 2013, pp. 115--116.
 
 \bibitem{knight2016}
 H.~Knight and R.~Simmons, ``Laban head-motions convey robot state: A call for
@@ -92,6 +82,13 @@ L.~Brown and A.~M. Howard, ``Gestural behavioral implementation on a humanoid
   Interactive Communication, 2014 RO-MAN: The 23rd IEEE International Symposium
   on Robot and Human Interactive Communication}, Aug 2014, pp. 471--476.
 
+\bibitem{Arras2012}
+S.~{Embgen}, M.~{Luber}, C.~{Becker-Asano}, M.~{Ragni}, V.~{Evers}, and K.~O.
+  {Arras}, ``Robot-specific social cues in emotional body language,'' in
+  \emph{Proceedings of the IEEE International Symposium on Robot and Human
+  Interactive Communication (RO-MAN'12)}.\hskip 1em plus 0.5em minus
+  0.4em\relax USA: IEEE Computer Society, September 2012, pp. 1019--1025.
+
 \bibitem{BarakovaL10}
 \BIBentryALTinterwordspacing
 E.~I. Barakova and T.~Lourens, ``Expressing and interpreting emotional
@@ -101,12 +98,9 @@ E.~I. Barakova and T.~Lourens, ``Expressing and interpreting emotional
 \BIBentrySTDinterwordspacing
 
 \bibitem{pop00002}
-\BIBentryALTinterwordspacing
 A.~Camurri, I.~Lagerl\"{o}f, and G.~Volpe, ``Recognizing emotion from dance
   movement: comparison of spectator recognition and automated techniques,''
-  vol.~59, no. 1-2, pp. 213--225, 2003. [Online]. Available:
-  \url{http://linkinghub.elsevier.com/retrieve/pii/S1071581903000508}
-\BIBentrySTDinterwordspacing
+  vol.~59, no. 1-2, pp. 213--225, 2003.
 
 \bibitem{Barakova2013}
 L.~Hiah, L.~Beursgens, R.~Haex, L.~P. Romero, Y.~Teh, M.~ten Bh{\"{o}}mer,
@@ -116,20 +110,12 @@ L.~Hiah, L.~Beursgens, R.~Haex, L.~P. Romero, Y.~Teh, M.~ten Bh{\"{o}}mer,
   Communication, {IEEE} {RO-MAN} 2013, Gyeongju, Korea (South), August 26-29,
   2013}, 2013, pp. 37--44.
 
-\bibitem{Leary57}
-T.~Leary, \emph{{Interpersonal Diagnosis of Personality: Functional Theory and
-  Methodology for Personality Evaluation}}.\hskip 1em plus 0.5em minus
-  0.4em\relax Ronald Press Company: New York., 1957.
-
 \bibitem{Tan2016}
-\BIBentryALTinterwordspacing
 H.~Tan, J.~Tiab, S.~\v{S}abanovi\'{c}, and K.~Hornb{\ae}k, ``Happy moves, sad
   grooves: Using theories of biological motion and affect to design
   shape-changing interfaces,'' in \emph{Proceedings of the 2016 ACM Conference
   on Designing Interactive Systems}, ser. DIS '16.\hskip 1em plus 0.5em minus
-  0.4em\relax New York, NY, USA: ACM, 2016, pp. 1282--1293. [Online].
-  Available: \url{http://doi.acm.org/10.1145/2901790.2901845}
-\BIBentrySTDinterwordspacing
+  0.4em\relax New York, NY, USA: ACM, 2016, pp. 1282--1293.
 
 \bibitem{Sharma2013}
 M.~Sharma, D.~Hildebrandt, G.~Newman, J.~E. Young, and R.~Eskicioglu,
@@ -145,22 +131,16 @@ R.~Laban and L.~Ullmann, \emph{\BIBforeignlanguage{English}{Modern educational
   1968.
 
 \bibitem{Cauchard2016}
-\BIBentryALTinterwordspacing
 J.~R. Cauchard, K.~Y. Zhai, M.~Spadafora, and J.~A. Landay, ``Emotion encoding
   in human-drone interaction,'' in \emph{The Eleventh ACM/IEEE International
   Conference on Human Robot Interaction}, ser. HRI '16.\hskip 1em plus 0.5em
   minus 0.4em\relax Piscataway, NJ, USA: IEEE Press, 2016, pp. 263--270.
-  [Online]. Available: \url{http://dl.acm.org/citation.cfm?id=2906831.2906878}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Novika2015}
-\BIBentryALTinterwordspacing
 J.~Novikova and L.~Watts, ``\BIBforeignlanguage{English}{Towards artificial
   emotions to assist social coordination in hri},''
   \emph{\BIBforeignlanguage{English}{International Journal of Social
-  Robotics}}, vol.~7, no.~1, pp. 77--88, 2015. [Online]. Available:
-  \url{http://dx.doi.org/10.1007/s12369-014-0254-y}
-\BIBentrySTDinterwordspacing
+  Robotics}}, vol.~7, no.~1, pp. 77--88, 2015.
 
 \bibitem{Angel2016}
 J.~M. Angel-Fernandez and A.~Bonarini, ``Showing emotions: Emotion
@@ -201,12 +181,9 @@ J.~Cacioppo, L.~Tassinary, and G.~Berntson, \emph{Handbook of
   2000.
 
 \bibitem{Venture2014}
-\BIBentryALTinterwordspacing
 G.~Venture, H.~Kadone, T.~Zhang, J.~Grèzes, A.~Berthoz, and H.~Hicheur,
   ``\BIBforeignlanguage{English}{Recognizing emotions conveyed by human
   gait},'' \emph{\BIBforeignlanguage{English}{International Journal of Social
-  Robotics}}, vol.~6, no.~4, pp. 621--632, 2014. [Online]. Available:
-  \url{http://dx.doi.org/10.1007/s12369-014-0243-1}
-\BIBentrySTDinterwordspacing
+  Robotics}}, vol.~6, no.~4, pp. 621--632, 2014.
 
 \end{thebibliography}
