@@ -2,31 +2,8 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: IJSR.aux
 The style file: spmpsci.bst
 Database file #1: Bibliography.bib
 Database file #2: BibloNew.bib
-Repeated entry---line 285 of file BibloNew.bib
- : @article{kleinsmith2012affective
- :                                 ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 414 of file BibloNew.bib
- : pages={1276-1281}, 
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 419 of file BibloNew.bib
- : @inproceedings{Destephe2013
- :                            ,
-I'm skipping whatever remains of this entry
 Database file #3: Biblography.bib
-Repeated entry---line 1 of file Biblography.bib
- : @inproceedings{angel2014
- :                         ,
-I'm skipping whatever remains of this entry
-A bad cross reference---entry "Barakova2013"
-refers to entry "DBLP:conf/ro-man/2013", which doesn't exist
-Warning--I didn't find a database entry for "DBLP:conf/ro-man/2013"
-Name 6 in "Lakatos, Gabriella and Gacsi, Marta and Konok, Veronika and Bruder, Ildiko and Berczky, Boroka and Korondi, Peter, and Miklosi, Adam" has a comma at the end for entry Lakatos2014
-while executing---line 1463 of file spmpsci.bst
 Warning--to sort, need author or key in Viera2005
 Warning--empty author in Viera2005
 Warning--empty journal in pop00002
-Name 6 in "Lakatos, Gabriella and Gacsi, Marta and Konok, Veronika and Bruder, Ildiko and Berczky, Boroka and Korondi, Peter, and Miklosi, Adam" has a comma at the end for entry Lakatos2014
-while executing---line 1504 of file spmpsci.bst
-(There were 7 error messages)
+(There were 3 warnings)

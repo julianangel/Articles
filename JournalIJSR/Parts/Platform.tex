@@ -15,4 +15,13 @@ A holonomic platform was built to be used in the experiment. This type of platfo
 
 %%%%%%%%%%%%%%%%%%%%%%%platform_base
 \subsection{Software}
-To guarantee that the correct robot's velocity for each motor could be achieved, a PID controller was implemented. PID's set point is established by a higher level controller that could receive two different types of commands. The first commands are robot's velocities ($<V_x,V_y,\omega>$), given in robot's reference frame. The second command is a set point ($<x, Y, \theta>$) to be reached, given in the world reference frame. This world frame of reference is set every time the system is reset or boot. For example, if the robot finishes a trajectory and then it is reset, the new frame is going to be in the robot's current position. 
+To guarantee that the correct robot's velocity for each motor could be achieved, a PID controller was implemented. PID's sets the velocity  that each motor must maintain when the platform receives a high level command. To maintain the velocity, the PID uses the velocity calculated using the odometry. Figure~\ref{fig:distribution} the general distribution of all the components, which include kinematics calculation, motors' velocity and platform velocity. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.45\textwidth]{Images/version-2-program.png} 
+	\caption{General distribution and communication scheme among the diverse software components running on the Arduino.}
+	\label{fig:distribution}
+\end{figure}
+
+Two commands could be received,  the first command specifies robot's velocities ($<V_x,V_y,\omega>$), given in robot's reference frame. The second command is a set point ($<x, Y, \theta>$) to be reached, given in the world reference frame. This world frame of reference is set every time the system is reset or boot. For example, if the robot finishes a trajectory and then it is reset, the new frame is going to be in the robot's current position.

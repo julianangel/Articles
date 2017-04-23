@@ -28,23 +28,10 @@ A table with subjects' answers was generated for each treatment. Table~\ref{tabl
 \end{tabular}
 \end{table*}
 
-For each table, mean, standard deviation, and median were calculated. It was not possible to use ANOVA test over the data because the assumption of normality is not satisfied in the collected data. This was checked using the Shapiro-Wilk Test.
+For each table were calculated mean, standard deviation, and median. It was not possible to use ANOVA test over the data because the assumption of normality is not satisfied in the collected data. This was checked using the Shapiro-Wilk Test.
 Additionally, a contingency table for each emotion was generated in each treatment, as it is depicted in Table~\ref{table:table_contingency}, where the intensity for the rest of emotions is calculated as their mean of their intensity, including the option ``other''. Therefore a total of seven tables for each treatment were created. For all these tables, Krippendorff's alpha agreement~\cite{Krippendorff2007} ($\alpha$) was calculated, which is a reliability coefficient to measure the agreement among different participants. Unlike other coefficients (e.g., $Kappa$), $\alpha$ is a generalization of several known reliability indices, and it applies to any number of observers, any number of categories, any type of data, incomplete or missing data, large and small sample sizes.
 
-This calculation was done using the R's package \textit{irr}. To improve contingency tables' interpretation, it was decided to just register emotions' alpha and intensity values greater than zero. The $\alpha$ for each treatment is shown in Figure~\ref{fig:alpha_experience}. As it could be observed, this table does not provide any information about the interpretation for each emotion. Therefore, it was decided to create top ten raking of treatments from the contingency tables of each emotion. This ranking is generated considering the following items in the respective order:(i) the mean intensity of the respective emotion, (ii) the alpha agreement of contingency table for the respective emotion, and (iii) the alpha agreement for the specific treatment. From the resulting tables~\ref{table:happy_top_ten},~\ref{table:Angry_top_ten},~\ref{table:Sad_top_ten}, and~\ref{table:Scared_top_ten}, it is possible to notice:
-
-\begin{itemize}
-
-	\item \textit{Fear} was the only emotion that had six over ten movements obtaining both general and specific alpha agreement over 0.41, which is the lower bound for moderate agreement~\cite{Viera2005}. Also, it was mostly selected (eight over ten) when $direction = \pi$ and $orientation = \pi$. The angle and the angular velocity attributed six over ten times were $0.087$ and $2$, respectively. So it seems that people perceive the movement as a fear expression when the robot is looking at them and moving far from them fast. 
-	
-	\item \textit{Sadness} was mostly attributed to linear velocities of $0 mm/s$ (two over ten) and $200 mm/s$ (eight over ten), and angular velocities of $0 rad/s$ and $1 rad/s$, with higher predilection of the second (eight over ten). It seems that people attribute sadness to slow velocities with slow angular velocity and small oscillation angle. Regarding the other two features, there is not any defined pattern that could lead to make a generalization. 
-
-	\item \textit{Happiness} is attributed to different values of the independent variables. But it is the only emotion that is highly perceived when the linear velocity is $0$ with four over ten. However the oscillation angle for these four cases is equally divided between the values $0.174$ and $3.49$. %TODO BTW, is this angle in radians? It is a quite big difference...
-So it seems that happiness is mainly attributed to fast angular velocities and big oscillations angles. Specific agreement among the other features is not present.
-
-	\item \textit{Anger} is highly perceived with an angle of $0.087$ (seven over ten) and with linear velocities over $200 mm/s$. It seems that people attribute anger to fast velocities, both angular and linear, small angle of oscillation and the robot facing the persons while approaching them. 
-\end{itemize} 
-%alpha general
+This calculation was done using the R's package \textit{irr}. To improve contingency tables' interpretation, it was decided to just register emotions' alpha and intensity values greater than zero. The $\alpha$ for each treatment is shown in Figure~\ref{fig:alpha_experience}. As it could be observed, this table does not provide any information about the interpretation for each emotion. Therefore, it was decided to create top ten raking of treatments from the contingency tables of each emotion. This ranking is generated considering the following items in the respective order:(i) the mean intensity of the respective emotion, (ii) the alpha agreement of contingency table for the respective emotion, and (iii) the alpha agreement for the specific treatment. Table~\ref{table:happy_top_ten} for Happiness, Table~\ref{table:Angry_top_ten} for Anger, Table~\ref{table:Sad_top_ten} for Sadness, and Table~\ref{table:Scared_top_ten} for Fear.
 
 \begin{figure*}
 	\centering

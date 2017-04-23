@@ -11,10 +11,16 @@
 \newblock Family Medicine \textbf{37}(5), 360--363 (2005).
 \newblock \urlprefix\url{http://view.ncbi.nlm.nih.gov/pubmed/15883903}
 
+\bibitem{angel2014}
+Angel-Fernandez, J.M., Bonarini, A.: Studying people's emotional responses to
+  robot's movements in a small scene.
+\newblock In: The 23rd IEEE International Symposium on Robot and Human
+  Interactive Communication, pp. 417--422. IEEE (2014)
+
 \bibitem{Angel2016}
-Angel-Fernandez, J.M., Bonarini, A.: Showing emotions: Emotion representation
-  with no bio-inspired body (2016).
-\newblock Manuscript accepted
+Angel-Fernandez, J.M., Bonarini, A.: Robots showing emotions.
+\newblock Interaction Studies \textbf{17}(3), 408--437 (2016).
+\newblock \doi{doi:10.1075/is.17.3.06ang}
 
 \bibitem{BarakovaL10}
 Barakova, E.I., Lourens, T.: Expressing and interpreting emotional movements in
@@ -75,21 +81,18 @@ Dael, N., Mortillaro, M., Scherer, K.R.: Emotion expression in body action and
 \newblock \doi{10.1037/a0025737}
 
 \bibitem{Destephe2013}
-Destephe, M., Maruyama, T., Zecca, M., Hashimoto, K., Takanishi, A.: Improving
-  the human-robot interaction through emotive movements: a special case:
-  walking.
-\newblock In: HRI, pp. 115--116 (2013)
+Destephe, M., Zecca, M., Hashimoto, K., Takanishi, A.: Conveying emotion
+  intensity with bio-inspired expressive walking - experiments with sadness and
+  happiness.
+\newblock In: RO-MAN, 2013 IEEE, pp. 161--166 (2013).
+\newblock \doi{10.1109/ROMAN.2013.6628438}
 
 \bibitem{Destephe2013b}
 Destephe, M., Zecca, M., Hashimoto, K., Takanishi, A.: Perception of emotion
   and emotional intensity in humanoid robots gait.
 \newblock In: Robotics and Biomimetics (ROBIO), 2013 IEEE International
-  Conference on, pp. 1276--1281 (2013)
-
-\bibitem{Ekman94}
-Ekman, P.: Stron evidence for universals in facial expressions: A reply to
-  russell's mistaken critique.
-\newblock Psychological Bulletin pp. 268--287 (1994)
+  Conference on, pp. 1276--1281 (2013).
+\newblock \doi{10.1109/ROBIO.2013.6739640}
 
 \bibitem{Ekman2001}
 Ekman, P.: {Telling Lies: Clues to Deceit in the Marketplace, Politics, and
@@ -108,18 +111,18 @@ Ekman, P.: {Emotions Revealed : Recognizing Faces and Feelings to Improve
   Human Interactive Communication (RO-MAN'12), pp. 1019--1025. IEEE Computer
   Society, USA (2012)
 
-\bibitem{angel2014}
-F., J.M.A., Bonarini, A.: Studying people’s emotional responses to robot’s
-  movements in a small scene.
-\newblock In: Robot and Human Interactive Communication, 2014 RO-MAN: The 23rd
-  IEEE International Symposium on, pp. 417--422 (2014)
-
 \bibitem{Gelder2008}
 de~Gelder, B.: Why bodies? twelve reasons for including bodily expressions in
   affective neuroscience.
 \newblock Philosophical Transactions of the Royal Society of London B:
   Biological Sciences \textbf{364}(1535), 3475--3484 (2009).
 \newblock \doi{10.1098/rstb.2009.0190}
+
+\bibitem{Gunes2011}
+Gunes, H., Schuller, B., Pantic, M., Cowie, R.: Emotion representation,
+  analysis and synthesis in continuous space: A survey.
+\newblock In: Face and Gesture 2011, pp. 827--834 (2011).
+\newblock \doi{10.1109/FG.2011.5771357}
 
 \bibitem{haering2011}
 H\"{a}ring, M., Bee, N., Andr\'{e}, E.: Creation and evaluation of emotion
@@ -143,10 +146,22 @@ Hiah, L., Beursgens, L., Haex, R., Romero, L.P., Teh, Y., ten Bh{\"{o}}mer, M.,
 \newblock \doi{10.1109/ROMAN.2013.6628528}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1109/ROMAN.2013.6628528}
 
+\bibitem{Izard1993}
+Izard, C.: Four systems for emotion activation: cognitive and noncognitive
+  processes.
+\newblock Psychological review pp. 68--90 (1993)
+
 \bibitem{Izard2007}
 Izard, C.E.: Basic emotions, natural kinds, emotion schemas, and a new
   paradigm.
 \newblock Perspectives on Psychological Science \textbf{2}(3), 260--279 (2007)
+
+\bibitem{Karg2010}
+Karg, M., Schwimmbeck, M., Kuhnlenz, K., Buss, M.: Towards mapping emotive gait
+  patterns from human to robot.
+\newblock In: 19th International Symposium in Robot and Human Interactive
+  Communication, pp. 258--263 (2010).
+\newblock \doi{10.1109/ROMAN.2010.5598640}
 
 \bibitem{kleinsmith2012affective}
 Kleinsmith, A., Bianchi-Berthouze, N.: Affective body expression perception and
@@ -176,6 +191,13 @@ Lakatos, G., Gacsi, M., Konok, V., Bruder, I., Berczky, B., Korondi, P.,
   situations.
 \newblock PLos ONE  (2014)
 
+\bibitem{Lang2008}
+Lang, P.J., Bradley, M.M., Cuthbert, B.N.: {International affective picture
+  system (IAPS): Affective ratings of pictures and instruction manual}.
+\newblock Tech. Rep. A-8, The Center for Research in Psychophysiology,
+  University of Florida, Gainesville, FL (2008).
+\newblock \urlprefix\url{http://csea.phhp.ufl.edu/Media.html}
+
 \bibitem{Leary57}
 Leary, T.: {Interpersonal Diagnosis of Personality: Functional Theory and
   Methodology for Personality Evaluation}.
@@ -185,6 +207,17 @@ Leary, T.: {Interpersonal Diagnosis of Personality: Functional Theory and
 Li, J., Chignell, M.H.: Communication of emotion in social robots through
   simple head and arm movements.
 \newblock I. J. Social Robotics \textbf{3}(2), 125--142 (2011)
+
+\bibitem{marsella_computational_2010}
+Marsella, S.C., Gratch, J., Petta, P.: Computational {Models} of {Emotion}.
+\newblock In: K.R. Scherer, T.~Banziger, {Roesch} (eds.) A blueprint for an
+  affectively competent agent: {Cross}-fertilization between {Emotion}
+  {Psychology}, {Affective} {Neuroscience}, and {Affective} {Computing}. Oxford
+  University Press, Oxford (2010)
+
+\bibitem{mehrabian1974approach}
+Mehrabian, A., Russell, J.A.: An approach to environmental psychology.
+\newblock the MIT Press (1974)
 
 \bibitem{Meijer1989}
 de~Meijer, M.: The contribution of general features of body movement to the
@@ -222,6 +255,11 @@ Roether, C.L., Omlor, L., Christensen, A., Giese, M.A.: Critical features for
 \newblock \doi{10.1167/9.6.15}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1167/9.6.15}
 
+\bibitem{Russell1980}
+Russell, J.A.: {A circumplex model of affect}.
+\newblock Journal of Personality and Social Psychology \textbf{39}, 1161--1178
+  (1980)
+
 \bibitem{Russell2003}
 Russell, J.A., Bachorowski, J.A., Dols, J.M.F.: {Facial and Vocal Expressions
   of Emotion}.
@@ -241,6 +279,11 @@ Saerbeck, M., Bartneck, C.: Perception of affect elicited by robot motion.
 Saerbeck, M., van Breemen, A.J.N.: Design guidelines and tools for creating
   believable motion for personal robots.
 \newblock In: RO-MAN, pp. 386--391 (2007)
+
+\bibitem{Scherer2010}
+Scherer, K.R.: A Blueprint for Affective Computing, chap. Theoretical
+  approaches to teh study of emotion in humans and machines, pp. 21--46.
+\newblock Oxford University Press (2010)
 
 \bibitem{Sharma2013}
 Sharma, M., Hildebrandt, D., Newman, G., Young, J.E., Eskicioglu, R.:
