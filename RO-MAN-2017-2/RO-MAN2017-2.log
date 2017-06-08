@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  26 MAR 2017 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  8 JUN 2017 15:09
 entering extended mode
 **./RO-MAN2017-2.tex
 (RO-MAN2017-2.tex
@@ -526,36 +526,41 @@ File: ./Images/exampleTreeE.png Graphic file (type png)
 Package pdftex.def Info: ./Images/exampleTreeE.png used on input line 18.
 (pdftex.def)             Requested size: 227.64894pt x 139.8126pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 2582) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 Keepon Pro [[]] and an own made plat-form called
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 [][][]\OT1/ptm/m/n/8 YouTube video name Emo-tional En-rich-ment Sys-tem, url:
  []
 
 <./Images/Keepon.jpg, id=36, 2457.18pt x 3276.24pt>
 File: ./Images/Keepon.jpg Graphic file (type jpg)
  <use ./Images/Keepon.jpg>
-Package pdftex.def Info: ./Images/Keepon.jpg used on input line 36.
+Package pdftex.def Info: ./Images/Keepon.jpg used on input line 37.
 (pdftex.def)             Requested size: 101.17645pt x 134.87662pt.
 
 <./Images/upperFourthD.png, id=37, 951.555pt x 1464.47125pt>
 File: ./Images/upperFourthD.png Graphic file (type png)
 
 <use ./Images/upperFourthD.png>
-Package pdftex.def Info: ./Images/upperFourthD.png used on input line 48.
+Package pdftex.def Info: ./Images/upperFourthD.png used on input line 49.
 (pdftex.def)             Requested size: 101.17645pt x 155.70694pt.
 
 <./Images/platform_fome.jpg, id=38, 2457.18pt x 3276.24pt>
 File: ./Images/platform_fome.jpg Graphic file (type jpg)
 
 <use ./Images/platform_fome.jpg>
-Package pdftex.def Info: ./Images/platform_fome.jpg used on input line 53.
+Package pdftex.def Info: ./Images/platform_fome.jpg used on input line 54.
 (pdftex.def)             Requested size: 101.17645pt x 134.87662pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []\OT1/ptm/m/n/9 (b) |Triskarino with its
  []
 
-[5 <./Images/SystemArchitecture.png> <./Images/exampleTreeE.png> <./Images/Keep
-on.jpg>]) (RO-MAN2017-2.bbl
+) [5 <./Images/SystemArchitecture.png> <./Images/exampleTreeE.png> <./Images/Ke
+epon.jpg>] (RO-MAN2017-2.bbl
 Underfull \hbox (badness 6047) in paragraph at lines 31--35
 []\OT1/ptm/m/n/8 A. Paiva, I. Leite, and T. Ribeiro",
  []
@@ -590,10 +595,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5073 strings out of 493333
- 75163 string characters out of 3139182
- 153772 words of memory out of 3000000
- 8476 multiletter control sequences out of 15000+200000
+ 5075 strings out of 493333
+ 75195 string characters out of 3139182
+ 153780 words of memory out of 3000000
+ 8478 multiletter control sequences out of 15000+200000
  50572 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,40p,1672b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -611,7 +616,7 @@ pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on RO-MAN2017-2.pdf (6 pages, 3275411 bytes).
+Output written on RO-MAN2017-2.pdf (6 pages, 3275739 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
