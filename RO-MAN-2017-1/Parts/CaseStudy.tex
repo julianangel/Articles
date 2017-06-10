@@ -10,7 +10,7 @@
 
 \subsection{Emotion Description}
 
-The parameters selected to implement \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear} are shown in Table~\ref{table:selected_fourth}. As it could be observed, two configurations for each emotion were selected among the ones evaluated in the previous experiment to be cross-checked. These configurations had to satisfy two conditions: (i) the linear velocity should be greater than $0$, so the robot should show some displacement, and (ii) it should be in the top 10 list of the configurations tested in the previous experiment.
+The features selected to implement \textit{Anger}, \textit{Happiness}, \textit{Sadness} and \textit{Fear} are shown in Table~\ref{table:selected_fourth}. As it could be observed, two configurations for each emotion were selected among the ones evaluated in the previous pilot, to be cross-checked. These configurations had to satisfy two conditions: (i) the linear velocity had to be greater than $0$, so the robot could show some displacement, and (ii) it should be in the top 10 list of the configurations tested in the previous pilot experiment.
 
 \begin{table}
 \centering
@@ -58,7 +58,7 @@ Stage discretization was used to give zones of movement instead of absolute posi
 	\label{fig:stage_division}
 \end{figure} 
 
-The scene can be described as follows. The robot starts in the middle of the stage to move to the upstage right (see~\cite{Musical}), close to the right wing. Then, the robot moves to upstage right center and rotates to $\pi/2$ left (see~\cite{Artopia}). Next the robot moves to the right center. Then it goes to the center. When it arrives there, it turns full back and move backwards to downstage center with a full front orientation. There, it turns full back to move to center. Finally the robot turns to profile right and it does a step back; then it goes to the upstage center and then upstage right. The sequence of movements of the robot are depicted in Figure~\ref{fig:movement}.
+The scene can be described as follows. The robot starts in the middle of the stage to move to the upstage right (see~\cite{Musical}), close to the right wing. Then, the robot moves to upstage right center and rotates to $\pi/2$ left (see~\cite{Artopia}). Next the robot moves to the right center. Then it goes to the center. When it arrives there, it turns full back and move backwards to downstage center with a full front orientation. There, it turns full back to move to center. Finally the robot turns to profile right and it does a step back; then it goes to the upstage center and then upstage right. The sequence of robot's movements are depicted in Figure~\ref{fig:movement}.
 \begin{figure*}
 	\centering
 	\includegraphics[width=0.95\textwidth]{./Images/fourthCaseSceneD.png} 
@@ -70,5 +70,5 @@ Movements have been enriched by emotional expression as follows: movements one t
 
 \subsection{Study}
 
-This case study was done at an exhibition during a period of two days. People coming to the stand were asked to volunteer to participate in this study, which was divided in to parts. In the first one, each subject was exposed to two emotion expressions. %TODO Was it so? I have turned the sentence... 
-The two emotions were generated to guarantee a random uniform presentation. In the second part, participants were explained that a small scene was going to be presented twice, and they had to select the one they like more. The order of the scenes (e.g., with or without emotion) was generated beforehand. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76. We accepted this variability as representative of a general population.
+This case study was done at an exhibition during a period of two days. People coming to the stand were asked to volunteer to participate in this study, which was divided in two parts. In the first one, each subject was exposed to two emotion expressions. %TODO Was it so? I have turned the sentence... 
+The two emotions were generated to guarantee a random uniform presentation. In the second part, participants were explained that a small scene was going to be presented twice, and they had to select the one they liked more. The order of the scenes (e.g., with or without emotion) was randomly generated. The total number of volunteers was 256: 128 males, 126 females, and 2 that chose not to specify their gender. The average age was 27.29 years, with standard deviation of 16.58, minimum age was 4 and maximum 76. We accepted this variability as representative of a general population.
