@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  8 JUN 2017 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.24)  11 JUN 2017 22:22
 entering extended mode
 **./RO-MAN2017-2.tex
 (RO-MAN2017-2.tex
@@ -512,7 +512,7 @@ $ $j$
  []
 
 ) (Parts/Implementation.tex
-<Images/SystemArchitecture.png, id=28, 912.40875pt x 213.79875pt>
+<Images/SystemArchitecture.png, id=27, 912.40875pt x 213.79875pt>
 File: Images/SystemArchitecture.png Graphic file (type png)
 
 <use Images/SystemArchitecture.png>
@@ -576,7 +576,7 @@ Underfull \hbox (badness 3449) in paragraph at lines 31--35
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-)
+[6 <./Images/upperFourthD.png (PNG copy)> <./Images/platform_fome.jpg>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -588,8 +588,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[6 <./Images/upperFourthD.png (PNG copy)> <./Images/platform_fome.jpg>]
-(RO-MAN2017-2.aux)
+[7
+
+] (RO-MAN2017-2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -597,11 +598,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  5075 strings out of 493333
  75195 string characters out of 3139182
- 153780 words of memory out of 3000000
+ 156780 words of memory out of 3000000
  8478 multiletter control sequences out of 15000+200000
  50572 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,40p,1672b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,40p,1675b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -616,9 +617,9 @@ pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on RO-MAN2017-2.pdf (6 pages, 3275739 bytes).
+Output written on RO-MAN2017-2.pdf (7 pages, 3276383 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
