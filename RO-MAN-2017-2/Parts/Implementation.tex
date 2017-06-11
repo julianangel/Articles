@@ -19,7 +19,7 @@ can be added to the EXT, and the $sa$'s parameters are modified following the em
 	\caption{EXT enriched with emotion for the EXT presented in Figure~\ref{fig:emotional_enrichment}.} 
 	\label{fig:reference}
 	\end{figure}
-	\item \textit{Execution:} this is the last phase and it is done after the EXT is ''coloured'' with emotional characteristics (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. 
+	\item \textit{Execution:} this is the last phase and it is done after the EXT is ''coloured'' with emotional features (actions additions and emotional parameters). The decision to have two different communication channels, one for action parameters and another for the action emotional parameters, was taken to enable the possibility to update the emotional parameters without interfering with the current execution. 
 \end{enumerate}
 
 All the text message broadcast among the nodes are written using JSON format, which is human understandable, light, and can be parsed by many systems.
@@ -30,7 +30,7 @@ Keepon has been used to test the interoperability of the system to different pla
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Keepon Test}
-To test the system with Keepon (Fig.~\ref{fig:keepon}) was just necessary to implement the platform's controllers in each one of the simple action ROS nodes. Given that this platform does not have the capability to displace its body, the action move body was not implemented. Once added these controllers to the system, we proceeded to modify the configuration files to use this platform instead of Triskarino. With this small modification, we were able to change from one platform to other. In the video\footnote{YouTube video name Emotional Enrichment System, url: https://youtu.be/bRSXQ0rzkO8}
+To test the system with Keepon (Fig.~\ref{fig:keepon}), it was just necessary to implement the platform's controllers in each one of the simple action ROS nodes. Given that this platform does not have the capability to displace its body, the action ``move body'' was not implemented. Once added these controllers to the system, we proceeded to modify the configuration files to use this platform instead of Triskarino. With this small modification, we were able to change from one platform to other. In the video\footnote{YouTube video name Emotional Enrichment System, url: https://youtu.be/bRSXQ0rzkO8}
 is shown the test where Keepon had to move its torso forward and backward to express a ``happy'' emotion. 
 \begin{figure}
 	\centering
@@ -38,7 +38,7 @@ is shown the test where Keepon had to move its torso forward and backward to exp
 	\caption{Keepon platform.}
 	\label{fig:keepon}
 \end{figure} 
-The action is given by console telling the robot to bend the torso to a desired angle in x. The torso oscillation in y is added automatically by the system following the description given to happiness. 
+The action is given by console telling the robot to bend the torso to a desired angle in x. The torso oscillation in y is added automatically by the system following the description defining how to express happiness. 
  %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Triskarino Test}
@@ -58,5 +58,5 @@ The system has been widely used with Triskarino (Fig.~\ref{fig:robot}) during ou
 	\caption{Triskarino platform.}
 	\label{fig:robot}
 \end{figure}  
- During these studies the system was used in different experiments to move the robot on a straight line showing different emotions, each one selected from our command console. These studies were done in diverse events, such as Researchers' night and Maker Fair. Moreover, to show the whole capabilities of the emotional enrichment system and verify if could be used in real time, a little scene was set up. The scene is a modification of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}.  The simplified sketch of our version could be seen in the Fig.~\ref{fig:triskar_test}. As it can be seen the stage was divided in 81 squares and the positions were given to the system in terms of the desire square to be reached, which allows the robot to adjust to the stage's dimension.
+ In these studies, the system was used in different experiments to move the robot on a straight line showing different emotions, each one selected from our command console. Moreover, to show the whole capabilities of the emotional enrichment system and verify if it could be used in real time, a little scene was set up. The scene is a modification of the first part of the balcony scene of Shakespeare's Romeo and Juliet play~\cite{RAndJ}. The simplified sketch of our version could be seen in Figure~\ref{fig:triskar_test}. As it can be seen the stage was divided in 81 squares and the positions were given to the system in terms of the desired square to be reached, which allows the robot to adjust to the stage's dimension.
 The whole sequence of actions were specified as unique action, having several sequential nodes and just move body action. The other actions, such as oscillate body or blend upper body were added online accordingly the desired emotion. 
